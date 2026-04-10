@@ -222,8 +222,22 @@
             justify-content: center;
         }
         .modal-content {
-            background: white; padding: 2rem; border-radius: 1.5rem; text-align: center;
-            width: 90%; max-width: 400px;
+            background: white; padding: 2.5rem; border-radius: 2rem; text-align: center;
+            width: 92%; max-width: 420px;
+            border: 4px solid var(--secondary);
+            animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes modalPop {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .paid-alert-btn {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white; padding: 0.8rem 2rem; border-radius: 50px;
+            font-weight: 800; border: none; margin-top: 1.5rem;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(217,119,6,0.2);
         }
 
         /* Pulse Animation for Brand */
@@ -391,6 +405,16 @@
         </div>
     </div>
 
+    <!-- Paid Only Modal -->
+    <div id="paidModal" class="overlay" style="display: none;" onclick="if(event.target==this) this.style.display='none'">
+        <div class="modal-content" style="border-color: #f59e0b;">
+            <div style="font-size: 4rem; margin-bottom: 1rem;">🔒</div>
+            <h2 style="color: #b45309; line-height: 1.4;">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும்</h2>
+            <p style="font-weight: 800; color: #d97706; margin-top: 0.5rem;">PAID GROUP ONLY</p>
+            <button onclick="document.getElementById('paidModal').style.display='none'" class="paid-alert-btn">சரி (OK)</button>
+        </div>
+    </div>
+
     <script>
         function openExam() {
             // Check if mock_test_2.json is available
@@ -398,7 +422,7 @@
         }
 
         function paidOnly() {
-            alert("கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)");
+            document.getElementById('paidModal').style.display = 'flex';
         }
 
         // --- Index Timer ---
