@@ -143,7 +143,11 @@
         .psychology { background: linear-gradient(145deg, #faf5ff, #f3e8ff); border-bottom: 5px solid #9333ea; }
         .revision { background: linear-gradient(145deg, #fffbeb, #fef3c7); border-bottom: 5px solid #d97706; }
 
-        .subject-card h3 { font-size: 1.1rem; font-weight: 800; margin: 0; }
+        .subject-card h3 { font-size: 1rem; font-weight: 700; margin: 0; }
+
+        /* Icon logic */
+        .subject-card .subject-icon { display: none; }
+        .subject-card.revision .subject-icon { display: flex; width: 40px; height: 40px; font-size: 1.25rem; margin-bottom: 0.5rem; }
 
         /* Disabled State */
         .disabled {
@@ -262,15 +266,19 @@
         }
 
         @media (max-width: 600px) {
-            .subject-row { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+            .subject-row { 
+                grid-template-columns: 1fr; 
+                gap: 0.5rem; 
+            }
             .container { padding: 0.75rem; }
             .section-header { font-size: 1rem; margin: 1.25rem 0 0.5rem; }
-            .live-timer { font-size: 0.75rem; padding: 0.4rem 0.6rem; }
-            .subject-card h3 { font-size: 0.9rem; font-weight: 700; }
-            .subject-icon { width: 40px; height: 40px; font-size: 1.2rem; }
+            .live-timer { font-size: 0.75rem; padding: 0.35rem 0.6rem; margin-bottom: 0.5rem; }
+            .subject-card { padding: 0.85rem 1rem; flex-direction: row; justify-content: flex-start; gap: 1rem; }
+            .subject-card h3 { font-size: 0.95rem; }
             .brand-logo { width: 35px !important; height: 35px !important; font-size: 1.2rem !important; }
             .brand span:first-child { font-size: 1.1rem !important; }
-            .navbar { padding: 0.75rem 0; }
+            .navbar { padding: 0.5rem 0; }
+            .revision .subject-icon { width: 32px !important; height: 32px !important; font-size: 1rem !important; margin: 0 !important; }
         }
     </style>
 </head>
