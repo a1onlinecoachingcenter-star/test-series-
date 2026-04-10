@@ -247,6 +247,7 @@
         }
         .paid-alert-btn:hover { background: #fee2e2; transform: translateY(-3px); }
 
+        /* Logo Animation */
         .brand-logo {
             width: 45px; height: 45px; object-fit: contain;
             animation: logoPulse 2s infinite ease-in-out;
@@ -256,6 +257,55 @@
             0% { transform: scale(1); filter: brightness(1); }
             50% { transform: scale(1.1); filter: brightness(1.1); }
             100% { transform: scale(1); filter: brightness(1); }
+        }
+
+        /* Toast Styling */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+            color: #fff;
+            text-align: center;
+            border-radius: 12px;
+            padding: 12px;
+            position: fixed;
+            z-index: 5000;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-size: 0.85rem;
+            font-weight: 800;
+            box-shadow: 0 10px 25px rgba(239, 68, 68, 0.4);
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein {
+            from { bottom: 0; opacity: 0; }
+            to { bottom: 30px; opacity: 1; }
+        }
+
+        @keyframes fadeout {
+            from { bottom: 30px; opacity: 1; }
+            to { bottom: 0; opacity: 0; }
+        }
+
+        /* General Modal */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+        #modal .modal-content {
+            background: white; padding: 2rem; border-radius: 1.5rem; text-align: center;
+            width: 90%; max-width: 400px; border: 4px solid var(--secondary);
         }
 
         /* Timer for Index with Typewriter */
@@ -413,16 +463,8 @@
         </div>
     </div>
 
-    <!-- Paid Only Modal -->
-    <div id="paidModal" class="overlay" style="display: none;" onclick="if(event.target==this) this.style.display='none'">
-        <div class="modal-content">
-            <div style="font-size: 5rem; margin-bottom: 1.5rem; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2));">🔒</div>
-            <h2 style="font-size: 2rem; font-weight: 900; line-height: 1.2; margin-bottom: 0.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.1);">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும்</h2>
-            <div style="background: rgba(255,255,255,0.2); height: 2px; width: 60px; margin: 1.5rem auto;"></div>
-            <p style="font-size: 1.25rem; font-weight: 800; letter-spacing: 1px;">PAID GROUP ONLY</p>
-            <button onclick="document.getElementById('paidModal').style.display='none'" class="paid-alert-btn">சரி (OK)</button>
-        </div>
-    </div>
+    <!-- Paid Only Toast -->
+    <div id="toast">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)</div>
 
     <script>
         function openExam() {
@@ -431,7 +473,9 @@
         }
 
         function paidOnly() {
-            document.getElementById('paidModal').style.display = 'flex';
+            const x = document.getElementById("toast");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
         }
 
         // --- Index Timer ---
