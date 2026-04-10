@@ -228,26 +228,34 @@
             animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
+        #paidModal .modal-content {
+            background: linear-gradient(135deg, #f59e0b, #ef4444, #ec4899);
+            color: white; padding: 3rem; border: none;
+            box-shadow: 0 25px 50px -12px rgba(239, 68, 68, 0.4);
+            animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
         @keyframes modalPop {
             from { transform: scale(0.8); opacity: 0; }
             to { transform: scale(1); opacity: 1; }
         }
 
         .paid-alert-btn {
-            background: linear-gradient(135deg, #f59e0b, #d97706);
-            color: white; padding: 0.8rem 2rem; border-radius: 50px;
-            font-weight: 800; border: none; margin-top: 1.5rem;
-            cursor: pointer; box-shadow: 0 4px 10px rgba(217,119,6,0.2);
+            background: white; color: #ef4444; padding: 1rem 2.5rem; border-radius: 50px;
+            font-weight: 900; border: none; margin-top: 1.5rem; cursor: pointer;
+            text-transform: uppercase; transition: var(--transition);
         }
+        .paid-alert-btn:hover { background: #fee2e2; transform: translateY(-3px); }
 
-        /* Pulse Animation for Brand */
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
         .brand-logo {
-            animation: pulse 2s infinite ease-in-out;
+            width: 45px; height: 45px; object-fit: contain;
+            animation: logoPulse 2s infinite ease-in-out;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+        }
+        @keyframes logoPulse {
+            0% { transform: scale(1); filter: brightness(1); }
+            50% { transform: scale(1.1); filter: brightness(1.1); }
+            100% { transform: scale(1); filter: brightness(1); }
         }
 
         /* Timer for Index with Typewriter */
@@ -308,7 +316,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="brand">
-                <div class="brand-logo" style="background: var(--primary); color: white; width: 45px; height: 45px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.5rem;">A1</div>
+                <img src="images/logo.png" class="brand-logo" alt="Logo">
                 <div style="display: flex; flex-direction: column;">
                     <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1;">COACHING</span>
                     <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase;">TNPSC & TET EXPERTS</span>
@@ -407,10 +415,11 @@
 
     <!-- Paid Only Modal -->
     <div id="paidModal" class="overlay" style="display: none;" onclick="if(event.target==this) this.style.display='none'">
-        <div class="modal-content" style="border-color: #f59e0b;">
-            <div style="font-size: 4rem; margin-bottom: 1rem;">🔒</div>
-            <h2 style="color: #b45309; line-height: 1.4;">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும்</h2>
-            <p style="font-weight: 800; color: #d97706; margin-top: 0.5rem;">PAID GROUP ONLY</p>
+        <div class="modal-content">
+            <div style="font-size: 5rem; margin-bottom: 1.5rem; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2));">🔒</div>
+            <h2 style="font-size: 2rem; font-weight: 900; line-height: 1.2; margin-bottom: 0.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.1);">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும்</h2>
+            <div style="background: rgba(255,255,255,0.2); height: 2px; width: 60px; margin: 1.5rem auto;"></div>
+            <p style="font-size: 1.25rem; font-weight: 800; letter-spacing: 1px;">PAID GROUP ONLY</p>
             <button onclick="document.getElementById('paidModal').style.display='none'" class="paid-alert-btn">சரி (OK)</button>
         </div>
     </div>
