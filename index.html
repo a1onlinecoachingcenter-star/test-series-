@@ -48,7 +48,7 @@
 
         .nav-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             max-width: 1200px;
             margin: 0 auto;
@@ -148,21 +148,21 @@
 
         /* Icon logic */
         .subject-card .subject-icon { display: none; }
-        .subject-card.revision .subject-icon { display: flex; width: 40px; height: 40px; font-size: 1.25rem; margin-bottom: 0.5rem; }
+        .subject-card.revision.active .subject-icon { display: flex; width: 40px; height: 40px; font-size: 1.25rem; margin-bottom: 0.5rem; }
 
         /* Disabled State */
         .disabled {
             filter: grayscale(1);
             opacity: 0.6;
-            cursor: not-allowed;
-            pointer-events: none;
+            cursor: pointer;
+            pointer-events: auto; /* Allow click to show message */
         }
         .disabled::after {
             content: "🔒";
             position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 1.2rem;
+            top: 5px;
+            right: 5px;
+            font-size: 1rem;
         }
 
         /* Floating Buttons */
@@ -314,23 +314,23 @@
         
         <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
         <div class="subject-row">
-            <div class="subject-card tamil disabled">
+            <div onclick="paidOnly()" class="subject-card tamil disabled">
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </div>
-            <div class="subject-card english disabled">
+            <div onclick="paidOnly()" class="subject-card english disabled">
                 <div class="subject-icon">📖</div>
                 <h3>English</h3>
             </div>
-            <div class="subject-card maths disabled">
+            <div onclick="paidOnly()" class="subject-card maths disabled">
                 <div class="subject-icon">📐</div>
                 <h3>கணிதம்</h3>
             </div>
-            <div class="subject-card revision disabled">
+            <div onclick="paidOnly()" class="subject-card disabled">
                 <div class="subject-icon">🌱</div>
                 <h3>சுற்றுச்சூழல்</h3>
             </div>
-            <div class="subject-card psychology disabled">
+            <div onclick="paidOnly()" class="subject-card psychology disabled">
                 <div class="subject-icon">🌍</div>
                 <h3>சமூக அறிவியல்</h3>
             </div>
@@ -338,11 +338,11 @@
 
         <h2 class="section-header">⭐ சிறப்புப் பகுதிகள்</h2>
         <div class="subject-row">
-            <div class="subject-card psychology disabled">
+            <div onclick="paidOnly()" class="subject-card psychology disabled">
                 <div class="subject-icon">🧠</div>
                 <h3>உளவியல்</h3>
             </div>
-            <div class="subject-card disabled">
+            <div onclick="paidOnly()" class="subject-card disabled">
                 <div class="subject-icon">📚</div>
                 <h3>6 முதல் 8 வகுப்பு வரை</h3>
             </div>
@@ -351,13 +351,13 @@
                 <div class="live-timer" id="indexTimer">
                     <span>⌛</span> <span id="idx-time">பதிவாகிறது...</span>
                 </div>
-                <a href="javascript:void(0)" onclick="openExam()" class="subject-card revision" style="border: 3px solid var(--accent); margin-top: -5px;">
+                <a href="javascript:void(0)" onclick="openExam()" class="subject-card revision active" style="border: 3px solid var(--accent); margin-top: -5px;">
                     <div class="subject-icon" style="background: var(--accent); color: white;">🔄</div>
                     <h3>திருப்புதல் தேர்வு 2</h3>
                     <p style="font-size: 0.9rem; font-weight: 800; margin-top: 8px; color: #b45309; background: #fffbeb; padding: 2px 10px; border-radius: 10px;">நாளை மாலை 5:00 வரை</p>
                 </a>
             </div>
-            <div class="subject-card disabled">
+            <div onclick="paidOnly()" class="subject-card disabled">
                 <div class="subject-icon">📝</div>
                 <h3>மாதிரித்தேர்வு</h3>
             </div>
@@ -395,6 +395,10 @@
         function openExam() {
             // Check if mock_test_2.json is available
             window.location.href = 'exam.html';
+        }
+
+        function paidOnly() {
+            alert("கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)");
         }
 
         // --- Index Timer ---
