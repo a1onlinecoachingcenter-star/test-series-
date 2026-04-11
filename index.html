@@ -418,20 +418,28 @@
                 <div class="subject-icon">📚</div>
                 <h3>6 முதல் 8 வகுப்பு வரை</h3>
             </div>
-            <!-- ENABLED SECTION -->
+            <!-- DISABLED SECTION -->
+            <div style="display: flex; flex-direction: column; opacity: 0.5; pointer-events: none; filter: grayscale(1);">
+                <div class="live-timer" style="background: #f1f5f9; color: #64748b; border-color: #e2e8f0;">
+                    <span>⌛</span> <span>முடிவடைந்தது</span>
+                </div>
+                <div class="subject-card revision" style="border: 1px solid var(--border); margin-top: -5px;">
+                    <div class="subject-icon" style="background: #e2e8f0; color: #94a3b8;">🔄</div>
+                    <h3>திருப்புதல் தேர்வு 2</h3>
+                    <p style="font-size: 0.8rem; font-weight: 700; margin-top: 8px; color: #94a3b8; background: #f8fafc; padding: 2px 10px; border-radius: 10px;">முடிவடைந்தது</p>
+                </div>
+            </div>
+
+            <!-- ENABLED MODEL TEST SECTION -->
             <div style="display: flex; flex-direction: column;">
                 <div class="live-timer" id="indexTimer">
                     <span>⌛</span> <span id="idx-time">பதிவாகிறது...</span>
                 </div>
-                <a href="javascript:void(0)" onclick="openExam()" class="subject-card revision active" style="border: 3px solid var(--accent); margin-top: -5px;">
-                    <div class="subject-icon" style="background: var(--accent); color: white;">🔄</div>
-                    <h3>திருப்புதல் தேர்வு 2</h3>
-                    <p style="font-size: 0.9rem; font-weight: 800; margin-top: 8px; color: #b45309; background: #fffbeb; padding: 2px 10px; border-radius: 10px;">நாளை மாலை 5:00 வரை</p>
+                <a href="javascript:void(0)" onclick="openExam('model_test_2.json')" class="subject-card revision active" style="border: 3px solid var(--secondary); margin-top: -5px; background: linear-gradient(145deg, #e0f2fe, #f0f9ff);">
+                    <div class="subject-icon" style="background: var(--secondary); color: white;">📝</div>
+                    <h3>மாதிரித்தேர்வு 2</h3>
+                    <p style="font-size: 0.9rem; font-weight: 800; margin-top: 8px; color: var(--primary-dark); background: #e8f0fe; padding: 2px 10px; border-radius: 10px;">இப்போது நேரலையில்</p>
                 </a>
-            </div>
-            <div onclick="paidOnly()" class="subject-card disabled">
-                <div class="subject-icon">📝</div>
-                <h3>மாதிரித்தேர்வு</h3>
             </div>
         </div>
 
@@ -467,9 +475,8 @@
     <div id="toast">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)</div>
 
     <script>
-        function openExam() {
-            // Check if mock_test_2.json is available
-            window.location.href = 'exam.html';
+        function openExam(testFile) {
+            window.location.href = `exam.html?test=${testFile || 'model_test_2.json'}`;
         }
 
         function paidOnly() {
@@ -479,7 +486,7 @@
         }
 
         // --- Index Timer ---
-        const deadline = new Date("April 11, 2026 17:00:00").getTime();
+        const deadline = new Date("April 12, 2026 17:00:00").getTime();
         function updateIndexTimer() {
             const now = new Date().getTime();
             const diff = deadline - now;

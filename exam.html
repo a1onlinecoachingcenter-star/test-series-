@@ -152,7 +152,9 @@
 
         async function init() {
             try {
-                const res = await fetch('mock_test_2.json');
+                const urlParams = new URLSearchParams(window.location.search);
+                const testFile = urlParams.get('test') || 'model_test_2.json';
+                const res = await fetch(testFile);
                 quizData = await res.json();
                 document.getElementById('topTitle').innerText = quizData.title;
             } catch(e) {
@@ -219,7 +221,7 @@
             document.getElementById('submitBtn').style.display='none';
         }
 
-        const deadline = new Date("April 11, 2026 17:00:00").getTime();
+        const deadline = new Date("April 12, 2026 17:00:00").getTime();
 
         function start() {
             const now = new Date().getTime();
