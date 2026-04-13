@@ -173,6 +173,76 @@
             animation: marquee 35s linear infinite;
         }
 
+        /* Full Screen Notes View */
+        .notes-view {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            color: var(--text-main);
+            z-index: 5000;
+            display: flex;
+            flex-direction: column;
+            animation: slideInUp 0.3s ease-out;
+        }
+
+        .notes-header {
+            background: white;
+            padding: 1rem 5%;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 2px solid #f1f5f9;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+        }
+
+        .notes-body {
+            flex: 1;
+            padding: 1.5rem 5%;
+            overflow-y: auto;
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+
+        .btn-back-square {
+            background: #f1f5f9;
+            color: #1e293b;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-back-square:hover { background: #e2e8f0; }
+
+        .lesson-action-btn {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: 0.2s;
+        }
+
         @keyframes marquee {
             0% { transform: translateX(0); }
             100% { transform: translateX(-100%); }
@@ -538,17 +608,14 @@
         </div>
     </div>
 
-    <!-- Study Notes Modal -->
-    <div id="notesModal" class="overlay" style="display: none; z-index: 4000; overflow-y: auto;">
-        <div class="modal-card" style="max-width: 700px; text-align: left; padding: 2rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
-                <h2 id="notesTitle" style="color: var(--primary); margin: 0;">பாடக்குறிப்புகள்</h2>
-                <button onclick="document.getElementById('notesModal').style.display='none'" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-muted);">✖</button>
-            </div>
-            <div id="notesContent" style="font-size: 1rem; color: var(--text-main);">
-                <!-- Dynamic Content Here -->
-            </div>
-            <button onclick="document.getElementById('notesModal').style.display='none'" style="margin-top: 2rem; background: var(--primary);">சரி, புரிந்தது</button>
+    <!-- Full Screen Study Notes View -->
+    <div id="notesView" class="notes-view" style="display: none;">
+        <div class="notes-header">
+            <button class="btn-back-square" onclick="hideNotes()">⬅</button>
+            <h2 id="notesTitle" style="color: var(--primary); margin: 0; font-size: 1.25rem;">பாடக்குறிப்புகள்</h2>
+        </div>
+        <div class="notes-body" id="notesContent">
+            <!-- Content Injected Here -->
         </div>
     </div>
 
@@ -607,38 +674,38 @@
                 // Show Lessons
                 document.getElementById('lessonsContainer').innerHTML = `
                     <!-- Lesson 1 -->
-                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--primary); text-align: left; margin-bottom:1rem;">
-                        <div style="text-align:left">
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--primary);">
+                        <div style="margin-bottom: 1rem;">
                             <h3 style="color:var(--primary)">பாடம் 1: அன்னைத் தமிழே</h3>
-                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
                         </div>
-                        <div style="display:flex; gap:10px;">
-                            <button onclick="showNotes('lesson_1.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
-                            <button onclick="openExam('lesson_1.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        <div style="display:flex; gap:10px; width:100%;">
+                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
+                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
                         </div>
                     </div>
 
                     <!-- Lesson 3 -->
-                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--secondary); text-align: left; margin-bottom:1rem;">
-                        <div style="text-align:left">
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--secondary);">
+                        <div style="margin-bottom: 1rem;">
                             <h3 style="color:var(--secondary)">பாடம் 3: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
-                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
                         </div>
-                        <div style="display:flex; gap:10px;">
-                            <button onclick="showNotes('lesson_3.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
-                            <button onclick="openExam('lesson_3.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        <div style="display:flex; gap:10px; width:100%;">
+                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
+                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
                         </div>
                     </div>
 
                     <!-- Lesson 5 -->
-                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--accent); text-align: left; margin-bottom:1rem;">
-                        <div style="text-align:left">
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--accent);">
+                        <div style="margin-bottom: 1rem;">
                             <h3 style="color:var(--accent)">பாடம் 5: முயல் அரசன்</h3>
-                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
                         </div>
-                        <div style="display:flex; gap:10px;">
-                            <button onclick="showNotes('lesson_5.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
-                            <button onclick="openExam('lesson_5.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        <div style="display:flex; gap:10px; width:100%;">
+                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
+                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
                         </div>
                     </div>
 
@@ -658,25 +725,31 @@
                 
                 let contentHtml = "";
                 data.study_notes.forEach(section => {
-                    contentHtml += `<div style="margin-bottom: 1.5rem;">
-                        <h4 style="color: var(--secondary); margin-bottom: 0.5rem; font-size: 1.1rem; border-left: 4px solid var(--accent); padding-left: 10px;">${section.heading}</h4>
-                        <ul style="padding-left: 1.5rem; margin: 0;">
-                            ${section.points.map(p => `<li style="margin-bottom: 0.4rem;">${p}</li>`).join('')}
+                    contentHtml += `<div style="margin-bottom: 2rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 1rem;">
+                        <h4 style="color: var(--secondary); margin-bottom: 0.8rem; font-size: 1.15rem; display: flex; align-items: center; gap: 10px;">
+                            <span style="background: var(--primary); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem;">⭐</span>
+                            ${section.heading}
+                        </h4>
+                        <ul style="padding-left: 1rem; list-style: none;">
+                            ${section.points.map(p => `<li style="margin-bottom: 0.6rem; padding-left: 1.5rem; position: relative; line-height: 1.6;">
+                                <span style="position: absolute; left: 0; color: var(--primary);">•</span>
+                                ${p}
+                            </li>`).join('')}
                         </ul>
                     </div>`;
                 });
 
-                // Add Evaluation Preview
-                contentHtml += `<div style="margin-top: 2rem; background: #fef3c7; padding: 1rem; border-radius: 1rem; border: 1px dashed #d97706;">
-                    <h4 style="color: #d97706; margin-bottom: 0.5rem;">மதிப்பீடு (Evaluation)</h4>
-                    <p style="font-size: 0.9rem; margin-bottom: 0;">பாடத்தின் மதிப்பீடு வினாக்கள் தேர்வுப் பகுதியில் (Quiz) வழங்கப்பட்டுள்ளன.</p>
-                </div>`;
-
                 document.getElementById('notesContent').innerHTML = contentHtml;
-                document.getElementById('notesModal').style.display = 'flex';
+                document.getElementById('notesView').style.display = 'flex';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
             } catch (e) {
                 alert("பாடக்குறிப்புகளை வாசிப்பதில் பிழை!");
             }
+        }
+
+        function hideNotes() {
+            document.getElementById('notesView').style.display = 'none';
+            document.body.style.overflow = 'auto';
         }
 
         function hideLessons() {
