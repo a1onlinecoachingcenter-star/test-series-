@@ -701,40 +701,29 @@
                 alert("வகுப்பு " + grade + " பாடங்கள் இன்னும் சேர்க்கப்படவில்லை.");
             }
         }
-        }
 
         async function showNotes(lessonFile) {
             try {
                 const res = await fetch(lessonFile);
                 const data = await res.json();
-                
-                // 1. Title in Blue
                 document.getElementById('notesTitle').innerText = data.lesson_meta.title;
                 document.getElementById('notesTitle').style.color = '#1e3a8a';
-                
                 let contentHtml = "";
                 data.study_notes.forEach(section => {
                     contentHtml += `<div style="margin-bottom: 2rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 1rem;">
-                        <!-- 2. Subheadings in Green -->
                         <h4 style="color: #15803d; margin-bottom: 0.8rem; font-size: 1.15rem; display: flex; align-items: center; gap: 10px;">
                             <span style="background: #15803d; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem;">⭐</span>
                             ${section.heading}
                         </h4>
                         <ul style="padding-left: 1rem; list-style: none;">
                             ${section.points.map(p => {
-                                // Intelligent Keyword Detection: Split by -, :, or x/×
                                 let parts = p.split(/([-:×x])/);
                                 let processedLine = "";
-                                
                                 if(parts.length > 1) {
-                                    // Part 1 (Question) is Black, Rest (Separator + Answer) is Pink
-                                    processedLine = `<span style="color: #0f172a;">${parts[0]}</span>`;
-                                    processedLine += `<span style="color: #db2777; font-weight:700;">${parts.slice(1).join('')}</span>`;
+                                    processedLine = `<span style="color: #0f172a;">${parts[0]}</span><span style="color: #db2777; font-weight:700;">${parts.slice(1).join('')}</span>`;
                                 } else {
-                                    // Normal sentence is Black
                                     processedLine = `<span style="color: #0f172a;">${p}</span>`;
                                 }
-
                                 return `<li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; line-height: 1.6;">
                                     <span style="position: absolute; left: 0; color: #15803d;">✦</span>
                                     ${processedLine}
@@ -743,7 +732,6 @@
                         </ul>
                     </div>`;
                 });
-
                 document.getElementById('notesContent').innerHTML = contentHtml;
                 document.getElementById('notesView').style.display = 'flex';
                 document.body.style.overflow = 'hidden'; 
@@ -755,11 +743,6 @@
         function hideNotes() {
             document.getElementById('notesView').style.display = 'none';
             document.body.style.overflow = 'auto';
-        }
-
-        function hideLessons() {
-            document.getElementById('lessonList').style.display = 'none';
-            document.getElementById('classSelection').style.display = 'block';
         }
 
         // --- Index Timer ---
