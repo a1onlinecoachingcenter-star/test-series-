@@ -652,32 +652,32 @@
             const subTitle = subject === 'Tamil' ? 'தமிழ்' : subject;
             document.getElementById('selectedSubjectTitle').innerText = `${subTitle} - வகுப்புகள்`;
             
-            // Hide everything on main dashboard
-            document.querySelectorAll('main > h2, main > .subject-row, main > div:not(#classSelection):not(#lessonList)').forEach(el => {
-                if(!el.id || (el.id !== 'classSelection' && el.id !== 'lessonList')) {
-                    el.style.display = 'none';
-                }
-            });
+            // 1. Hide the primary dashboard sections
+            const DashboardContent = document.querySelectorAll('main > h2, main > .subject-row, .float-btns');
+            DashboardContent.forEach(el => el.style.display = 'none');
 
-            document.getElementById('classSelection').style.display = 'block';
+            // 2. Hide other sub-menus to prevent overlap
             document.getElementById('lessonList').style.display = 'none';
+
+            // 3. Reveal Class Selection
+            document.getElementById('classSelection').style.display = 'block';
             document.getElementById('stickyBackBtn').style.display = 'flex';
             document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
+            
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function hideClasses() {
+            // 1. Hide sub-menus
             document.getElementById('classSelection').style.display = 'none';
             document.getElementById('stickyBackBtn').style.display = 'none';
             
-            // Restore main dashboard
-            document.querySelectorAll('main > h2, main > .subject-row, main > div:not(#classSelection):not(#lessonList)').forEach(el => {
-                if(!el.id || (el.id !== 'classSelection' && el.id !== 'lessonList')) {
-                    el.style.display = (el.tagName === 'H2' ? 'block' : 'flex');
-                }
+            // 2. Reveal primary dashboard sections
+            const DashboardContent = document.querySelectorAll('main > h2, main > .subject-row, .float-btns');
+            DashboardContent.forEach(el => {
+                const defaultDisplay = el.tagName === 'H2' ? 'block' : 'flex';
+                el.style.display = defaultDisplay;
             });
-            // Show the GPay banner and floating call button
-            document.querySelectorAll('.float-btns').forEach(el => el.style.display = 'flex');
         }
 
         function hideLessons() {
@@ -688,11 +688,13 @@
 
         async function showLessons(grade) {
             if (grade === 4) {
+                // 1. Switch visibility
                 document.getElementById('classSelection').style.display = 'none';
                 document.getElementById('lessonList').style.display = 'block';
                 document.getElementById('stickyBackBtn').style.display = 'flex';
                 document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
                 
+                // 2. Render Vertical List
                 const container = document.getElementById('lessonsContainer');
                 container.style.display = 'flex';
                 container.style.flexDirection = 'column';
@@ -735,7 +737,8 @@
                             </div>
                         </div>
                     </div>
-                    <div style="height: 100px;"></div>
+                    <!-- Space for sticky back arrow -->
+                    <div style="height: 120px;"></div>
                 `;
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
