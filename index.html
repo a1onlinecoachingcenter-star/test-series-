@@ -586,6 +586,7 @@
             <button onclick="document.getElementById('modal').style.display='flex'" class="paid-btn">
                 PAID GROUP - இணைய
             </button>
+            <p style="font-size: 0.7rem; color: #94a3b8; margin-top: 10px;">v2.1 - Dashboard Ready</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #fef08a, #eab308); padding: 1.5rem; border-radius: 1.25rem; text-align: center; margin-top: 2rem;">
@@ -666,18 +667,17 @@
         async function showLessons(grade) {
             if (grade === 4) {
                 document.getElementById('classSelection').style.display = 'none';
-                document.getElementById('lessonList').style.display = 'block';
+                document.getElementById('lessonList').style.setProperty('display', 'block', 'important');
                 document.getElementById('stickyBackBtn').style.display = 'flex';
                 document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
                 
                 const container = document.getElementById('lessonsContainer');
-                container.style.display = 'flex';
+                container.style.setProperty('display', 'flex', 'important');
                 container.style.flexDirection = 'column';
-                container.style.gap = '20px';
                 container.style.width = '100%';
                 
                 container.innerHTML = `
-                    <div style="display:flex; flex-direction: column; gap: 1.5rem; width:100%;">
+                    <div style="display:flex !important; flex-direction: column !important; gap: 1.5rem; width:100%;">
                         
                         <!-- Lesson: அன்னைத் தமிழே -->
                         <div style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
