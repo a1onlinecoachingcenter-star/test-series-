@@ -669,9 +669,17 @@
                 document.getElementById('lessonList').style.display = 'block';
                 document.getElementById('stickyBackBtn').style.display = 'flex';
                 document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
+                
                 const container = document.getElementById('lessonsContainer');
+                container.style.display = 'flex';
+                container.style.flexDirection = 'column';
+                container.style.gap = '20px';
+                container.style.width = '100%';
+                
                 container.innerHTML = `
                     <div style="display:flex; flex-direction: column; gap: 1.5rem; width:100%;">
+                        
+                        <!-- Lesson: அன்னைத் தமிழே -->
                         <div style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
                             <h3 style="color:var(--primary); font-size: 1.3rem; margin:0 0 1rem 0;">அன்னைத் தமிழே</h3>
                             <div style="display:flex; flex-direction: column; gap:10px;">
@@ -679,6 +687,8 @@
                                 <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
                             </div>
                         </div>
+
+                        <!-- Lesson: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் -->
                         <div style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
                             <h3 style="color:var(--secondary); font-size: 1.3rem; margin:0 0 1rem 0;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
                             <div style="display:flex; flex-direction: column; gap:10px;">
@@ -686,6 +696,8 @@
                                 <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
                             </div>
                         </div>
+
+                        <!-- Lesson: முயல் அரசன் -->
                         <div style="background:white; border-left: 5px solid var(--accent); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
                             <h3 style="color:var(--accent); font-size: 1.3rem; margin:0 0 1rem 0;">முயல் அரசன்</h3>
                             <div style="display:flex; flex-direction: column; gap:10px;">
