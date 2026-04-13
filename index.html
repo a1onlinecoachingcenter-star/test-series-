@@ -467,37 +467,37 @@
     </style>
 </head>
 <body>
+    <div id="mobile-wrapper">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="brand">
+                    <img src="images/logo.png" class="brand-logo" alt="Logo">
+                    <div style="display: flex; flex-direction: column;">
+                        <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1;">COACHING</span>
+                        <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase;">TNPSC & TET EXPERTS</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="brand">
-                <img src="images/logo.png" class="brand-logo" alt="Logo">
-                <div style="display: flex; flex-direction: column;">
-                    <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1;">COACHING</span>
-                    <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); text-transform: uppercase;">TNPSC & TET EXPERTS</span>
+        <!-- Combined Sticky Notification Center -->
+        <div class="marquee-container">
+            <!-- Exam Marquee -->
+            <div class="marquee-box">
+                <div class="marquee-content">
+                    📢 நான்காம் வகுப்பு முதல் பருவம் தமிழ் பாடங்கள் தேர்வு இன்று இரவு 8:00 PM மணிக்குத் தொடங்கி 11:00 PM மணிக்கு முடிவடைகிறது &nbsp; | &nbsp; 📚 பாடங்கள்: (அன்னைத் தமிழே) &nbsp; (ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்) &nbsp; (முயல் அரசன்) &nbsp; | &nbsp; 📝 தேர்வு நேரம்: 08:00 PM - 11:00 PM
+                </div>
+            </div>
+            <!-- Announcement Ticker -->
+            <div class="announcement-ticker">
+                <div class="ticker-content">
+                    <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
+                    <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
                 </div>
             </div>
         </div>
-    </nav>
 
-    <!-- Combined Sticky Notification Center -->
-    <div class="marquee-container">
-        <!-- Exam Marquee -->
-        <div class="marquee-box">
-            <div class="marquee-content">
-                📢 நான்காம் வகுப்பு முதல் பருவம் தமிழ் பாடங்கள் தேர்வு இன்று இரவு 8:00 PM மணிக்குத் தொடங்கி 11:00 PM மணிக்கு முடிவடைகிறது &nbsp; | &nbsp; 📚 பாடங்கள்: (அன்னைத் தமிழே) &nbsp; (ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்) &nbsp; (முயல் அரசன்) &nbsp; | &nbsp; 📝 தேர்வு நேரம்: 08:00 PM - 11:00 PM
-            </div>
-        </div>
-        <!-- Announcement Ticker -->
-        <div class="announcement-ticker">
-            <div class="ticker-content">
-                <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
-                <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
-            </div>
-        </div>
-    </div>
-
-    <main class="container">
+        <main class="container">
         
         <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
         <div class="subject-row">
@@ -625,6 +625,8 @@
 
     <!-- Paid Only Toast -->
     <div id="toast">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)</div>
+
+    </div> <!-- Close mobile-wrapper -->
 
     <script>
         function openExam(testFile) {
