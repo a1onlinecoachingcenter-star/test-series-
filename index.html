@@ -649,13 +649,12 @@
 
         // --- Subject & Grade Logic ---
         function showClasses(subject) {
-            // Updated mapping for Tamil
             const subTitle = subject === 'Tamil' ? 'தமிழ்' : subject;
             document.getElementById('selectedSubjectTitle').innerText = `${subTitle} - வகுப்புகள்`;
             
-            // Hide main Dashboard elements
-            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
-                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('#notesView')) {
+            // Hide everything on main dashboard
+            document.querySelectorAll('main > h2, main > .subject-row, main > div:not(#classSelection):not(#lessonList)').forEach(el => {
+                if(!el.id || (el.id !== 'classSelection' && el.id !== 'lessonList')) {
                     el.style.display = 'none';
                 }
             });
@@ -671,12 +670,14 @@
             document.getElementById('classSelection').style.display = 'none';
             document.getElementById('stickyBackBtn').style.display = 'none';
             
-            // Show main Dashboard elements back
-            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
-                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('#notesView')) {
+            // Restore main dashboard
+            document.querySelectorAll('main > h2, main > .subject-row, main > div:not(#classSelection):not(#lessonList)').forEach(el => {
+                if(!el.id || (el.id !== 'classSelection' && el.id !== 'lessonList')) {
                     el.style.display = (el.tagName === 'H2' ? 'block' : 'flex');
                 }
             });
+            // Show the GPay banner and floating call button
+            document.querySelectorAll('.float-btns').forEach(el => el.style.display = 'flex');
         }
 
         function hideLessons() {
@@ -691,13 +692,12 @@
                 document.getElementById('lessonList').style.display = 'block';
                 document.getElementById('stickyBackBtn').style.display = 'flex';
                 document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
-
+                
                 const container = document.getElementById('lessonsContainer');
                 container.style.display = 'flex';
                 container.style.flexDirection = 'column';
                 container.style.gap = '20px';
-                container.style.width = '100.1%'; // Force full width and slight nudge to prevent tiny gaps
-                container.style.padding = '0';
+                container.style.width = '100%';
                 
                 container.innerHTML = `
                     <div style="display:flex; flex-direction: column; gap: 1.5rem; width:100%;">
