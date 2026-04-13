@@ -675,36 +675,35 @@
                 document.getElementById('classSelection').style.display = 'none';
                 document.getElementById('lessonList').style.display = 'block';
                 
-                // Show Lessons in a strict vertical list
-                document.getElementById('lessonsContainer').innerHTML = `
-                    <div style="display:flex; flex-direction: column; gap:0.5rem; width:100%;">
+                // Show Lessons in a simplified, vertical-only list
+                const container = document.getElementById('lessonsContainer');
+                container.style.display = 'block';
+                container.style.width = '100%';
+                
+                container.innerHTML = `
+                    <div style="width:100%; display: flex; flex-direction: column; gap: 20px;">
                         
-                        <!-- Lesson 1 -->
-                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
-                            <h3 style="color:var(--primary); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--primary); padding-left: 12px;">அன்னைத் தமிழே</h3>
-                            <div style="display:flex; flex-direction: column; gap:10px;">
-                                <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
-                            </div>
+                        <!-- Lesson: அன்னைத் தமிழே -->
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
+                            <h2 style="color:var(--primary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">அன்னைத் தமிழே</h2>
+                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
 
-                        <!-- Lesson 3 -->
-                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
-                            <h3 style="color:var(--secondary); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--secondary); padding-left: 12px;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
-                            <div style="display:flex; flex-direction: column; gap:10px;">
-                                <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
-                            </div>
+                        <!-- Lesson: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் -->
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
+                            <h2 style="color:var(--secondary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h2>
+                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
 
-                        <!-- Lesson 5 -->
-                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
-                            <h3 style="color:var(--accent); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--accent); padding-left: 12px;">முயல் அரசன்</h3>
-                            <div style="display:flex; flex-direction: column; gap:10px;">
-                                <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
-                            </div>
+                        <!-- Lesson: முயல் அரசன் -->
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
+                            <h2 style="color:var(--accent); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">முயல் அரசன்</h2>
+                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
+
                     </div>
                 `;
                 window.scrollTo({ top: 0, behavior: 'smooth' });
