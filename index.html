@@ -675,7 +675,6 @@
                 document.getElementById('classSelection').style.display = 'none';
                 document.getElementById('lessonList').style.display = 'block';
                 
-                // Show Lessons in a simplified, vertical-only list
                 const container = document.getElementById('lessonsContainer');
                 container.style.display = 'block';
                 container.style.width = '100%';
@@ -684,24 +683,29 @@
                     <div style="width:100%; display: flex; flex-direction: column; gap: 20px;">
                         
                         <!-- Lesson: அன்னைத் தமிழே -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
-                            <h2 style="color:var(--primary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">அன்னைத் தமிழே</h2>
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
+                            <h2 style="color:var(--primary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">அன்னைத் தமிழே</h2>
                             <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
                             <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
 
                         <!-- Lesson: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
-                            <h2 style="color:var(--secondary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h2>
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
+                            <h2 style="color:var(--secondary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h2>
                             <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
                             <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
 
                         <!-- Lesson: முயல் அரசன் -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px;">
-                            <h2 style="color:var(--accent); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800; text-align: left;">முயல் அரசன்</h2>
+                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
+                            <h2 style="color:var(--accent); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">முயல் அரசன்</h2>
                             <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
                             <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
+                        </div>
+
+                        <!-- Bottom Back Arrow -->
+                        <div style="display: flex; justify-content: center; padding: 20px 0;">
+                            <button onclick="hideLessons()" style="background: var(--primary); color: white; border: none; width: 60px; height: 60px; border-radius: 50%; font-size: 1.5rem; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 20px rgba(26,115,232,0.4); transition: 0.3s;">⬅</button>
                         </div>
 
                     </div>
