@@ -525,8 +525,9 @@
 
         <!-- Grade Selection (Hidden by default) -->
         <div id="classSelection" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
-            <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
-                <h2 class="section-header" id="selectedSubjectTitle" style="margin: 0; text-align: center;">வகுப்புகள்</h2>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <button onclick="hideClasses()" style="background: var(--primary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 700;">⬅ பின்னே</button>
+                <h2 class="section-header" id="selectedSubjectTitle" style="margin: 0;">வகுப்புகள்</h2>
             </div>
             <div style="display: flex; flex-direction: column; gap: 0.75rem;">
                 <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
@@ -554,8 +555,9 @@
 
         <!-- Lesson List (Hidden by default) -->
         <div id="lessonList" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
-            <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
-                <h2 class="section-header" style="margin: 0; text-align: center;">பாடங்கள் - வகுப்பு 4</h2>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <button onclick="hideLessons()" style="background: var(--secondary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 700;">⬅ பின்னே</button>
+                <h2 class="section-header" style="margin: 0;">பாடங்கள் - வகுப்பு 4</h2>
             </div>
             <div id="lessonsContainer" style="display: grid; gap: 1rem;">
                 <!-- Lessons will be injected here -->
@@ -610,10 +612,7 @@
         </div>
     </div>
 
-    <!-- Sticky Floating Back Arrow -->
-    <div id="stickyBackBtn" style="display: none; position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 6000;">
-        <button style="background: var(--primary); color: white; border: none; width: 65px; height: 65px; border-radius: 50%; font-size: 2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 30px rgba(26,115,232,0.5); transition: 0.3s; border: 3px solid white;">⬅</button>
-    </div>
+    <!-- Full Screen Study Notes View -->
     <div id="notesView" class="notes-view" style="display: none;">
         <div class="notes-header">
             <button class="btn-back-square" onclick="hideNotes()">⬅</button>
@@ -651,20 +650,19 @@
         // --- Subject & Grade Logic ---
         function showClasses(subject) {
             document.getElementById('selectedSubjectTitle').innerText = `${subject} - வகுப்புகள்`;
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('lessonList').style.display = 'none';
+            // Hide main sections for focus
             document.querySelectorAll('.section-header, .subject-row').forEach(el => {
                 if (!el.closest('#classSelection') && !el.closest('#lessonList')) {
                     el.style.display = 'none';
                 }
             });
-            document.getElementById('classSelection').style.display = 'block';
-            document.getElementById('stickyBackBtn').style.display = 'flex';
-            document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function hideClasses() {
             document.getElementById('classSelection').style.display = 'none';
-            document.getElementById('stickyBackBtn').style.display = 'none';
             document.querySelectorAll('.section-header, .subject-row').forEach(el => {
                 if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('main > button')) {
                     el.style.display = el.tagName === 'H2' ? 'block' : 'grid';
@@ -676,50 +674,46 @@
             if (grade === 4) {
                 document.getElementById('classSelection').style.display = 'none';
                 document.getElementById('lessonList').style.display = 'block';
-                document.getElementById('stickyBackBtn').style.display = 'flex';
-                document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
-                container.style.display = 'block';
-                container.style.width = '100%';
                 
-                container.innerHTML = `
-                    <div style="width:100%; display: flex; flex-direction: column; gap: 20px;">
-                        
-                        <!-- Lesson: அன்னைத் தமிழே -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
-                            <h2 style="color:var(--primary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">அன்னைத் தமிழே</h2>
-                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
-                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
+                // Show Lessons
+                document.getElementById('lessonsContainer').innerHTML = `
+                    <!-- Lesson 1 -->
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--primary); font-size: 1.1rem;">பாடம் 1: அன்னைத் தமிழே</h3>
                         </div>
-
-                        <!-- Lesson: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
-                            <h2 style="color:var(--secondary); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h2>
-                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
-                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
                         </div>
+                    </div>
 
-                        <!-- Lesson: முயல் அரசன் -->
-                        <div style="width: 100%; border-bottom: 3px solid #f1f5f9; padding-bottom: 20px; text-align: center;">
-                            <h2 style="color:var(--accent); font-size: 1.3rem; margin-bottom: 12px; font-weight: 800;">முயல் அரசன்</h2>
-                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2px solid #fda4af; width:100%; padding: 12px; margin-bottom: 10px; border-radius: 12px; font-weight: 800;">பாடக்குறிப்புகள்</button>
-                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
+                    <!-- Lesson 3 -->
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--secondary); font-size: 1.1rem;">பாடம் 3: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
                         </div>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
+                        </div>
+                    </div>
 
-                        <!-- Bottom Spacing -->
-                        <div style="height: 100px;"></div>
+                    <!-- Lesson 5 -->
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--accent); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--accent); font-size: 1.1rem;">பாடம் 5: முயல் அரசன்</h3>
+                        </div>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
+                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
+                        </div>
                     </div>
                 `;
-                document.getElementById('stickyBackBtn').style.display = 'flex';
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
                 alert("வகுப்பு " + grade + " பாடங்கள் இன்னும் சேர்க்கப்படவில்லை.");
             }
-        }
-
-        function hideLessons() {
-            document.getElementById('lessonList').style.display = 'none';
-            document.getElementById('classSelection').style.display = 'block';
-            document.getElementById('stickyBackBtn').style.display = 'none';
         }
 
         async function showNotes(lessonFile) {
