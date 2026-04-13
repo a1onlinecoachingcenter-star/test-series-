@@ -156,8 +156,29 @@
                 const testFile = urlParams.get('test') || 'model_test_2.json';
                 const res = await fetch(testFile);
                 quizData = await res.json();
-                document.getElementById('topTitle').innerText = quizData.title;
+                
+                // Detection & Normalization
+                if (quizData.lesson_meta) {
+                    document.getElementById('topTitle').innerText = quizData.lesson_meta.title;
+                } else {
+                    document.getElementById('topTitle').innerText = quizData.title || quizData.meta.title;
+                }
+
+                // Standardize Quiz Array
+                if (quizData.master_quiz) {
+                    quizData.questions = quizData.master_quiz.questions.map(q => {
+                        return {
+                            q: q.question,
+                            options: q.options,
+                            a: q.options.indexOf(q.answer), // Find index of string answer
+                            ex: q.explanation || `${q.answer} என்பது சரியான விடையாகும்.`
+                        };
+                    });
+                } else if (quizData.quiz) {
+                    quizData.questions = quizData.quiz;
+                }
             } catch(e) {
+                console.error(e);
                 alert("JSON கோப்பினை வாசிப்பதில் பிழை!");
             }
         }
@@ -173,13 +194,13 @@
 
         function render() {
             const area = document.getElementById('questionsArea');
-            area.innerHTML = quizData.quiz.map((q, idx) => `
+            area.innerHTML = quizData.questions.map((q, idx) => `
                 <div class="card" id="card-${idx}">
                     <div class="q-text">${idx+1}. ${q.q}</div>
                     <div class="opts">
                         ${q.options.map((o, oi) => `<div class="opt" id="opt-${idx}-${oi}" onclick="pick(${idx},${oi})">${o}</div>`).join('')}
                     </div>
-                    <div class="ex" id="ex-${idx}"><strong>விளக்கம்:</strong> ${q.ex}</div>
+                    <div class="ex" id="ex-${idx}"><strong>விளக்கம்:</strong> ${q.ex || 'விளக்கம் ஏதுமில்லை.'}</div>
                 </div>
             `).join('');
         }
@@ -194,7 +215,7 @@
         function finish() {
             done = true;
             let s = 0;
-            quizData.quiz.forEach((q, i) => {
+            quizData.questions.forEach((q, i) => {
                 const corr = q.a;
                 const user = answers[i];
                 if(user === corr) { s++; document.getElementById(`opt-${i}-${user}`).classList.add('correct'); }
@@ -208,9 +229,9 @@
             });
             document.getElementById('quizApp').style.display='none';
             document.getElementById('results').style.display='block';
-            document.getElementById('resScore').innerText = s + "/" + quizData.quiz.length;
-            document.getElementById('resTitle').innerText = quizData.title;
-            const p = (s/quizData.quiz.length)*100;
+            document.getElementById('resScore').innerText = s + "/" + quizData.questions.length;
+            document.getElementById('resTitle').innerText = document.getElementById('topTitle').innerText;
+            const p = (s/quizData.questions.length)*100;
             document.getElementById('resMsg').innerText = p >= 80 ? "அருமை! Excellent!" : "நல்ல முயற்சி! Good!";
             window.scrollTo(0,0);
         }
@@ -221,13 +242,18 @@
             document.getElementById('submitBtn').style.display='none';
         }
 
-        const deadline = new Date("April 12, 2026 17:00:00").getTime();
-
         function start() {
-            const now = new Date().getTime();
-            if (now > deadline) {
-                return alert("தேர்வு முடிவடைந்துவிட்டது! (EXAM CLOSED)");
+            const now = new Date();
+            const startLimit = new Date(); startLimit.setHours(20, 0, 0, 0);
+            const endLimit = new Date(); endLimit.setHours(23, 0, 0, 0);
+
+            if (now < startLimit) {
+                return alert("தேர்வு இன்று இரவு 8:00 மணிக்குத் தொடங்கும்! (EXAM STARTS AT 8:00 PM)");
             }
+            if (now > endLimit) {
+                return alert("தேர்வு 11:00 மணிக்கு முடிவடைந்துவிட்டது! (EXAM CLOSED AT 11:00 PM)");
+            }
+
             uName = document.getElementById('nameInput').value.trim();
             if(!uName) return alert("பெயர் கட்டாயம்!");
             document.getElementById('startModal').style.display='none';

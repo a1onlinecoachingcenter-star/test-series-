@@ -141,10 +141,42 @@
         .tamil { background: linear-gradient(145deg, #fff1f2, #ffe4e6); border-bottom: 5px solid #e11d48; }
         .english { background: linear-gradient(145deg, #f0f9ff, #e0f2fe); border-bottom: 5px solid #0284c7; }
         .maths { background: linear-gradient(145deg, #f0fdfa, #ccfbf1); border-bottom: 5px solid #0d9488; }
+        .environmental { background: linear-gradient(145deg, #f0fdf4, #dcfce7); border-bottom: 5px solid #16a34a; }
+        .social { background: linear-gradient(145deg, #eef2ff, #e0e7ff); border-bottom: 5px solid #4f46e5; }
         .psychology { background: linear-gradient(145deg, #faf5ff, #f3e8ff); border-bottom: 5px solid #9333ea; }
         .revision { background: linear-gradient(145deg, #fffbeb, #fef3c7); border-bottom: 5px solid #d97706; }
+        .model { background: linear-gradient(145deg, #ecfeff, #cffafe); border-bottom: 5px solid #0891b2; }
 
         .subject-card h3 { font-size: 1rem; font-weight: 700; margin: 0; }
+
+        /* Marquee Styles */
+        .marquee-container {
+            position: sticky;
+            top: 70px;
+            z-index: 1000;
+        }
+
+        .marquee-box {
+            background: linear-gradient(90deg, #1e293b, #334155);
+            color: #fbbf24; /* Gold text */
+            padding: 8px 0;
+            font-weight: 700;
+            font-size: 0.9rem;
+            overflow: hidden;
+            white-space: nowrap;
+            border-bottom: 2px solid #fbbf24;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 35s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
 
         /* Icon logic */
         .subject-card .subject-icon { display: none; }
@@ -375,6 +407,15 @@
         </div>
     </nav>
 
+    <!-- Scrolling Notification -->
+    <div class="marquee-container">
+        <div class="marquee-box">
+            <div class="marquee-content">
+                📢 நான்காம் வகுப்பு முதல் பருவம் தமிழ் பாடங்கள் தேர்வு இன்று இரவு 8:00 PM மணிக்குத் தொடங்கி 11:00 PM மணிக்கு முடிவடைகிறது &nbsp; | &nbsp; 📚 பாடங்கள்: (அன்னைத் தமிழே) &nbsp; (ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்) &nbsp; (முயல் அரசன்) &nbsp; | &nbsp; 📝 தேர்வு நேரம்: 08:00 PM - 11:00 PM
+            </div>
+        </div>
+    </div>
+
     <div class="announcement-ticker">
         <div class="ticker-content">
             <span><span style="background:var(--accent);color:white;padding:2px 10px;border-radius:20px;font-size:12px;">OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> 📞 6369371452</span>
@@ -386,7 +427,7 @@
         
         <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
         <div class="subject-row">
-            <div onclick="paidOnly()" class="subject-card tamil disabled">
+            <div onclick="showClasses('Tamil')" class="subject-card tamil">
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </div>
@@ -398,48 +439,74 @@
                 <div class="subject-icon">📐</div>
                 <h3>கணிதம்</h3>
             </div>
-            <div onclick="paidOnly()" class="subject-card disabled">
+            <div onclick="paidOnly()" class="subject-card environmental disabled">
                 <div class="subject-icon">🌱</div>
                 <h3>சுற்றுச்சூழல்</h3>
             </div>
-            <div onclick="paidOnly()" class="subject-card psychology disabled">
+            <div onclick="paidOnly()" class="subject-card social disabled">
                 <div class="subject-icon">🌍</div>
                 <h3>சமூக அறிவியல்</h3>
+            </div>
+        </div>
+
+        <!-- Grade Selection (Hidden by default) -->
+        <div id="classSelection" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <button onclick="hideClasses()" style="background: var(--primary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 700;">⬅ பின்னே</button>
+                <h2 class="section-header" id="selectedSubjectTitle" style="margin: 0;">வகுப்புகள்</h2>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">1️⃣</div>
+                    <h3>வகுப்பு 1</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">2️⃣</div>
+                    <h3>வகுப்பு 2</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">3️⃣</div>
+                    <h3>வகுப்பு 3</h3>
+                </div>
+                <div onclick="showLessons(4)" class="subject-card" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: var(--primary-light); border: 2px solid var(--primary);">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px; background: var(--primary); color: white;">4️⃣</div>
+                    <h3>வகுப்பு 4</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">5️⃣</div>
+                    <h3>வகுப்பு 5</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson List (Hidden by default) -->
+        <div id="lessonList" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <button onclick="hideLessons()" style="background: var(--secondary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 700;">⬅ பின்னே</button>
+                <h2 class="section-header" style="margin: 0;">பாடங்கள் - வகுப்பு 4</h2>
+            </div>
+            <div id="lessonsContainer" style="display: grid; gap: 1rem;">
+                <!-- Lessons will be injected here -->
             </div>
         </div>
 
         <h2 class="section-header">⭐ சிறப்புப் பகுதிகள்</h2>
         <div class="subject-row">
             <div onclick="paidOnly()" class="subject-card psychology disabled">
-                <div class="subject-icon">🧠</div>
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px;">🧠</div>
                 <h3>உளவியல்</h3>
             </div>
-            <div onclick="paidOnly()" class="subject-card disabled">
-                <div class="subject-icon">📚</div>
+            <div onclick="paidOnly()" class="subject-card social disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px;">📚</div>
                 <h3>6 முதல் 8 வகுப்பு வரை</h3>
             </div>
-            <!-- DISABLED SECTION -->
-            <div style="display: flex; flex-direction: column; opacity: 0.5; pointer-events: none; filter: grayscale(1);">
-                <div class="live-timer" style="background: #f1f5f9; color: #64748b; border-color: #e2e8f0;">
-                    <span>⌛</span> <span>முடிவடைந்தது</span>
-                </div>
-                <div class="subject-card revision" style="border: 1px solid var(--border); margin-top: -5px;">
-                    <div class="subject-icon" style="background: #e2e8f0; color: #94a3b8;">🔄</div>
-                    <h3>திருப்புதல் தேர்வு 2</h3>
-                    <p style="font-size: 0.8rem; font-weight: 700; margin-top: 8px; color: #94a3b8; background: #f8fafc; padding: 2px 10px; border-radius: 10px;">முடிவடைந்தது</p>
-                </div>
+            <div onclick="paidOnly()" class="subject-card revision disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #d97706; color: white;">🔄</div>
+                <h3>திருப்புதல் தேர்வு</h3>
             </div>
-
-            <!-- ENABLED MODEL TEST SECTION -->
-            <div style="display: flex; flex-direction: column;">
-                <div class="live-timer" id="indexTimer">
-                    <span>⌛</span> <span id="idx-time">பதிவாகிறது...</span>
-                </div>
-                <a href="javascript:void(0)" onclick="openExam('model_test_2.json')" class="subject-card revision active" style="border: 3px solid var(--secondary); margin-top: -5px; background: linear-gradient(145deg, #e0f2fe, #f0f9ff);">
-                    <div class="subject-icon" style="background: var(--secondary); color: white;">📝</div>
-                    <h3>மாதிரித்தேர்வு 2</h3>
-                    <p style="font-size: 0.9rem; font-weight: 800; margin-top: 8px; color: var(--primary-dark); background: #e8f0fe; padding: 2px 10px; border-radius: 10px;">இப்போது நேரலையில்</p>
-                </a>
+            <div onclick="paidOnly()" class="subject-card model disabled">
+                <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #0891b2; color: white;">📝</div>
+                <h3>மாதிரித்தேர்வு</h3>
             </div>
         </div>
 
@@ -471,11 +538,35 @@
         </div>
     </div>
 
+    <!-- Study Notes Modal -->
+    <div id="notesModal" class="overlay" style="display: none; z-index: 4000; overflow-y: auto;">
+        <div class="modal-card" style="max-width: 700px; text-align: left; padding: 2rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                <h2 id="notesTitle" style="color: var(--primary); margin: 0;">பாடக்குறிப்புகள்</h2>
+                <button onclick="document.getElementById('notesModal').style.display='none'" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-muted);">✖</button>
+            </div>
+            <div id="notesContent" style="font-size: 1rem; color: var(--text-main);">
+                <!-- Dynamic Content Here -->
+            </div>
+            <button onclick="document.getElementById('notesModal').style.display='none'" style="margin-top: 2rem; background: var(--primary);">சரி, புரிந்தது</button>
+        </div>
+    </div>
+
     <!-- Paid Only Toast -->
     <div id="toast">கட்டண குழுவில் உள்ளவர்களுக்கு மட்டும் (PAID GROUP ONLY)</div>
 
     <script>
         function openExam(testFile) {
+            const now = new Date();
+            const startLimit = new Date(); startLimit.setHours(20, 0, 0);
+            const endLimit = new Date(); endLimit.setHours(23, 0, 0);
+
+            if (now < startLimit) {
+                return alert("தேர்வு இன்று இரவு 8:00 மணிக்குத் தொடங்கும்! (Exam starts at 8:00 PM)");
+            }
+            if (now > endLimit) {
+                return alert("தேர்வு 11:00 மணிக்கு முடிவடைந்துவிட்டது! (Exam ended at 11:00 PM)");
+            }
             window.location.href = `exam.html?test=${testFile || 'model_test_2.json'}`;
         }
 
@@ -483,6 +574,114 @@
             const x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+
+        // --- Subject & Grade Logic ---
+        function showClasses(subject) {
+            document.getElementById('selectedSubjectTitle').innerText = `${subject} - வகுப்புகள்`;
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('lessonList').style.display = 'none';
+            // Hide main sections for focus
+            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
+                if (!el.closest('#classSelection') && !el.closest('#lessonList')) {
+                    el.style.display = 'none';
+                }
+            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function hideClasses() {
+            document.getElementById('classSelection').style.display = 'none';
+            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
+                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('main > button')) {
+                    el.style.display = el.tagName === 'H2' ? 'block' : 'grid';
+                }
+            });
+        }
+
+        async function showLessons(grade) {
+            if (grade === 4) {
+                document.getElementById('classSelection').style.display = 'none';
+                document.getElementById('lessonList').style.display = 'block';
+                
+                // Show Lessons
+                document.getElementById('lessonsContainer').innerHTML = `
+                    <!-- Lesson 1 -->
+                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--primary); text-align: left; margin-bottom:1rem;">
+                        <div style="text-align:left">
+                            <h3 style="color:var(--primary)">பாடம் 1: அன்னைத் தமிழே</h3>
+                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button onclick="showNotes('lesson_1.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
+                            <button onclick="openExam('lesson_1.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 3 -->
+                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--secondary); text-align: left; margin-bottom:1rem;">
+                        <div style="text-align:left">
+                            <h3 style="color:var(--secondary)">பாடம் 3: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
+                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button onclick="showNotes('lesson_3.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
+                            <button onclick="openExam('lesson_3.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        </div>
+                    </div>
+
+                    <!-- Lesson 5 -->
+                    <div class="subject-card" style="flex-direction:row; justify-content:space-between; padding:1.5rem; background:white; border-left: 5px solid var(--accent); text-align: left; margin-bottom:1rem;">
+                        <div style="text-align:left">
+                            <h3 style="color:var(--accent)">பாடம் 5: முயல் அரசன்</h3>
+                            <p style="font-size:0.85rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button onclick="showNotes('lesson_5.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--primary); color:white">Notes</button>
+                            <button onclick="openExam('lesson_5.json')" class="paid-alert-btn" style="margin:0; padding:0.5rem 1rem; font-size:0.8rem; background:var(--secondary); color:white">Quiz</button>
+                        </div>
+                    </div>
+
+                    <p style="text-align:center; color:var(--text-muted); font-size:14px; margin-top:1rem;">(வகுப்பு 4-ன் மற்ற பாடங்கள் விரைவில் சேர்க்கப்படும்...)</p>
+                `;
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                alert("வகுப்பு " + grade + " பாடங்கள் இன்னும் சேர்க்கப்படவில்லை.");
+            }
+        }
+
+        async function showNotes(lessonFile) {
+            try {
+                const res = await fetch(lessonFile);
+                const data = await res.json();
+                document.getElementById('notesTitle').innerText = data.lesson_meta.title;
+                
+                let contentHtml = "";
+                data.study_notes.forEach(section => {
+                    contentHtml += `<div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--secondary); margin-bottom: 0.5rem; font-size: 1.1rem; border-left: 4px solid var(--accent); padding-left: 10px;">${section.heading}</h4>
+                        <ul style="padding-left: 1.5rem; margin: 0;">
+                            ${section.points.map(p => `<li style="margin-bottom: 0.4rem;">${p}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                });
+
+                // Add Evaluation Preview
+                contentHtml += `<div style="margin-top: 2rem; background: #fef3c7; padding: 1rem; border-radius: 1rem; border: 1px dashed #d97706;">
+                    <h4 style="color: #d97706; margin-bottom: 0.5rem;">மதிப்பீடு (Evaluation)</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 0;">பாடத்தின் மதிப்பீடு வினாக்கள் தேர்வுப் பகுதியில் (Quiz) வழங்கப்பட்டுள்ளன.</p>
+                </div>`;
+
+                document.getElementById('notesContent').innerHTML = contentHtml;
+                document.getElementById('notesModal').style.display = 'flex';
+            } catch (e) {
+                alert("பாடக்குறிப்புகளை வாசிப்பதில் பிழை!");
+            }
+        }
+
+        function hideLessons() {
+            document.getElementById('lessonList').style.display = 'none';
+            document.getElementById('classSelection').style.display = 'block';
         }
 
         // --- Index Timer ---
