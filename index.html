@@ -675,39 +675,34 @@
                 document.getElementById('classSelection').style.display = 'none';
                 document.getElementById('lessonList').style.display = 'block';
                 
-                // Show Lessons
+                // Show Lessons in a strict vertical list
                 document.getElementById('lessonsContainer').innerHTML = `
-                    <div style="display:flex; flex-direction: column; gap:1.5rem; width:100%;">
+                    <div style="display:flex; flex-direction: column; gap:0.5rem; width:100%;">
+                        
                         <!-- Lesson 1 -->
-                        <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem; width: 100%; margin: 0;">
-                            <div style="margin-bottom: 1.2rem;">
-                                <h3 style="color:var(--primary); font-size: 1.2rem; text-align: left;">அன்னைத் தமிழே</h3>
-                            </div>
-                            <div style="display:flex; flex-direction: column; gap:12px; width:100%;">
-                                <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
+                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
+                            <h3 style="color:var(--primary); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--primary); padding-left: 12px;">அன்னைத் தமிழே</h3>
+                            <div style="display:flex; flex-direction: column; gap:10px;">
+                                <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
+                                <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
                             </div>
                         </div>
 
                         <!-- Lesson 3 -->
-                        <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem; width: 100%; margin: 0;">
-                            <div style="margin-bottom: 1.2rem;">
-                                <h3 style="color:var(--secondary); font-size: 1.2rem; text-align: left;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
-                            </div>
-                            <div style="display:flex; flex-direction: column; gap:12px; width:100%;">
-                                <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
+                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
+                            <h3 style="color:var(--secondary); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--secondary); padding-left: 12px;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
+                            <div style="display:flex; flex-direction: column; gap:10px;">
+                                <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
+                                <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
                             </div>
                         </div>
 
                         <!-- Lesson 5 -->
-                        <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--accent); padding: 1.5rem; width: 100%; margin: 0;">
-                            <div style="margin-bottom: 1.2rem;">
-                                <h3 style="color:var(--accent); font-size: 1.2rem; text-align: left;">முயல் அரசன்</h3>
-                            </div>
-                            <div style="display:flex; flex-direction: column; gap:12px; width:100%;">
-                                <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">பாடக்குறிப்புகள்</button>
-                                <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">தேர்வு</button>
+                        <div style="background:white; border-bottom: 2px solid #f1f5f9; padding: 1.5rem; width: 100%;">
+                            <h3 style="color:var(--accent); font-size: 1.15rem; margin-bottom: 1rem; border-left: 4px solid var(--accent); padding-left: 12px;">முயல் அரசன்</h3>
+                            <div style="display:flex; flex-direction: column; gap:10px;">
+                                <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af; width:100%; font-size: 1rem;">பாடக்குறிப்புகள்</button>
+                                <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe; width:100%; font-size: 1rem;">தேர்வு</button>
                             </div>
                         </div>
                     </div>
