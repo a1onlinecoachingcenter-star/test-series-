@@ -612,7 +612,10 @@
         </div>
     </div>
 
-    <!-- Full Screen Study Notes View -->
+    <!-- Sticky Floating Back Arrow (Visible only in lesson list) -->
+    <div id="stickyBackBtn" style="display: none; position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 6000;">
+        <button onclick="hideLessons()" style="background: var(--primary); color: white; border: none; width: 65px; height: 65px; border-radius: 50%; font-size: 2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 30px rgba(26,115,232,0.5); transition: 0.3s; border: 3px solid white;">⬅</button>
+    </div>
     <div id="notesView" class="notes-view" style="display: none;">
         <div class="notes-header">
             <button class="btn-back-square" onclick="hideNotes()">⬅</button>
@@ -703,17 +706,21 @@
                             <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2px solid #bfdbfe; width:100%; padding: 12px; border-radius: 12px; font-weight: 800;">தேர்வு</button>
                         </div>
 
-                        <!-- Bottom Back Arrow -->
-                        <div style="display: flex; justify-content: center; padding: 20px 0;">
-                            <button onclick="hideLessons()" style="background: var(--primary); color: white; border: none; width: 60px; height: 60px; border-radius: 50%; font-size: 1.5rem; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 20px rgba(26,115,232,0.4); transition: 0.3s;">⬅</button>
-                        </div>
-
+                        <!-- Bottom Spacing -->
+                        <div style="height: 100px;"></div>
                     </div>
                 `;
+                document.getElementById('stickyBackBtn').style.display = 'flex';
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
                 alert("வகுப்பு " + grade + " பாடங்கள் இன்னும் சேர்க்கப்படவில்லை.");
             }
+        }
+
+        function hideLessons() {
+            document.getElementById('lessonList').style.display = 'none';
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('stickyBackBtn').style.display = 'none';
         }
 
         async function showNotes(lessonFile) {
