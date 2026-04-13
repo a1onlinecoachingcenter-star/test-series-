@@ -649,28 +649,40 @@
 
         // --- Subject & Grade Logic ---
         function showClasses(subject) {
-            document.getElementById('selectedSubjectTitle').innerText = `${subject} - வகுப்புகள்`;
+            // Updated mapping for Tamil
+            const subTitle = subject === 'Tamil' ? 'தமிழ்' : subject;
+            document.getElementById('selectedSubjectTitle').innerText = `${subTitle} - வகுப்புகள்`;
+            
+            // Hide main Dashboard elements
+            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
+                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('#notesView')) {
+                    el.style.display = 'none';
+                }
+            });
+
             document.getElementById('classSelection').style.display = 'block';
             document.getElementById('lessonList').style.display = 'none';
             document.getElementById('stickyBackBtn').style.display = 'flex';
             document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
-            
-            document.querySelectorAll('.section-header, .subject-row').forEach(el => {
-                if (!el.closest('#classSelection') && !el.closest('#lessonList')) {
-                    el.style.display = 'none';
-                }
-            });
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function hideClasses() {
             document.getElementById('classSelection').style.display = 'none';
             document.getElementById('stickyBackBtn').style.display = 'none';
+            
+            // Show main Dashboard elements back
             document.querySelectorAll('.section-header, .subject-row').forEach(el => {
-                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('main > button')) {
-                    el.style.display = el.tagName === 'H2' ? 'block' : 'grid';
+                if (!el.closest('#classSelection') && !el.closest('#lessonList') && !el.closest('#notesView')) {
+                    el.style.display = (el.tagName === 'H2' ? 'block' : 'flex');
                 }
             });
+        }
+
+        function hideLessons() {
+            document.getElementById('lessonList').style.display = 'none';
+            document.getElementById('classSelection').style.display = 'block';
+            document.getElementById('stickyBackBtn').querySelector('button').onclick = hideClasses;
         }
 
         async function showLessons(grade) {
