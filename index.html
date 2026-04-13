@@ -678,42 +678,37 @@
                 // Show Lessons
                 document.getElementById('lessonsContainer').innerHTML = `
                     <!-- Lesson 1 -->
-                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--primary);">
-                        <div style="margin-bottom: 1rem;">
-                            <h3 style="color:var(--primary)">பாடம் 1: அன்னைத் தமிழே</h3>
-                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--primary); font-size: 1.1rem;">பாடம் 1: அன்னைத் தமிழே</h3>
                         </div>
-                        <div style="display:flex; gap:10px; width:100%;">
-                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
-                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">Notes</button>
+                            <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">Quiz</button>
                         </div>
                     </div>
 
                     <!-- Lesson 3 -->
-                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--secondary);">
-                        <div style="margin-bottom: 1rem;">
-                            <h3 style="color:var(--secondary)">பாடம் 3: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
-                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--secondary); font-size: 1.1rem;">பாடம் 3: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
                         </div>
-                        <div style="display:flex; gap:10px; width:100%;">
-                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
-                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">Notes</button>
+                            <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">Quiz</button>
                         </div>
                     </div>
 
                     <!-- Lesson 5 -->
-                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--accent);">
-                        <div style="margin-bottom: 1rem;">
-                            <h3 style="color:var(--accent)">பாடம் 5: முயல் அரசன்</h3>
-                            <p style="font-size:0.8rem; color:var(--text-muted)">Grade 4 Tamil - Term 1</p>
+                    <div class="subject-card active-lesson" style="background:white; border-left: 5px solid var(--accent); padding: 1.5rem;">
+                        <div style="margin-bottom: 1.2rem;">
+                            <h3 style="color:var(--accent); font-size: 1.1rem;">பாடம் 5: முயல் அரசன்</h3>
                         </div>
-                        <div style="display:flex; gap:10px; width:100%;">
-                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">📖 Notes</button>
-                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">📝 Quiz</button>
+                        <div style="display:flex; gap:12px; width:100%;">
+                            <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 1px solid #fda4af;">Notes</button>
+                            <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 1px solid #bfdbfe;">Quiz</button>
                         </div>
                     </div>
-
-                    <p style="text-align:center; color:var(--text-muted); font-size:14px; margin-top:1rem;">(வகுப்பு 4-ன் மற்ற பாடங்கள் விரைவில் சேர்க்கப்படும்...)</p>
                 `;
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
