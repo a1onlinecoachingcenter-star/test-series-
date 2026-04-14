@@ -485,7 +485,7 @@
             <!-- Exam Marquee -->
             <div class="marquee-box">
                 <div class="marquee-content">
-                    📢 நான்காம் வகுப்பு முதல் பருவம் தமிழ் பாடங்கள் தேர்வு இன்று இரவு 8:00 PM மணிக்குத் தொடங்கி 11:00 PM மணிக்கு முடிவடைகிறது &nbsp; | &nbsp; 📚 பாடங்கள்: (அன்னைத் தமிழே) &nbsp; (ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்) &nbsp; (முயல் அரசன்) &nbsp; | &nbsp; 📝 தேர்வு நேரம்: 08:00 PM - 11:00 PM
+                    📢 ஐந்தாம் வகுப்பு முதல் பருவம் ஆங்கிலப் பாடங்கள் (A World with Robots, My Hobbies) பதிவேற்றப்பட்டுள்ளது. &nbsp; | &nbsp; 📝 தேர்வு தயாராகுங்கள்! &nbsp; | &nbsp; 📞 உதவிக்கு: 6369371452
                 </div>
             </div>
             <!-- Announcement Ticker -->
@@ -501,11 +501,11 @@
         
         <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
         <div class="subject-row">
-            <div onclick="showClasses('Tamil')" class="subject-card tamil">
+            <div onclick="paidOnly()" class="subject-card tamil disabled">
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </div>
-            <div onclick="paidOnly()" class="subject-card english disabled">
+            <div onclick="showClasses('English')" class="subject-card english">
                 <div class="subject-icon">📖</div>
                 <h3>English</h3>
             </div>
@@ -541,13 +541,17 @@
                     <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">3️⃣</div>
                     <h3>வகுப்பு 3</h3>
                 </div>
-                <div onclick="showLessons(4)" class="subject-card" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: var(--primary-light); border: 2px solid var(--primary);">
-                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px; background: var(--primary); color: white;">4️⃣</div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">4️⃣</div>
                     <h3>வகுப்பு 4</h3>
                 </div>
-                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
-                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">5️⃣</div>
+                <div onclick="showLessons(5)" class="subject-card" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: var(--primary-light); border: 2px solid var(--primary);">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px; background: var(--primary); color: white;">5️⃣</div>
                     <h3>வகுப்பு 5</h3>
+                </div>
+                <div onclick="paidOnly()" class="subject-card disabled" style="flex-direction: row; justify-content: flex-start; padding: 1rem 1.5rem; gap: 1.5rem; background: white;">
+                    <div class="subject-icon" style="display: flex; margin: 0; width: 40px; height: 40px;">6️⃣</div>
+                    <h3>வகுப்பு 6</h3>
                 </div>
             </div>
         </div>
@@ -555,34 +559,25 @@
         <!-- Lesson List (Hidden by default) -->
         <div id="lessonList" style="display: none; margin-bottom: 2rem; animation: fadeIn 0.5s;">
             <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
-                <h2 class="section-header" style="margin: 0; text-align: center;">பாடங்கள் - வகுப்பு 4</h2>
+                <h2 class="section-header" id="lessonGradeTitle" style="margin: 0; text-align: center;">பாடங்கள் - வகுப்பு 6</h2>
             </div>
             <div id="lessonsContainer" style="display: flex; flex-direction: column; gap: 20px;">
                 
-                <!-- Lesson: அன்னைத் தமிழே -->
+                <!-- Lesson: A World with Robots -->
                 <div style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                    <h3 style="color:var(--primary); font-size: 1.3rem; margin:0 0 1rem 0;">அன்னைத் தமிழே</h3>
+                    <h3 style="color:var(--primary); font-size: 1.3rem; margin:0 0 1rem 0;">A World with Robots</h3>
                     <div style="display:flex; flex-direction: column; gap:10px;">
-                        <button onclick="showNotes('lesson_1.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2.5px solid #fda4af; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
-                        <button onclick="openExam('lesson_1.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                        <button onclick="showNotes('lesson_1_english.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2.5px solid #fda4af; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('lesson_1_english.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
                     </div>
                 </div>
 
-                <!-- Lesson: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் -->
+                <!-- Lesson: My Hobbies -->
                 <div style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                    <h3 style="color:var(--secondary); font-size: 1.3rem; margin:0 0 1rem 0;">ஏழு இறக்கைக்குருவியும் தெனாலிராமனும்</h3>
+                    <h3 style="color:var(--secondary); font-size: 1.3rem; margin:0 0 1rem 0;">My Hobbies</h3>
                     <div style="display:flex; flex-direction: column; gap:10px;">
-                        <button onclick="showNotes('lesson_3.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2.5px solid #fda4af; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
-                        <button onclick="openExam('lesson_3.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
-                    </div>
-                </div>
-
-                <!-- Lesson: முயல் அரசன் -->
-                <div style="background:white; border-left: 5px solid var(--accent); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                    <h3 style="color:var(--accent); font-size: 1.3rem; margin:0 0 1rem 0;">முயல் அரசன்</h3>
-                    <div style="display:flex; flex-direction: column; gap:10px;">
-                        <button onclick="showNotes('lesson_5.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2.5px solid #fda4af; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
-                        <button onclick="openExam('lesson_5.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
+                        <button onclick="showNotes('lesson_2_english.json')" class="lesson-action-btn" style="background:#fff1f2; color:#0d9488; border: 2.5px solid #5eead4; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
+                        <button onclick="openExam('lesson_2_english.json')" class="lesson-action-btn" style="background:#fff7ed; color:#c2410c; border: 2.5px solid #fdba74; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
                     </div>
                 </div>
 
@@ -693,13 +688,14 @@
         }
 
         async function showLessons(grade) {
-            if (grade === 4) {
+            if (grade === 5) {
                 // Hide Class Selection
                 document.getElementById('classSelection').style.display = 'none';
                 
-                // Show Lesson List (which is now hardcoded in HTML)
+                // Show Lesson List
                 const lessonList = document.getElementById('lessonList');
                 lessonList.style.setProperty('display', 'block', 'important');
+                document.getElementById('lessonGradeTitle').innerText = "பாடங்கள் - வகுப்பு 5 English";
                 
                 // Set Back Arrow Behavior
                 document.getElementById('stickyBackBtn').style.display = 'flex';

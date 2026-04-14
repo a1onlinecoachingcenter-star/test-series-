@@ -1,0 +1,115 @@
+{
+  "lesson_meta": {
+    "title": "My Hobbies",
+    "unit": 2,
+    "std": 5,
+    "term": 1,
+    "subject": "English"
+  },
+  "study_notes": [
+    {
+      "heading": "My Little Pictionary (Key Vocabulary)",
+      "points": [
+        "Earthworm: A worm that lives in the ground.",
+        "Mermaid: A mythological creature with a woman’s head and upper body and a tail of a fish.",
+        "Hem: Fold and sew the edge of a cloth.",
+        "Angling: Fish with a rod and line.",
+        "Fry: Baby of a fish."
+      ]
+    },
+    {
+      "heading": "Do It Yourself (DIY) Kids",
+      "points": [
+        "A DIY (Do It Yourself) kid is someone who does their own work by themselves.",
+        "Vinoth: Washes and folds his own clothes neatly.",
+        "Rosy: Learnt to ride a bicycle when she was 9 years old. She rides it every day.",
+        "Megalai: Swims with elders in a well and competes with them.",
+        "James: Has his own garden, waters it every day, and loves gardening.",
+        "Aliya: Sews her torn clothes and hems the border.",
+        "Raju: Helps by cleaning grains and cereals. He prepares simple dishes and likes slicing/chopping fruits."
+      ]
+    },
+    {
+      "heading": "Grammar: Homophones",
+      "points": [
+        "Homophones: Words that sound the same but have different spelling and meaning.",
+        "Examples: Sale/Sail, Desert/Dessert, Pair/Pear, Hare/Hair, Deer/Dear, Right/Write.",
+        "I saw a 'bee' on the flower. (vs Be)",
+        "The wind 'blew' off the leaves. (vs Blue)",
+        "What did you 'buy' at the store? (vs By)"
+      ]
+    },
+    {
+      "heading": "Poem: Treasure Trove",
+      "points": [
+        "Theme: The poem encourages reading in all emotional states (happy or sad).",
+        "Reading allows us to: Learn about space, land on Mars, go back in history, solve mysteries, and visit mermaids.",
+        "Rhyming Words: Mars/cars, time/crime, be/sea.",
+        "Glossary: Zoom (travel quickly), Glance (look), Discover (find), Mystery (unknown thing)."
+      ]
+    },
+    {
+      "heading": "Prose: Anbu and the Fish",
+      "points": [
+        "Anbu and Madhan went fishing every Sunday with a dhoti as a net and sticks/thorns as rods.",
+        "Anbu caught three fish and tried to grow them in a jar, but the fish were scared and didn't eat.",
+        "After two fish died, Anbu's father advised: 'Nature is their home. It is best to let them be free.'",
+        "Anbu set the last fish free and started a new hobby: feeding fish with puffed rice."
+      ]
+    }
+  ],
+  "master_quiz": {
+    "questions": [
+      {
+        "question": "What is the meaning of 'Earthworm'?",
+        "options": ["A snake", "A mythological creature", "A worm that lives in the ground", "A bird"],
+        "answer": "A worm that lives in the ground"
+      },
+      {
+        "question": "A mythological creature with a woman's head and a fish's tail is a _______.",
+        "options": ["Mermaid", "Angel", "Dolphin", "Fairy"],
+        "answer": "Mermaid"
+      },
+      {
+        "question": "What does 'Hem' mean in sewing?",
+        "options": ["Cutting cloth", "Folding and sewing the edge", "Washing clothes", "Dyeing"],
+        "answer": "Folding and sewing the edge"
+      },
+      {
+        "question": "Fishing with a rod and line is called _______.",
+        "options": ["Slicing", "Hemming", "Cycling", "Angling"],
+        "answer": "Angling"
+      },
+      {
+        "question": "Who washes and folds his own clothes in 'DIY Kids'?",
+        "options": ["James", "Vinoth", "Anbu", "Raju"],
+        "answer": "Vinoth"
+      },
+      {
+        "question": "At what age did Rosy learn to ride a bicycle?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "9"
+      },
+      {
+        "question": "Words that sound the same but have different spelling and meaning are _______.",
+        "options": ["Synonyms", "Antonyms", "Homophones", "Nouns"],
+        "answer": "Homophones"
+      },
+      {
+        "question": "Choose the correct word: I saw a _______ on the flower.",
+        "options": ["be", "bee", "by", "buy"],
+        "answer": "bee"
+      },
+      {
+        "question": "What did Anbu and Madhan use as a net to catch fish?",
+        "options": ["Plastic bag", "Dhoti", "Bucket", "Woven basket"],
+        "answer": "Dhoti"
+      },
+      {
+        "question": "What was Anbu's father's advice about the fish?",
+        "options": ["They need more food", "Nature is their home, let them be free", "They need a bigger tank", "Buy more fish"],
+        "answer": "Nature is their home, let them be free"
+      }
+    ]
+  }
+}
