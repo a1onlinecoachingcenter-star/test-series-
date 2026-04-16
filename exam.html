@@ -160,8 +160,10 @@
                 // Detection & Normalization
                 if (quizData.lesson_meta) {
                     document.getElementById('topTitle').innerText = quizData.lesson_meta.title;
+                } else if (quizData["பாட_தலைப்பு"]) {
+                    document.getElementById('topTitle').innerText = quizData["பாட_தலைப்பு"];
                 } else {
-                    document.getElementById('topTitle').innerText = quizData.title || quizData.meta.title;
+                    document.getElementById('topTitle').innerText = quizData.title || (quizData.meta && quizData.meta.title) || "தேர்வு";
                 }
 
                 // Standardize Quiz Array
@@ -176,6 +178,15 @@
                     });
                 } else if (quizData.quiz) {
                     quizData.questions = quizData.quiz;
+                } else if (quizData["தேர்வு_வினாக்கள்"]) {
+                    quizData.questions = quizData["தேர்வு_வினாக்கள்"].map(q => {
+                        return {
+                            q: q.கேள்வி,
+                            options: q.ஆப்ஷன்கள்,
+                            a: q.ஆப்ஷன்கள்.indexOf(q.விடை),
+                            ex: q.விளக்கம்
+                        };
+                    });
                 }
             } catch(e) {
                 console.error(e);
