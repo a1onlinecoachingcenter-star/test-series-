@@ -505,10 +505,7 @@
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </div>
-            <div onclick="showClasses('English')" class="subject-card english">
-                <div class="subject-icon">📖</div>
-                <h3>English</h3>
-            </div>
+
             <div onclick="paidOnly()" class="subject-card maths disabled">
                 <div class="subject-icon">📐</div>
                 <h3>கணிதம்</h3>
@@ -632,10 +629,8 @@
     <script>
         function openExam(testFile) {
             const now = new Date();
-            const startLimit = new Date(); startLimit.setHours(20, 0, 0);
-            const endLimit = new Date(); endLimit.setHours(23, 0, 0);
-            if (now < startLimit) return alert("தேர்வு இன்று இரவு 8:00 மணிக்குத் தொடங்கும்!");
-            if (now > endLimit) return alert("தேர்வு 11:00 மணிக்கு முடிவடைந்துவிட்டது!");
+            const deadline = new Date("2026-04-17T12:00:00");
+            if (now > deadline) return alert("தேர்வு முடிவடைந்துவிட்டது! (Exam Closed at 12:00 PM)");
             window.location.href = `exam.html?test=${testFile || 'model_test_2.json'}`;
         }
 
@@ -672,35 +667,7 @@
         }
 
         async function showLessons(grade) {
-            if (activeSubject === 'English' && grade === 5) {
-                document.getElementById('classSelection').style.display = 'none';
-                const lessonList = document.getElementById('lessonList');
-                lessonList.style.setProperty('display', 'block', 'important');
-                document.getElementById('lessonGradeTitle').innerText = "பாடங்கள் - வகுப்பு 5 English";
-                
-                document.getElementById('lessonsContainer').innerHTML = `
-                <div style="background:white; border-left: 5px solid var(--primary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                    <h3 style="color:var(--primary); font-size: 1.3rem; margin:0 0 1rem 0;">A World with Robots</h3>
-                    <div style="display:flex; flex-direction: column; gap:10px;">
-                        <button onclick="showNotes('lesson_1_english.json')" class="lesson-action-btn" style="background:#fff1f2; color:#e11d48; border: 2.5px solid #fda4af; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
-                        <button onclick="openExam('lesson_1_english.json')" class="lesson-action-btn" style="background:#eff6ff; color:#1d4ed8; border: 2.5px solid #bfdbfe; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
-                    </div>
-                </div>
-                <div style="background:white; border-left: 5px solid var(--secondary); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-top: 20px;">
-                    <h3 style="color:var(--secondary); font-size: 1.3rem; margin:0 0 1rem 0;">My Hobbies</h3>
-                    <div style="display:flex; flex-direction: column; gap:10px;">
-                        <button onclick="showNotes('lesson_2_english.json')" class="lesson-action-btn" style="background:#fff1f2; color:#0d9488; border: 2.5px solid #5eead4; padding: 14px; font-weight: 800; border-radius: 12px;">பாடக்குறிப்புகள்</button>
-                        <button onclick="openExam('lesson_2_english.json')" class="lesson-action-btn" style="background:#fff7ed; color:#c2410c; border: 2.5px solid #fdba74; padding: 14px; font-weight: 800; border-radius: 12px;">தேர்வு</button>
-                    </div>
-                </div>
-                <div style="height: 120px;"></div>
-                `;
-                
-                document.getElementById('stickyBackBtn').style.display = 'flex';
-                document.getElementById('stickyBackBtn').querySelector('button').onclick = hideLessons;
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                
-            } else if (activeSubject === 'Science' && grade === 5) {
+            if (activeSubject === 'Science' && grade === 5) {
                 document.getElementById('classSelection').style.display = 'none';
                 const lessonList = document.getElementById('lessonList');
                 lessonList.style.setProperty('display', 'block', 'important');

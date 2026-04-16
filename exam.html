@@ -255,14 +255,10 @@
 
         function start() {
             const now = new Date();
-            const startLimit = new Date(); startLimit.setHours(20, 0, 0, 0);
-            const endLimit = new Date(); endLimit.setHours(23, 0, 0, 0);
+            const deadline = new Date("2026-04-17T12:00:00");
 
-            if (now < startLimit) {
-                return alert("தேர்வு இன்று இரவு 8:00 மணிக்குத் தொடங்கும்! (EXAM STARTS AT 8:00 PM)");
-            }
-            if (now > endLimit) {
-                return alert("தேர்வு 11:00 மணிக்கு முடிவடைந்துவிட்டது! (EXAM CLOSED AT 11:00 PM)");
+            if (now > deadline) {
+                return alert("தேர்வு 12:00 மணிக்கு முடிவடைந்துவிட்டது! (EXAM CLOSED AT 12:00 PM)");
             }
 
             uName = document.getElementById('nameInput').value.trim();
