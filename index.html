@@ -637,7 +637,7 @@
 
         async function loadDailyStatus() {
             try {
-                const res = await fetch('1.json?v=' + Date.now());
+                const res = await fetch('https://raw.githubusercontent.com/a1onlinecoachingcenter-star/test-series-/main/1.json?v=' + Date.now());
                 dailyData = await res.json();
                 const card = document.getElementById('revisionCard');
                 const status = document.getElementById('revisionStatus');
