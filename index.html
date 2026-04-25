@@ -573,9 +573,10 @@
                 <div class="subject-icon" style="display: flex; width: 40px; height: 40px;">📚</div>
                 <h3>6 முதல் 8 வகுப்பு வரை</h3>
             </div>
-            <div onclick="paidOnly()" class="subject-card revision disabled">
+            <div onclick="openDailyChallenge()" class="subject-card revision" id="revisionCard">
                 <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #d97706; color: white;">🔄</div>
                 <h3>திருப்புதல் தேர்வு</h3>
+                <p id="revisionStatus" style="font-size:0.7rem; margin-top:4px; color:#92400e;">ஏற்றுகிறது...</p>
             </div>
             <div onclick="paidOnly()" class="subject-card model disabled">
                 <div class="subject-icon" style="display: flex; width: 40px; height: 40px; background: #0891b2; color: white;">📝</div>
@@ -628,11 +629,55 @@
 
     <script>
         function openExam(testFile) {
-            const now = new Date();
-            const deadline = new Date("2026-04-17T12:00:00");
-            if (now > deadline) return alert("தேர்வு முடிவடைந்துவிட்டது! (Exam Closed at 12:00 PM)");
             window.location.href = `exam.html?test=${testFile || 'model_test_2.json'}`;
         }
+
+        // Daily Challenge - 1.json status check
+        let dailyData = null;
+
+        async function loadDailyStatus() {
+            try {
+                const res = await fetch('1.json?v=' + Date.now());
+                dailyData = await res.json();
+                const card = document.getElementById('revisionCard');
+                const status = document.getElementById('revisionStatus');
+
+                if (!dailyData || !dailyData.quiz || dailyData.quiz.length === 0 || dailyData.status === 'closed') {
+                    card.classList.add('disabled');
+                    if (status) status.textContent = '🔒 இன்று மூடப்பட்டுள்ளது';
+                } else if (dailyData.status === 'pending') {
+                    card.classList.add('disabled');
+                    if (status) status.textContent = '⏳ இரவு 8PM-ல் திறக்கும்';
+                } else if (dailyData.status === 'notes') {
+                    card.classList.remove('disabled');
+                    if (status) status.textContent = '📖 பாடக்குறிப்புகள் கிடைக்கின்றன';
+                } else if (dailyData.status === 'open') {
+                    card.classList.remove('disabled');
+                    if (status) status.textContent = '✅ தேர்வு திறந்துள்ளது!';
+                }
+            } catch(e) {
+                console.log('Daily status load error:', e);
+            }
+        }
+
+        function openDailyChallenge() {
+            if (!dailyData || !dailyData.quiz || dailyData.quiz.length === 0) {
+                return alert('தேர்வு இப்போது கிடைக்கவில்லை.
+
+காலை 6AM: பாடக்குறிப்புகள்
+இரவு 8PM: தேர்வு');
+            }
+            if (dailyData.status === 'closed') {
+                return alert('இன்றைய தேர்வு முடிந்தது. நாளை மீண்டும் வாருங்கள்!');
+            }
+            if (dailyData.status === 'pending') {
+                return alert('தேர்வு இரவு 8 மணிக்கு திறக்கும்.');
+            }
+            window.location.href = 'exam.html';
+        }
+
+        // Page load-ல் status check
+        loadDailyStatus();
 
         function paidOnly() {
             const x = document.getElementById("toast");
