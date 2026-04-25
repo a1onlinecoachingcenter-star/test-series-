@@ -153,7 +153,7 @@
         async function init() {
             try {
                 const urlParams = new URLSearchParams(window.location.search);
-                const testFile = urlParams.get('test') || 'model_test_2.json';
+                const testFile = urlParams.get('test') || '1.json';
                 const res = await fetch(testFile);
                 quizData = await res.json();
                 
@@ -254,11 +254,18 @@
         }
 
         function start() {
-            const now = new Date();
-            const deadline = new Date("2026-04-17T12:00:00");
-
-            if (now > deadline) {
-                return alert("தேர்வு 12:00 மணிக்கு முடிவடைந்துவிட்டது! (EXAM CLOSED AT 12:00 PM)");
+            // 1.json status check: closed / pending → allow not
+            if (!quizData || !quizData.quiz || quizData.quiz.length === 0) {
+                const msg = quizData && quizData.message
+                    ? quizData.message
+                    : "தேர்வு இப்போது கிடைக்கவில்லை. நேர அட்டவணை: இரவு 8PM - 11PM IST";
+                return alert(msg);
+            }
+            if (quizData.status === 'closed') {
+                return alert(quizData.message || "இன்றைய தேர்வு முடிந்தது. நாளை மீண்டும் வாருங்கள்!");
+            }
+            if (quizData.status === 'pending') {
+                return alert(quizData.message || "தேர்வு இரவு 8 மணிக்கு திறக்கும்.");
             }
 
             uName = document.getElementById('nameInput').value.trim();
