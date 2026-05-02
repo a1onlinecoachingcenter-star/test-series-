@@ -1,7 +1,8 @@
 {
   "unit": "Daily Challenge",
-  "subject": "REVISION",
-  "title": "REVISION Test",
-  "status": "open",
+  "subject": "Closed",
+  "title": "இன்றைய அமர்வு முடிந்தது",
+  "status": "closed",
+  "message": "நாளை காலை 6 மணிக்கு மீண்டும் திறக்கும்.",
   "quiz": []
 }
