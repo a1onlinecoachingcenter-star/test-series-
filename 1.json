@@ -1,8 +1,8 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய குறிப்புகள்: Unit 1: Hospitality || அலகு 1: விருந்தோம்பல் & Prose: The Gift || உரைநடை: பரிசு",
-  "status": "notes",
+  "title": "இன்றைய தேர்வு: Unit 1: Hospitality || அலகு 1: விருந்தோம்பல் & Prose: The Gift || உரைநடை: பரிசு",
+  "status": "open",
   "quiz": [
     {
       "q": "Who was hungry and looking for something to eat at the beginning of the story?",
@@ -13,8 +13,7 @@
         "A rich merchant"
       ],
       "a": 2,
-      "ex": "The story begins with an old beggar who was very hungry and went to a big house looking for food.",
-      "notesMode": true
+      "ex": "The story begins with an old beggar who was very hungry and went to a big house looking for food."
     },
     {
       "q": "How did the first house look from the outside?",
@@ -25,8 +24,7 @@
         "Like a small hut"
       ],
       "a": 0,
-      "ex": "The first house the beggar approached was described as very big and luxurious with a beautiful garden.",
-      "notesMode": true
+      "ex": "The first house the beggar approached was described as very big and luxurious with a beautiful garden."
     },
     {
       "q": "What could the beggar smell as he neared the big house?",
@@ -37,8 +35,7 @@
         "Burning wood"
       ],
       "a": 1,
-      "ex": "As the old man neared the luxurious house, he could smell the aroma of tasty food.",
-      "notesMode": true
+      "ex": "As the old man neared the luxurious house, he could smell the aroma of tasty food."
     },
     {
       "q": "Who opened the door when the beggar knocked on the big house?",
@@ -49,8 +46,7 @@
         "An old woman"
       ],
       "a": 1,
-      "ex": "A well-dressed man opened the door and his face shrank on seeing the old beggar.",
-      "notesMode": true
+      "ex": "A well-dressed man opened the door and his face shrank on seeing the old beggar."
     },
     {
       "q": "How many days had passed since the old beggar last had food?",
@@ -61,8 +57,7 @@
         "A week"
       ],
       "a": 1,
-      "ex": "The old man replied in a feeble voice that it had been two days since he had any food.",
-      "notesMode": true
+      "ex": "The old man replied in a feeble voice that it had been two days since he had any food."
     },
     {
       "q": "What did the rich man shout at the old beggar?",
@@ -73,8 +68,7 @@
         "\"Take this food and leave.\""
       ],
       "a": 2,
-      "ex": "The rich man got angry and arrogantly shouted that he was not running a free food service.",
-      "notesMode": true
+      "ex": "The rich man got angry and arrogantly shouted that he was not running a free food service."
     },
     {
       "q": "What happened to the door of the rich man's house?",
@@ -85,8 +79,7 @@
         "It was slammed shut"
       ],
       "a": 3,
-      "ex": "The rich man told the beggar to get out of his sight and slammed the door forcefully.",
-      "notesMode": true
+      "ex": "The rich man told the beggar to get out of his sight and slammed the door forcefully."
     },
     {
       "q": "What did the beggar see a lady doing in the compound of the first house?",
@@ -97,8 +90,7 @@
         "Washing clothes"
       ],
       "a": 1,
-      "ex": "While walking away, the old man saw a lady throwing banana leaves with leftover food into the trash can, which made him sad.",
-      "notesMode": true
+      "ex": "While walking away, the old man saw a lady throwing banana leaves with leftover food into the trash can, which made him sad."
     },
     {
       "q": "When the beggar knocked on the second house, what did the voice from inside say?",
@@ -109,8 +101,7 @@
         "\"Wait a moment.\""
       ],
       "a": 2,
-      "ex": "After repeated knocks, a voice from the second house lied by saying 'Nobody is home'.",
-      "notesMode": true
+      "ex": "After repeated knocks, a voice from the second house lied by saying 'Nobody is home'."
     },
     {
       "q": "Why did the man in the second house deny food to the beggar?",
@@ -121,8 +112,7 @@
         "He wanted money instead"
       ],
       "a": 1,
-      "ex": "The man asked how he could be expected to help when the richest man of the village himself had denied help.",
-      "notesMode": true
+      "ex": "The man asked how he could be expected to help when the richest man of the village himself had denied help."
     },
     {
       "q": "Where did the tired old man sit and soon fall asleep?",
@@ -133,8 +123,7 @@
         "Near the trash can"
       ],
       "a": 2,
-      "ex": "Being exhausted and unable to walk anymore, the old man sat under a tree and soon fell asleep.",
-      "notesMode": true
+      "ex": "Being exhausted and unable to walk anymore, the old man sat under a tree and soon fell asleep."
     },
     {
       "q": "Who woke the old man up from his sleep under the tree?",
@@ -145,8 +134,7 @@
         "A small boy"
       ],
       "a": 0,
-      "ex": "A poor man wearing shabby clothes woke him up and enquired why he was lying there.",
-      "notesMode": true
+      "ex": "A poor man wearing shabby clothes woke him up and enquired why he was lying there."
     },
     {
       "q": "What did the old man say to Kaliyan when he was invited to his hut?",
@@ -157,8 +145,7 @@
         "\"I will not eat your food.\""
       ],
       "a": 1,
-      "ex": "The old man was considerate and told the poor man that he didn't want to be a burden and just needed some food.",
-      "notesMode": true
+      "ex": "The old man was considerate and told the poor man that he didn't want to be a burden and just needed some food."
     },
     {
       "q": "How did Kaliyan's hut look?",
@@ -169,8 +156,7 @@
         "Painted in bright colors"
       ],
       "a": 2,
-      "ex": "The hut was very small, without any furniture, and barely enough for the poor family.",
-      "notesMode": true
+      "ex": "The hut was very small, without any furniture, and barely enough for the poor family."
     },
     {
       "q": "Where did Kaliyan work?",
@@ -181,8 +167,7 @@
         "In the farm nearby"
       ],
       "a": 3,
-      "ex": "When Kaliyan introduced himself, he mentioned that he worked in the nearby farm.",
-      "notesMode": true
+      "ex": "When Kaliyan introduced himself, he mentioned that he worked in the nearby farm."
     },
     {
       "q": "Who is Kaliyan's wife?",
@@ -193,8 +178,7 @@
         "Gowri"
       ],
       "a": 2,
-      "ex": "Kaliyan introduced his family, mentioning his wife's name as Viji.",
-      "notesMode": true
+      "ex": "Kaliyan introduced his family, mentioning his wife's name as Viji."
     },
     {
       "q": "What are the names of Kaliyan's children?",
@@ -205,8 +189,7 @@
         "Viji and Kaliyan"
       ],
       "a": 1,
-      "ex": "Kaliyan's children were named Gopi and Rathika.",
-      "notesMode": true
+      "ex": "Kaliyan's children were named Gopi and Rathika."
     },
     {
       "q": "What did Kaliyan do as soon as the old man entered the hut?",
@@ -217,8 +200,7 @@
         "He started scolding his children"
       ],
       "a": 2,
-      "ex": "Showing true hospitality, Kaliyan helped the tired old man wash his face and hands before the meal.",
-      "notesMode": true
+      "ex": "Showing true hospitality, Kaliyan helped the tired old man wash his face and hands before the meal."
     },
     {
       "q": "What dish did Viji serve the old man?",
@@ -229,8 +211,7 @@
         "Bread"
       ],
       "a": 1,
-      "ex": "Viji served gruel (a thin, watery porridge) to the old man and her family.",
-      "notesMode": true
+      "ex": "Viji served gruel (a thin, watery porridge) to the old man and her family."
     },
     {
       "q": "From what kind of vessel was the gruel served?",
@@ -241,8 +222,7 @@
         "A glass jar"
       ],
       "a": 2,
-      "ex": "Viji served the gruel from a simple earthen pot, showing their poor economic condition.",
-      "notesMode": true
+      "ex": "Viji served the gruel from a simple earthen pot, showing their poor economic condition."
     },
     {
       "q": "Who was served first during the dinner?",
@@ -253,8 +233,7 @@
         "The old man"
       ],
       "a": 3,
-      "ex": "Respecting the guest, Viji served the hungry old man first before her own family.",
-      "notesMode": true
+      "ex": "Respecting the guest, Viji served the hungry old man first before her own family."
     },
     {
       "q": "Where did the old man sleep that night?",
@@ -265,8 +244,7 @@
         "On the roof"
       ],
       "a": 1,
-      "ex": "After dinner, Kaliyan laid a simple mat for the old man to sleep on.",
-      "notesMode": true
+      "ex": "After dinner, Kaliyan laid a simple mat for the old man to sleep on."
     },
     {
       "q": "What surprising instruction did the old man give Kaliyan's family the next morning?",
@@ -277,8 +255,7 @@
         "To leave him alone"
       ],
       "a": 2,
-      "ex": "The next morning, the beggar surprisingly asked Kaliyan's family to pack all their things.",
-      "notesMode": true
+      "ex": "The next morning, the beggar surprisingly asked Kaliyan's family to pack all their things."
     },
     {
       "q": "What was the real identity of the old beggar?",
@@ -289,8 +266,7 @@
         "A thief in disguise"
       ],
       "a": 1,
-      "ex": "The old man revealed that he was not a beggar but a wealthy landlord from a nearby town.",
-      "notesMode": true
+      "ex": "The old man revealed that he was not a beggar but a wealthy landlord from a nearby town."
     },
     {
       "q": "What happened to the landlord's wife and son?",
@@ -301,8 +277,7 @@
         "They abandoned him"
       ],
       "a": 1,
-      "ex": "The landlord mentioned that his wife and son had died two years ago, leaving him alone.",
-      "notesMode": true
+      "ex": "The landlord mentioned that his wife and son had died two years ago, leaving him alone."
     },
     {
       "q": "Why did the landlord disguise himself as a beggar?",
@@ -313,8 +288,7 @@
         "He loved begging"
       ],
       "a": 1,
-      "ex": "He disguised himself to find a genuinely kind-hearted person who could inherit his wealth and continue helping the poor.",
-      "notesMode": true
+      "ex": "He disguised himself to find a genuinely kind-hearted person who could inherit his wealth and continue helping the poor."
     },
     {
       "q": "How did Kaliyan initially react to the landlord's offer?",
@@ -325,8 +299,7 @@
         "He ran away"
       ],
       "a": 2,
-      "ex": "Kaliyan was initially reluctant (hesitant) to accept such a huge gift from the landlord.",
-      "notesMode": true
+      "ex": "Kaliyan was initially reluctant (hesitant) to accept such a huge gift from the landlord."
     },
     {
       "q": "What does the word 'Twig' mean according to the Pictionary?",
@@ -337,8 +310,7 @@
         "A deep root"
       ],
       "a": 1,
-      "ex": "A twig is defined as a small, thin branch of a tree or bush.",
-      "notesMode": true
+      "ex": "A twig is defined as a small, thin branch of a tree or bush."
     },
     {
       "q": "Choose the correct meaning for 'Shadow'.",
@@ -349,8 +321,7 @@
         "A painting of a person"
       ],
       "a": 2,
-      "ex": "A shadow is the dark area that is cast by an object blocking the light.",
-      "notesMode": true
+      "ex": "A shadow is the dark area that is cast by an object blocking the light."
     },
     {
       "q": "What is 'Gruel'?",
@@ -361,8 +332,7 @@
         "A type of clothing"
       ],
       "a": 1,
-      "ex": "Gruel is a very simple, thin, and watery porridge, usually eaten by the poor.",
-      "notesMode": true
+      "ex": "Gruel is a very simple, thin, and watery porridge, usually eaten by the poor."
     },
     {
       "q": "Find the meaning for the word 'Disguise'.",
@@ -373,8 +343,7 @@
         "To wash oneself cleanly"
       ],
       "a": 0,
-      "ex": "Disguise means changing one's appearance so that others cannot recognize their true identity.",
-      "notesMode": true
+      "ex": "Disguise means changing one's appearance so that others cannot recognize their true identity."
     },
     {
       "q": "Who is a 'Guest'?",
@@ -385,8 +354,7 @@
         "A person who begs on the street"
       ],
       "a": 2,
-      "ex": "A guest is someone invited to visit or stay in a person's home.",
-      "notesMode": true
+      "ex": "A guest is someone invited to visit or stay in a person's home."
     },
     {
       "q": "According to the glossary, what does 'shrank' mean in the context 'The man's face shrank'?",
@@ -397,8 +365,7 @@
         "Turned red"
       ],
       "a": 1,
-      "ex": "In this context, 'shrank' denotes an adverse, disgusted, or unwelcoming reaction on the rich man's face.",
-      "notesMode": true
+      "ex": "In this context, 'shrank' denotes an adverse, disgusted, or unwelcoming reaction on the rich man's face."
     },
     {
       "q": "What is the synonym for the word 'feeble'?",
@@ -409,8 +376,7 @@
         "Energetic"
       ],
       "a": 2,
-      "ex": "Feeble means weak. The old man had a feeble voice because he hadn't eaten for two days.",
-      "notesMode": true
+      "ex": "Feeble means weak. The old man had a feeble voice because he hadn't eaten for two days."
     },
     {
       "q": "What does the word 'denied' mean?",
@@ -421,8 +387,7 @@
         "Allowed"
       ],
       "a": 1,
-      "ex": "Denied means to refuse to give or grant something.",
-      "notesMode": true
+      "ex": "Denied means to refuse to give or grant something."
     },
     {
       "q": "The poor man was wearing 'shabby' clothes. What does 'shabby' mean?",
@@ -433,8 +398,7 @@
         "Colorful"
       ],
       "a": 0,
-      "ex": "Shabby refers to items, especially clothes, that are old, worn out, and in poor condition.",
-      "notesMode": true
+      "ex": "Shabby refers to items, especially clothes, that are old, worn out, and in poor condition."
     },
     {
       "q": "Kaliyan was 'reluctant' to accept the landlord's offer. 'Reluctant' means:",
@@ -445,8 +409,7 @@
         "Greedy"
       ],
       "a": 1,
-      "ex": "Reluctant means feeling hesitant or unwilling to do something.",
-      "notesMode": true
+      "ex": "Reluctant means feeling hesitant or unwilling to do something."
     },
     {
       "q": "The old man 'persuaded' Kaliyan and his family. What is the meaning of 'persuaded'?",
@@ -457,8 +420,7 @@
         "Cheated"
       ],
       "a": 2,
-      "ex": "Persuaded means convincing someone to do or believe something through reasoning.",
-      "notesMode": true
+      "ex": "Persuaded means convincing someone to do or believe something through reasoning."
     },
     {
       "q": "Fill in the blank: The rich man ______ at the beggar.",
@@ -469,8 +431,7 @@
         "cried"
       ],
       "a": 1,
-      "ex": "According to the book back exercise, the rich man shouted at the beggar to get out.",
-      "notesMode": true
+      "ex": "According to the book back exercise, the rich man shouted at the beggar to get out."
     },
     {
       "q": "Fill in the blank: A man in ______ clothes stopped near him.",
@@ -481,8 +442,7 @@
         "white"
       ],
       "a": 0,
-      "ex": "Kaliyan, who approached the old man, was wearing shabby clothes.",
-      "notesMode": true
+      "ex": "Kaliyan, who approached the old man, was wearing shabby clothes."
     },
     {
       "q": "Fill in the blank: The hut was very ______.",
@@ -493,8 +453,7 @@
         "dark"
       ],
       "a": 1,
-      "ex": "Kaliyan's hut was described as very small and barely enough for his family.",
-      "notesMode": true
+      "ex": "Kaliyan's hut was described as very small and barely enough for his family."
     },
     {
       "q": "Fill in the blank: Kaliyan worked in a ______.",
@@ -505,8 +464,7 @@
         "school"
       ],
       "a": 1,
-      "ex": "Kaliyan mentioned that he worked in the farm nearby.",
-      "notesMode": true
+      "ex": "Kaliyan mentioned that he worked in the farm nearby."
     },
     {
       "q": "Match the following: 'trash can' is correctly matched with...",
@@ -517,8 +475,7 @@
         "very small"
       ],
       "a": 0,
-      "ex": "In the story, the lady dropped banana leaves with wasted food into the trash can.",
-      "notesMode": true
+      "ex": "In the story, the lady dropped banana leaves with wasted food into the trash can."
     },
     {
       "q": "Match the following: 'gruel' is correctly matched with...",
@@ -529,8 +486,7 @@
         "well maintained"
       ],
       "a": 1,
-      "ex": "Viji served the gruel from an earthen pot.",
-      "notesMode": true
+      "ex": "Viji served the gruel from an earthen pot."
     },
     {
       "q": "Grammar: When we add the suffix '-less', it gives the meaning...",
@@ -541,8 +497,7 @@
         "name of the action"
       ],
       "a": 1,
-      "ex": "The suffix '-less' changes the root word to mean 'without' (e.g., toothless = without teeth).",
-      "notesMode": true
+      "ex": "The suffix '-less' changes the root word to mean 'without' (e.g., toothless = without teeth)."
     },
     {
       "q": "Grammar: When we add the suffix '-ful', it gives the meaning...",
@@ -553,8 +508,7 @@
         "full of"
       ],
       "a": 3,
-      "ex": "The suffix '-ful' changes the root word to mean 'full of' (e.g., joyful = full of joy).",
-      "notesMode": true
+      "ex": "The suffix '-ful' changes the root word to mean 'full of' (e.g., joyful = full of joy)."
     },
     {
       "q": "Grammar: When we add the suffix '-er', it denotes...",
@@ -565,8 +519,7 @@
         "a place"
       ],
       "a": 0,
-      "ex": "The suffix '-er' signifies a person performing an action (e.g., singer = a person who sings).",
-      "notesMode": true
+      "ex": "The suffix '-er' signifies a person performing an action (e.g., singer = a person who sings)."
     },
     {
       "q": "Grammar: When we add the suffix '-ment', it denotes...",
@@ -577,8 +530,7 @@
         "without"
       ],
       "a": 2,
-      "ex": "The suffix '-ment' converts a verb into a noun, denoting the name of the action (e.g., judgement).",
-      "notesMode": true
+      "ex": "The suffix '-ment' converts a verb into a noun, denoting the name of the action (e.g., judgement)."
     },
     {
       "q": "Join the word with correct suffix: dance + ______",
@@ -589,8 +541,7 @@
         "less"
       ],
       "a": 1,
-      "ex": "dance + er = dancer (a person who dances).",
-      "notesMode": true
+      "ex": "dance + er = dancer (a person who dances)."
     },
     {
       "q": "Join the word with correct suffix: entertain + ______",
@@ -601,8 +552,7 @@
         "ful"
       ],
       "a": 2,
-      "ex": "entertain + ment = entertainment (the act of entertaining).",
-      "notesMode": true
+      "ex": "entertain + ment = entertainment (the act of entertaining)."
     },
     {
       "q": "Join the word with correct suffix: fear + ______",
@@ -613,8 +563,7 @@
         "tion"
       ],
       "a": 2,
-      "ex": "fear + ful = fearful (full of fear).",
-      "notesMode": true
+      "ex": "fear + ful = fearful (full of fear)."
     },
     {
       "q": "Form a new word with the appropriate suffix: peace + ______",
@@ -625,8 +574,7 @@
         "less"
       ],
       "a": 0,
-      "ex": "peace + ful = peaceful.",
-      "notesMode": true
+      "ex": "peace + ful = peaceful."
     },
     {
       "q": "Form a new word with the appropriate suffix: govern + ______",
@@ -637,8 +585,7 @@
         "less"
       ],
       "a": 2,
-      "ex": "govern + ment = government.",
-      "notesMode": true
+      "ex": "govern + ment = government."
     },
     {
       "q": "Add appropriate suffix for 'A person one who teaches'. (Root word: teach)",
@@ -649,8 +596,7 @@
         "teachful"
       ],
       "a": 1,
-      "ex": "teach + er = teacher.",
-      "notesMode": true
+      "ex": "teach + er = teacher."
     },
     {
       "q": "Add appropriate suffix for 'Having no money'. (Root word: penny)",
@@ -661,8 +607,7 @@
         "pennyment"
       ],
       "a": 2,
-      "ex": "penny + less = penniless (meaning without a penny/money).",
-      "notesMode": true
+      "ex": "penny + less = penniless (meaning without a penny/money)."
     },
     {
       "q": "Assertion (A): The old man left the second house feeling happy.\nReason (R): The man in the second house refused to give him food.",
@@ -673,8 +618,7 @@
         "Both A and R are false"
       ],
       "a": 1,
-      "ex": "The beggar was sad and disappointed, not happy, because the second house also refused to give him food.",
-      "notesMode": true
+      "ex": "The beggar was sad and disappointed, not happy, because the second house also refused to give him food."
     },
     {
       "q": "True or False: The rich man gave his leftover food to the old beggar.",
@@ -685,8 +629,7 @@
         "He gave it the next day"
       ],
       "a": 1,
-      "ex": "The rich man denied food entirely and slammed the door, and the lady threw the leftovers in the trash.",
-      "notesMode": true
+      "ex": "The rich man denied food entirely and slammed the door, and the lady threw the leftovers in the trash."
     },
     {
       "q": "What is the primary moral of the story 'The Gift'?",
@@ -697,8 +640,7 @@
         "Farming is the best profession"
       ],
       "a": 2,
-      "ex": "The story shows that despite being poor, Kaliyan's family showed immense love and hospitality, unlike the rich man.",
-      "notesMode": true
+      "ex": "The story shows that despite being poor, Kaliyan's family showed immense love and hospitality, unlike the rich man."
     },
     {
       "q": "Why didn't the old man tell Kaliyan he was rich on the first night itself?",
@@ -709,8 +651,7 @@
         "He wanted to sleep early"
       ],
       "a": 2,
-      "ex": "The landlord disguised himself to test the pure character and genuine hospitality of the people before making them his heirs.",
-      "notesMode": true
+      "ex": "The landlord disguised himself to test the pure character and genuine hospitality of the people before making them his heirs."
     },
     {
       "q": "Which of the following actions proved Kaliyan's kindness?",
@@ -721,8 +662,7 @@
         "He told the stranger to go to the big house"
       ],
       "a": 2,
-      "ex": "Despite his own poverty, Kaliyan's gesture to invite a stranger home and offer him their little food showed true kindness.",
-      "notesMode": true
+      "ex": "Despite his own poverty, Kaliyan's gesture to invite a stranger home and offer him their little food showed true kindness."
     },
     {
       "q": "Who was hungry and looking for something to eat at the beginning of the story 'The Gift'?",
@@ -733,8 +673,7 @@
         "A rich merchant"
       ],
       "a": 2,
-      "ex": "The story begins with an old beggar who was very hungry and went to a big house looking for food.",
-      "notesMode": true
+      "ex": "The story begins with an old beggar who was very hungry and went to a big house looking for food."
     },
     {
       "q": "How did the first house look from the outside?",
@@ -745,8 +684,7 @@
         "Like a small hut"
       ],
       "a": 0,
-      "ex": "The first house the beggar approached was described as very big and luxurious with a beautiful garden.",
-      "notesMode": true
+      "ex": "The first house the beggar approached was described as very big and luxurious with a beautiful garden."
     },
     {
       "q": "What could the beggar smell as he neared the big house?",
@@ -757,8 +695,7 @@
         "Burning wood"
       ],
       "a": 1,
-      "ex": "As the old man neared the luxurious house, he could smell the aroma of tasty food.",
-      "notesMode": true
+      "ex": "As the old man neared the luxurious house, he could smell the aroma of tasty food."
     },
     {
       "q": "Who opened the door when the beggar knocked on the big house?",
@@ -769,8 +706,7 @@
         "An old woman"
       ],
       "a": 1,
-      "ex": "A well-dressed man opened the door and his face shrank on seeing the old beggar.",
-      "notesMode": true
+      "ex": "A well-dressed man opened the door and his face shrank on seeing the old beggar."
     },
     {
       "q": "What did the rich man shout at the old beggar?",
@@ -781,8 +717,7 @@
         "\"Take this food and leave.\""
       ],
       "a": 2,
-      "ex": "The rich man got angry and arrogantly shouted that he was not running a free food service.",
-      "notesMode": true
+      "ex": "The rich man got angry and arrogantly shouted that he was not running a free food service."
     },
     {
       "q": "What did the beggar see a lady doing in the compound of the first house?",
@@ -793,8 +728,7 @@
         "Washing clothes"
       ],
       "a": 1,
-      "ex": "While walking away, the old man saw a lady throwing banana leaves with leftover food into the trash can, which made him sad.",
-      "notesMode": true
+      "ex": "While walking away, the old man saw a lady throwing banana leaves with leftover food into the trash can, which made him sad."
     },
     {
       "q": "Why did the man in the second house deny food to the beggar?",
@@ -805,8 +739,7 @@
         "He wanted money instead"
       ],
       "a": 1,
-      "ex": "The man asked how he could be expected to help when the richest man of the village himself had denied help.",
-      "notesMode": true
+      "ex": "The man asked how he could be expected to help when the richest man of the village himself had denied help."
     },
     {
       "q": "Who woke the old man up from his sleep under the tree?",
@@ -817,8 +750,7 @@
         "A small boy"
       ],
       "a": 0,
-      "ex": "A poor man (Kaliyan) wearing shabby clothes woke him up and enquired why he was lying there.",
-      "notesMode": true
+      "ex": "A poor man (Kaliyan) wearing shabby clothes woke him up and enquired why he was lying there."
     },
     {
       "q": "How did Kaliyan's hut look?",
@@ -829,8 +761,7 @@
         "Painted in bright colors"
       ],
       "a": 2,
-      "ex": "The hut was very small, without any furniture, and barely enough for the poor family.",
-      "notesMode": true
+      "ex": "The hut was very small, without any furniture, and barely enough for the poor family."
     },
     {
       "q": "Where did Kaliyan work?",
@@ -841,8 +772,7 @@
         "In the farm nearby"
       ],
       "a": 3,
-      "ex": "When Kaliyan introduced himself, he mentioned that he worked in the nearby farm.",
-      "notesMode": true
+      "ex": "When Kaliyan introduced himself, he mentioned that he worked in the nearby farm."
     },
     {
       "q": "What dish did Viji serve the old man?",
@@ -853,8 +783,7 @@
         "Bread"
       ],
       "a": 1,
-      "ex": "Viji served gruel (a thin, watery porridge) to the old man and her family.",
-      "notesMode": true
+      "ex": "Viji served gruel (a thin, watery porridge) to the old man and her family."
     },
     {
       "q": "From what kind of vessel was the gruel served?",
@@ -865,8 +794,7 @@
         "A glass jar"
       ],
       "a": 2,
-      "ex": "Viji served the gruel from a simple earthen pot, showing their poor economic condition.",
-      "notesMode": true
+      "ex": "Viji served the gruel from a simple earthen pot, showing their poor economic condition."
     },
     {
       "q": "Who was served first during the dinner in Kaliyan's house?",
@@ -877,8 +805,7 @@
         "The old man"
       ],
       "a": 3,
-      "ex": "Respecting the guest, Viji served the hungry old man first before her own family.",
-      "notesMode": true
+      "ex": "Respecting the guest, Viji served the hungry old man first before her own family."
     },
     {
       "q": "What was the real identity of the old beggar?",
@@ -889,8 +816,7 @@
         "A thief in disguise"
       ],
       "a": 1,
-      "ex": "The old man revealed that he was not a beggar but a wealthy landlord from a nearby town.",
-      "notesMode": true
+      "ex": "The old man revealed that he was not a beggar but a wealthy landlord from a nearby town."
     },
     {
       "q": "Why did the landlord disguise himself as a beggar?",
@@ -901,8 +827,7 @@
         "He loved begging"
       ],
       "a": 1,
-      "ex": "He disguised himself to find a genuinely kind-hearted person who could inherit his wealth and continue helping the poor.",
-      "notesMode": true
+      "ex": "He disguised himself to find a genuinely kind-hearted person who could inherit his wealth and continue helping the poor."
     },
     {
       "q": "What does the word 'Twig' mean according to the Pictionary?",
@@ -913,8 +838,7 @@
         "A deep root"
       ],
       "a": 1,
-      "ex": "A twig is defined as a small, thin branch of a tree or bush.",
-      "notesMode": true
+      "ex": "A twig is defined as a small, thin branch of a tree or bush."
     },
     {
       "q": "Choose the correct meaning for 'Shadow'.",
@@ -925,8 +849,7 @@
         "A painting of a person"
       ],
       "a": 2,
-      "ex": "A shadow is the dark area that is cast by an object blocking the light.",
-      "notesMode": true
+      "ex": "A shadow is the dark area that is cast by an object blocking the light."
     },
     {
       "q": "According to the poem 'Mother Nature', who gives everything to all creatures?",
@@ -937,8 +860,7 @@
         "The Sky"
       ],
       "a": 1,
-      "ex": "The poem states 'Look at the hospitality of Mother Nature! It gives everything to all creature.'",
-      "notesMode": true
+      "ex": "The poem states 'Look at the hospitality of Mother Nature! It gives everything to all creature.'"
     },
     {
       "q": "In the poem 'Mother Nature', what can you enjoy for free under the tree?",
@@ -949,8 +871,7 @@
         "Toys and games"
       ],
       "a": 1,
-      "ex": "The lines say 'Enjoy the shadows and fruits for free.'",
-      "notesMode": true
+      "ex": "The lines say 'Enjoy the shadows and fruits for free.'"
     },
     {
       "q": "According to the poem, for whom is there a home under the tree?",
@@ -961,8 +882,7 @@
         "Insects"
       ],
       "a": 2,
-      "ex": "The poem states 'There is a home for bird'.",
-      "notesMode": true
+      "ex": "The poem states 'There is a home for bird'."
     },
     {
       "q": "According to the poem, what knocks with its best for those who care for their guest?",
@@ -973,8 +893,7 @@
         "Poverty"
       ],
       "a": 2,
-      "ex": "The lines state 'Fortune knocks with its best, Those who cares for their guest.'",
-      "notesMode": true
+      "ex": "The lines state 'Fortune knocks with its best, Those who cares for their guest.'"
     },
     {
       "q": "What is the meaning of 'hospitality' as given in the glossary?",
@@ -985,8 +904,7 @@
         "Cooking food"
       ],
       "a": 1,
-      "ex": "Hospitality means welcoming and taking good care of guests and visitors.",
-      "notesMode": true
+      "ex": "Hospitality means welcoming and taking good care of guests and visitors."
     },
     {
       "q": "What does 'refreshing' mean in the poem?",
@@ -997,8 +915,7 @@
         "Eating"
       ],
       "a": 1,
-      "ex": "Refreshing means renewing, as in a place that gives fresh energy.",
-      "notesMode": true
+      "ex": "Refreshing means renewing, as in a place that gives fresh energy."
     },
     {
       "q": "Identify the rhyming word for 'tree' from the poem.",
@@ -1009,8 +926,7 @@
         "race"
       ],
       "a": 2,
-      "ex": "In the poem, 'tree' rhymes with 'free' (strangers under the tree, shadows and fruits for free).",
-      "notesMode": true
+      "ex": "In the poem, 'tree' rhymes with 'free' (strangers under the tree, shadows and fruits for free)."
     },
     {
       "q": "Identify the rhyming word for 'bird' from the poem.",
@@ -1021,8 +937,7 @@
         "guest"
       ],
       "a": 0,
-      "ex": "In the poem, 'bird' rhymes with 'herd'.",
-      "notesMode": true
+      "ex": "In the poem, 'bird' rhymes with 'herd'."
     },
     {
       "q": "Identify the rhyming word for 'face' from the poem.",
@@ -1033,8 +948,7 @@
         "race"
       ],
       "a": 3,
-      "ex": "In the poem, 'face' rhymes with 'race'.",
-      "notesMode": true
+      "ex": "In the poem, 'face' rhymes with 'race'."
     },
     {
       "q": "Fill in the blank from the poem: Mother nature gives everything for all ______.",
@@ -1045,8 +959,7 @@
         "strangers"
       ],
       "a": 0,
-      "ex": "The poem line is 'It gives everything to all creature.'",
-      "notesMode": true
+      "ex": "The poem line is 'It gives everything to all creature.'"
     },
     {
       "q": "Grammar: Which tense is used to show that an event has happened in the past and has present consequences?",
@@ -1057,8 +970,7 @@
         "Simple Future Tense"
       ],
       "a": 2,
-      "ex": "Present Perfect tense connects the past with the present to show actions that have present consequences.",
-      "notesMode": true
+      "ex": "Present Perfect tense connects the past with the present to show actions that have present consequences."
     },
     {
       "q": "Grammar: What form of the verb is used in the Present Perfect Tense?",
@@ -1069,8 +981,7 @@
         "Present Participle form"
       ],
       "a": 2,
-      "ex": "We use the past participle form (e.g., gone, played, written) along with have/has.",
-      "notesMode": true
+      "ex": "We use the past participle form (e.g., gone, played, written) along with have/has."
     },
     {
       "q": "Grammar: Which helping verb is used with the pronouns 'he, she, it' in Present Perfect Tense?",
@@ -1081,8 +992,7 @@
         "are"
       ],
       "a": 1,
-      "ex": "'Has' is used for third-person singular subjects (he, she, it).",
-      "notesMode": true
+      "ex": "'Has' is used for third-person singular subjects (he, she, it)."
     },
     {
       "q": "Grammar: Which helping verb is used with the pronouns 'I, you, we, they' in Present Perfect Tense?",
@@ -1093,8 +1003,7 @@
         "am"
       ],
       "a": 0,
-      "ex": "'Have' is used for I, you, we, and they.",
-      "notesMode": true
+      "ex": "'Have' is used for I, you, we, and they."
     },
     {
       "q": "Choose the correct verb form: I _________ the Tajmahal.",
@@ -1105,8 +1014,7 @@
         "has visiting"
       ],
       "a": 1,
-      "ex": "With 'I', we use 'have' + past participle 'visited'.",
-      "notesMode": true
+      "ex": "With 'I', we use 'have' + past participle 'visited'."
     },
     {
       "q": "Choose the correct verb form: He _________ a house in America.",
@@ -1117,8 +1025,7 @@
         "have buying"
       ],
       "a": 1,
-      "ex": "With 'He', we use 'has' + past participle 'bought'.",
-      "notesMode": true
+      "ex": "With 'He', we use 'has' + past participle 'bought'."
     },
     {
       "q": "Choose the correct verb form: She _________ her exam.",
@@ -1129,8 +1036,7 @@
         "has wrote"
       ],
       "a": 1,
-      "ex": "With 'She', we use 'has' + past participle 'written'.",
-      "notesMode": true
+      "ex": "With 'She', we use 'has' + past participle 'written'."
     },
     {
       "q": "Choose the correct verb form: They _________ in yellow colour.",
@@ -1141,8 +1047,7 @@
         "has dressing"
       ],
       "a": 1,
-      "ex": "With 'They', we use 'have' + past participle 'dressed'.",
-      "notesMode": true
+      "ex": "With 'They', we use 'have' + past participle 'dressed'."
     },
     {
       "q": "Fill in the blank: I _________ never seen a cobra.",
@@ -1153,8 +1058,7 @@
         "am"
       ],
       "a": 1,
-      "ex": "We use 'have' with the pronoun 'I'.",
-      "notesMode": true
+      "ex": "We use 'have' with the pronoun 'I'."
     },
     {
       "q": "Fill in the blank: He _________ just lost his wallet.",
@@ -1165,8 +1069,7 @@
         "was"
       ],
       "a": 1,
-      "ex": "We use 'has' with the third-person singular pronoun 'He'.",
-      "notesMode": true
+      "ex": "We use 'has' with the third-person singular pronoun 'He'."
     },
     {
       "q": "Rewrite the sentence correctly starting with 'She': I have read this story. -> She ______________.",
@@ -1177,8 +1080,7 @@
         "She have reading this story."
       ],
       "a": 1,
-      "ex": "When changing the subject from 'I' to 'She', the helping verb changes from 'have' to 'has'.",
-      "notesMode": true
+      "ex": "When changing the subject from 'I' to 'She', the helping verb changes from 'have' to 'has'."
     },
     {
       "q": "Rewrite the sentence starting with 'We': Shanmathi has given the book. -> We ______________.",
@@ -1189,8 +1091,7 @@
         "We have giving the book."
       ],
       "a": 1,
-      "ex": "When changing the subject to 'We', the helping verb changes to 'have'.",
-      "notesMode": true
+      "ex": "When changing the subject to 'We', the helping verb changes to 'have'."
     },
     {
       "q": "Change the sentence to present perfect tense: 'She writes a letter to her friend.'",
@@ -1201,8 +1102,7 @@
         "She have written a letter to her friend."
       ],
       "a": 2,
-      "ex": "'writes' (simple present) changes to 'has written' (present perfect) for the subject 'She'.",
-      "notesMode": true
+      "ex": "'writes' (simple present) changes to 'has written' (present perfect) for the subject 'She'."
     },
     {
       "q": "Change the sentence to present perfect tense: 'Mohamad loses his purse in the crowd.'",
@@ -1213,8 +1113,7 @@
         "Mohamad is losing his purse in the crowd."
       ],
       "a": 1,
-      "ex": "The past participle of 'lose' is 'lost'. Since Mohamad is singular, we use 'has'.",
-      "notesMode": true
+      "ex": "The past participle of 'lose' is 'lost'. Since Mohamad is singular, we use 'has'."
     },
     {
       "q": "Change the sentence to present perfect tense: 'They eat all the bananas themselves.'",
@@ -1225,8 +1124,7 @@
         "They are eating all the bananas themselves."
       ],
       "a": 1,
-      "ex": "With 'They', we use 'have'. The past participle of 'eat' is 'eaten'.",
-      "notesMode": true
+      "ex": "With 'They', we use 'have'. The past participle of 'eat' is 'eaten'."
     },
     {
       "q": "Choose the appropriate verb to complete: John has __________ a letter to his father. (drank / written / won / taken)",
@@ -1237,8 +1135,7 @@
         "taken"
       ],
       "a": 1,
-      "ex": "You write a letter. So, 'written' is the correct past participle here.",
-      "notesMode": true
+      "ex": "You write a letter. So, 'written' is the correct past participle here."
     },
     {
       "q": "Choose the appropriate verb to complete: We have __________ the first prize twice in 2 years. (written / taken / won / gone)",
@@ -1249,8 +1146,7 @@
         "gone"
       ],
       "a": 2,
-      "ex": "Prizes are won. The correct past participle is 'won'.",
-      "notesMode": true
+      "ex": "Prizes are won. The correct past participle is 'won'."
     },
     {
       "q": "Choose the appropriate verb to complete: Vithya and Fathima have _________ briyani for the party. (gone / prepared / taken / written)",
@@ -1261,8 +1157,7 @@
         "written"
       ],
       "a": 1,
-      "ex": "Food is prepared. Hence 'prepared' is the correct word.",
-      "notesMode": true
+      "ex": "Food is prepared. Hence 'prepared' is the correct word."
     },
     {
       "q": "Grammar: When we add the suffix '-less', it gives the meaning...",
@@ -1273,8 +1168,7 @@
         "name of the action"
       ],
       "a": 1,
-      "ex": "The suffix '-less' changes the root word to mean 'without' (e.g., toothless = without teeth).",
-      "notesMode": true
+      "ex": "The suffix '-less' changes the root word to mean 'without' (e.g., toothless = without teeth)."
     },
     {
       "q": "Grammar: When we add the suffix '-er', it denotes...",
@@ -1285,8 +1179,7 @@
         "a place"
       ],
       "a": 0,
-      "ex": "The suffix '-er' signifies a person performing an action (e.g., dancer = a person who dances).",
-      "notesMode": true
+      "ex": "The suffix '-er' signifies a person performing an action (e.g., dancer = a person who dances)."
     },
     {
       "q": "Join the word with correct suffix: entertain + ______",
@@ -1297,8 +1190,7 @@
         "ful"
       ],
       "a": 2,
-      "ex": "entertain + ment = entertainment (the act of entertaining).",
-      "notesMode": true
+      "ex": "entertain + ment = entertainment (the act of entertaining)."
     },
     {
       "q": "Add appropriate suffix for 'Having no money'. (Root word: penny)",
@@ -1309,8 +1201,7 @@
         "pennyment"
       ],
       "a": 2,
-      "ex": "penny + less = penniless (meaning without a penny/money).",
-      "notesMode": true
+      "ex": "penny + less = penniless (meaning without a penny/money)."
     },
     {
       "q": "Let Us Listen: When do we celebrate the Independence day?",
@@ -1321,8 +1212,7 @@
         "2nd October"
       ],
       "a": 0,
-      "ex": "India celebrates its Independence Day on the 15th of August.",
-      "notesMode": true
+      "ex": "India celebrates its Independence Day on the 15th of August."
     },
     {
       "q": "Let Us Speak: Which phrase is best used to ask someone's identity on a phone call?",
@@ -1333,8 +1223,7 @@
         "Why are you calling?"
       ],
       "a": 1,
-      "ex": "'May I know who is speaking?' is a polite and structured way to ask someone's identity over the phone.",
-      "notesMode": true
+      "ex": "'May I know who is speaking?' is a polite and structured way to ask someone's identity over the phone."
     },
     {
       "q": "Assertion (A): True hospitality means spending a lot of money on your guests.\nReason (R): Kaliyan spent a lot of money to buy luxurious food for the old beggar.",
@@ -1345,8 +1234,7 @@
         "Both A and R are false"
       ],
       "a": 3,
-      "ex": "Both are false. Hospitality is about a kind heart, not wealth. Kaliyan did not have money; he shared his simple gruel.",
-      "notesMode": true
+      "ex": "Both are false. Hospitality is about a kind heart, not wealth. Kaliyan did not have money; he shared his simple gruel."
     },
     {
       "q": "HOTS: Why does the poet refer to Nature as 'Mother Nature' in the poem?",
@@ -1357,8 +1245,7 @@
         "Because nature is very strict"
       ],
       "a": 1,
-      "ex": "Like a mother who selflessly feeds and protects her children, Nature provides shade, food, and shelter to all creatures unconditionally.",
-      "notesMode": true
+      "ex": "Like a mother who selflessly feeds and protects her children, Nature provides shade, food, and shelter to all creatures unconditionally."
     },
     {
       "q": "HOTS: What happens to a person who welcomes guests with a 'smiling face' according to the poem?",
@@ -1369,8 +1256,7 @@
         "They will be cheated"
       ],
       "a": 2,
-      "ex": "A smiling welcome creates a positive bond, helping a person win the love and hearts of others in the journey of life.",
-      "notesMode": true
+      "ex": "A smiling welcome creates a positive bond, helping a person win the love and hearts of others in the journey of life."
     }
   ]
 }
