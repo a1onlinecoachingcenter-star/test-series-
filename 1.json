@@ -1,8 +1,1472 @@
 {
   "unit": "Daily Challenge",
-  "subject": "Closed",
-  "title": "இன்றைய அமர்வு முடிந்தது",
-  "status": "closed",
-  "message": "நாளை காலை 6 மணிக்கு மீண்டும் திறக்கும்.",
-  "quiz": []
+  "subject": "ENGLISH",
+  "title": "இன்றைய குறிப்புகள்: Poem: The Swimmer || கவிதை: நீச்சல் வீரர் & Supplementary: Practice Makes Perfect || துணைப்பாடம்: பயிற்சி முழுமை தரும்",
+  "status": "notes",
+  "quiz": [
+    {
+      "q": "What two things did Akilan consider as his 'two eyes'?",
+      "options": [
+        "Money and fame",
+        "Sports and studies",
+        "Music and dance",
+        "Family and friends"
+      ],
+      "a": 1,
+      "ex": "Akilan was an active boy who liked sports as much as his studies, treating them like his two eyes.",
+      "notesMode": true
+    },
+    {
+      "q": "When did Akilan usually spend his time on studies?",
+      "options": [
+        "In the evenings",
+        "During the night",
+        "In the mornings",
+        "On weekends only"
+      ],
+      "a": 2,
+      "ex": "Remembering his father's words, Akilan used to spend his mornings on studies and his evenings in the playground.",
+      "notesMode": true
+    },
+    {
+      "q": "What was the memorable advice given by Akilan's father?",
+      "options": [
+        "Never give up!",
+        "Learn well, live well!",
+        "Health is wealth!",
+        "Sports builds character!"
+      ],
+      "a": 1,
+      "ex": "His father always advised him saying, 'Learn well, live well!'",
+      "notesMode": true
+    },
+    {
+      "q": "Who served as Akilan's inspiration to learn Judo?",
+      "options": [
+        "His physical education teacher",
+        "A famous Olympic champion",
+        "His father",
+        "His master at the Judo school"
+      ],
+      "a": 0,
+      "ex": "His physical education teacher, who was good at Judo, was his inspiration.",
+      "notesMode": true
+    },
+    {
+      "q": "Why was Akilan initially afraid to tell his parents about his interest in Judo?",
+      "options": [
+        "He thought Judo was too expensive",
+        "He feared his parents would be upset",
+        "He had failed in his exams",
+        "He was afraid of getting injured"
+      ],
+      "a": 1,
+      "ex": "He was afraid that his growing passion and interest in Judo would upset his parents.",
+      "notesMode": true
+    },
+    {
+      "q": "How did Akilan's parents react when he finally showed them his sports medals and certificates?",
+      "options": [
+        "They were very angry",
+        "They were astonished",
+        "They threw them away",
+        "They did not care"
+      ],
+      "a": 1,
+      "ex": "His parents were astonished (very surprised) on seeing the medals and certificates that he had won in school.",
+      "notesMode": true
+    },
+    {
+      "q": "What tragedy struck Akilan a few months later?",
+      "options": [
+        "He broke his leg",
+        "He failed his final exams",
+        "He lost his left hand in an accident",
+        "His parents moved to another town"
+      ],
+      "a": 2,
+      "ex": "After a few months, in an unfortunate accident, Akilan lost his left hand.",
+      "notesMode": true
+    },
+    {
+      "q": "How did the accident affect Akilan initially?",
+      "options": [
+        "He started practicing more",
+        "He used to sit in a corner and did not go out often",
+        "He shifted to playing chess",
+        "He became very angry at his friends"
+      ],
+      "a": 1,
+      "ex": "After losing his hand, from that day onwards he did not go out of the house often and used to sit in a corner.",
+      "notesMode": true
+    },
+    {
+      "q": "Where did Akilan's father come across the advertisement for a Judo school?",
+      "options": [
+        "On the television",
+        "On a street banner",
+        "In a newspaper",
+        "On the radio"
+      ],
+      "a": 2,
+      "ex": "His father showed an advertisement of a Judo school that he came across in a newspaper.",
+      "notesMode": true
+    },
+    {
+      "q": "How did the father react when Akilan asked if he could join the Judo school?",
+      "options": [
+        "He got him admitted with tears of joy",
+        "He strictly said no",
+        "He told him to wait for a year",
+        "He asked him to choose studies instead"
+      ],
+      "a": 0,
+      "ex": "His father, with tears of joy, got him admitted to the Judo school because they were keen to fulfill their son's passion.",
+      "notesMode": true
+    },
+    {
+      "q": "What did the Judo master teach Akilan first?",
+      "options": [
+        "The basics",
+        "The national level strokes",
+        "How to run fast",
+        "The most difficult stroke"
+      ],
+      "a": 0,
+      "ex": "The master trained him the basics before teaching the advanced skills.",
+      "notesMode": true
+    },
+    {
+      "q": "For how long did Akilan practice consistently in the Judo school?",
+      "options": [
+        "Three years",
+        "Six months",
+        "Two years",
+        "One year"
+      ],
+      "a": 2,
+      "ex": "Akilan learnt and practiced consistently for two years.",
+      "notesMode": true
+    },
+    {
+      "q": "Why was Akilan surprised and annoyed during his training?",
+      "options": [
+        "The master charged too much fee",
+        "The master taught him only a single stroke for two years",
+        "He was not allowed to participate in matches",
+        "The master ignored him completely"
+      ],
+      "a": 1,
+      "ex": "Akilan was annoyed because his master taught him and made him practice only a single stroke for two years.",
+      "notesMode": true
+    },
+    {
+      "q": "What major event was Akilan picked for by his master?",
+      "options": [
+        "State Level Karate Championship",
+        "International Sports Meet",
+        "National Judo Competition",
+        "School Sports Day"
+      ],
+      "a": 2,
+      "ex": "To everyone's surprise, Akilan was picked by the master for the 'National Judo Competition'.",
+      "notesMode": true
+    },
+    {
+      "q": "Why did everyone ridicule Akilan and his master?",
+      "options": [
+        "Because Akilan was too young",
+        "Because they were not sure how a boy with one hand could win a national competition",
+        "Because the master was not famous",
+        "Because they didn't have proper uniforms"
+      ],
+      "a": 1,
+      "ex": "People ridiculed (teased) them as they doubted how a boy with only one arm could possibly win in a national level competition.",
+      "notesMode": true
+    },
+    {
+      "q": "How many contenders did Akilan easily defeat to reach the finals?",
+      "options": [
+        "Four",
+        "Five",
+        "Ten",
+        "Six"
+      ],
+      "a": 3,
+      "ex": "To everyone's surprise, Akilan easily defeated all his six contenders with his single stroke.",
+      "notesMode": true
+    },
+    {
+      "q": "How many total rounds were there in the final match?",
+      "options": [
+        "Three rounds",
+        "Four rounds",
+        "Six rounds",
+        "Eight rounds"
+      ],
+      "a": 2,
+      "ex": "The final match began, and it had a total of six rounds.",
+      "notesMode": true
+    },
+    {
+      "q": "What happened in the first two rounds of the final match?",
+      "options": [
+        "The opponent easily defeated Akilan",
+        "Akilan defeated the opponent",
+        "It was a tie",
+        "The match was cancelled"
+      ],
+      "a": 0,
+      "ex": "The opponent was very strong and defeated Akilan easily in the first two rounds.",
+      "notesMode": true
+    },
+    {
+      "q": "What valuable advice did the master give Akilan when the referee blew the whistle?",
+      "options": [
+        "\"Give up and save yourself.\"",
+        "\"Believe yourself. The key to success is to focus on your strengths and not your weakness.\"",
+        "\"Use your right leg more.\"",
+        "\"Distract your opponent.\""
+      ],
+      "a": 1,
+      "ex": "The master rushed to him and told him to focus on his strengths rather than his weakness.",
+      "notesMode": true
+    },
+    {
+      "q": "How did the final match conclude for Akilan?",
+      "options": [
+        "He lost by a narrow margin",
+        "He tied with his opponent",
+        "He scored four strokes and four knockouts, winning the finals",
+        "He withdrew due to injury"
+      ],
+      "a": 2,
+      "ex": "Feeling new energy, Akilan scored four strokes and four knockouts, becoming the champion.",
+      "notesMode": true
+    },
+    {
+      "q": "What was the secret behind Akilan's victory with that single stroke?",
+      "options": [
+        "The stroke was very fast",
+        "It was a magical stroke",
+        "His opponents were very weak",
+        "To beat him, the opponent had to hold his left hand, which he did not have"
+      ],
+      "a": 3,
+      "ex": "The master explained that he taught him the most difficult stroke, and the only defense against it required holding his left hand.",
+      "notesMode": true
+    },
+    {
+      "q": "Pictionary: What is a 'Gourd'?",
+      "options": [
+        "A large vegetable with hard skin",
+        "A sharp weapon",
+        "A small sweet fruit",
+        "A wild animal"
+      ],
+      "a": 0,
+      "ex": "According to the pictionary, a gourd is a large vegetable with hard skin.",
+      "notesMode": true
+    },
+    {
+      "q": "Pictionary: What is 'Judo'?",
+      "options": [
+        "A sport where one tries to unbalance the opponents using arms and legs",
+        "A game played with a ball and a bat",
+        "A mental puzzle",
+        "A type of swimming race"
+      ],
+      "a": 0,
+      "ex": "Judo is a martial art sport where one unbalances opponents using arms and legs.",
+      "notesMode": true
+    },
+    {
+      "q": "Pictionary: What does 'Victory' mean?",
+      "options": [
+        "Losing a match",
+        "Winning an opponent",
+        "A type of medal",
+        "A large stadium"
+      ],
+      "a": 1,
+      "ex": "Victory means winning against an opponent.",
+      "notesMode": true
+    },
+    {
+      "q": "Glossary: What is the meaning of the word 'passion'?",
+      "options": [
+        "Lack of interest",
+        "Strong emotion",
+        "Feeling sleepy",
+        "A physical injury"
+      ],
+      "a": 1,
+      "ex": "Passion means having a strong emotion or deep interest in something.",
+      "notesMode": true
+    },
+    {
+      "q": "Book Back Choose: His father wanted him to do well in ______.",
+      "options": [
+        "studies",
+        "Cricket",
+        "Kabbadi",
+        "music"
+      ],
+      "a": 0,
+      "ex": "According to the book back exercise, his father always emphasized studies ('Learn well, live well!').",
+      "notesMode": true
+    },
+    {
+      "q": "Book Back Identify the Speaker: \"Believe yourself.\"",
+      "options": [
+        "Akilan",
+        "Master",
+        "Father",
+        "Referee"
+      ],
+      "a": 1,
+      "ex": "The Master said these words to encourage Akilan during the final match.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Synonyms: Find the synonym for 'happy'.",
+      "options": [
+        "joy / glad",
+        "furious",
+        "sad",
+        "thin"
+      ],
+      "a": 0,
+      "ex": "Happy, joy, and glad denote the same feeling.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Synonyms: What word has the same meaning as 'cut'?",
+      "options": [
+        "chop",
+        "join",
+        "pull",
+        "leap"
+      ],
+      "a": 0,
+      "ex": "Cut and chop are synonyms.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Antonyms: What is the opposite of 'full'?",
+      "options": [
+        "heavy",
+        "empty",
+        "half",
+        "bright"
+      ],
+      "a": 1,
+      "ex": "Full is the opposite of empty.",
+      "notesMode": true
+    },
+    {
+      "q": "Assertion (A): Everyone ridiculed Akilan and his master when he was selected for the National Competition.\nReason (R): They were not sure how a boy with one hand could win against normal competitors.",
+      "options": [
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are false",
+        "Both A and R are true and R is the correct explanation of A"
+      ],
+      "a": 3,
+      "ex": "People mocked them because they couldn't believe a one-armed boy could win a national championship.",
+      "notesMode": true
+    },
+    {
+      "q": "According to 'The Swimmer' poem, how does the swimmer stand at the beginning?",
+      "options": [
+        "Weak and tired",
+        "Still and tall",
+        "Nervous and short",
+        "Shaking with fear"
+      ],
+      "a": 1,
+      "ex": "The poem begins with the line: 'She stands still and tall'.",
+      "notesMode": true
+    },
+    {
+      "q": "In the poem 'The Swimmer', what does she dive like?",
+      "options": [
+        "A bird",
+        "A dolphin",
+        "A fish",
+        "A stone"
+      ],
+      "a": 2,
+      "ex": "The poem states: 'She dives like the fish'.",
+      "notesMode": true
+    },
+    {
+      "q": "What are the swimmer's strokes compared to in the poem?",
+      "options": [
+        "Dancing light",
+        "Heavy waves",
+        "Flying birds",
+        "Fast wind"
+      ],
+      "a": 0,
+      "ex": "The poem describes her movements as: 'Her strokes like dancing light'.",
+      "notesMode": true
+    },
+    {
+      "q": "How does the swimmer rip across the water?",
+      "options": [
+        "With difficulty",
+        "With flair",
+        "With anger",
+        "With fear"
+      ],
+      "a": 1,
+      "ex": "The lines say: 'And rips across the water with flair'.",
+      "notesMode": true
+    },
+    {
+      "q": "Why do the audience cheer for the swimmer?",
+      "options": [
+        "Because she is slow",
+        "Because she did a trick",
+        "Because the finish line is near",
+        "Because the race started"
+      ],
+      "a": 2,
+      "ex": "The audience cheer because they know that 'the finish line is near'.",
+      "notesMode": true
+    },
+    {
+      "q": "According to the poem, why does the swimmer pick up her pace?",
+      "options": [
+        "She is getting tired",
+        "She wants to win the race",
+        "She is afraid of the water",
+        "She sees her friends"
+      ],
+      "a": 1,
+      "ex": "The poem states: 'She picks up her pace, As she wants to win the race'.",
+      "notesMode": true
+    },
+    {
+      "q": "Does the swimmer give up the fight?",
+      "options": [
+        "Yes, she stops swimming",
+        "Yes, she rests halfway",
+        "No, she never gives up the fight",
+        "The poem does not mention it"
+      ],
+      "a": 2,
+      "ex": "The poet clearly mentions: 'She never gives up the fight'.",
+      "notesMode": true
+    },
+    {
+      "q": "What happens as the swimmer reaches the wall?",
+      "options": [
+        "She starts crying",
+        "She swims back",
+        "Her name as winner they call",
+        "She dives again"
+      ],
+      "a": 2,
+      "ex": "The final lines say: 'As she reaches the wall, Her name as winner they call'.",
+      "notesMode": true
+    },
+    {
+      "q": "Glossary: What is the meaning of 'flair'?",
+      "options": [
+        "Weakness",
+        "Anger",
+        "Ability / talent",
+        "Surrender"
+      ],
+      "a": 2,
+      "ex": "Flair refers to a natural ability, talent, or stylishness.",
+      "notesMode": true
+    },
+    {
+      "q": "Glossary: What does 'rips' mean in the context of the poem?",
+      "options": [
+        "To tear a paper",
+        "Pull (something) quickly or forcibly",
+        "To sink down",
+        "To stand still"
+      ],
+      "a": 1,
+      "ex": "In swimming, ripping across water means to pull oneself through it quickly or forcibly.",
+      "notesMode": true
+    },
+    {
+      "q": "Glossary: What is the meaning of 'strain'?",
+      "options": [
+        "Force",
+        "Relax",
+        "Sleep",
+        "Play"
+      ],
+      "a": 0,
+      "ex": "To strain means to use a lot of force or effort.",
+      "notesMode": true
+    },
+    {
+      "q": "Rhyming words: Which pair correctly rhymes from the poem?",
+      "options": [
+        "fish - flight",
+        "might - fight",
+        "pace - tall",
+        "air - near"
+      ],
+      "a": 1,
+      "ex": "'Might' and 'fight' are rhyming pairs from the poem.",
+      "notesMode": true
+    },
+    {
+      "q": "Rhyming words: What rhymes with 'tall' in the poem?",
+      "options": [
+        "light",
+        "fish",
+        "wall / call / all",
+        "near"
+      ],
+      "a": 2,
+      "ex": "In the poem, tall rhymes with all, wall, and call.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar: Which conjunction is used to explain the reason for the first event?",
+      "options": [
+        "and",
+        "but",
+        "because",
+        "so"
+      ],
+      "a": 2,
+      "ex": "The word 'because' gives the reason for an action (e.g., I cannot go out because it is raining).",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar: Which conjunction is used to explain the result of the first event?",
+      "options": [
+        "so",
+        "because",
+        "or",
+        "but"
+      ],
+      "a": 0,
+      "ex": "The word 'so' explains the result or consequence (e.g., Priya was sick so she consulted a doctor).",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Recall: He has a ball _________ not a bat. (Choose the correct conjunction)",
+      "options": [
+        "and",
+        "because",
+        "so",
+        "but"
+      ],
+      "a": 3,
+      "ex": "'But' is used to show contrast.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Recall: Do you want apple _________ pear?",
+      "options": [
+        "or",
+        "and",
+        "so",
+        "because"
+      ],
+      "a": 0,
+      "ex": "'Or' is used to present a choice or alternative.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Match: The cat was hungry -> _______",
+      "options": [
+        "because I had a headache.",
+        "so it ate a fish.",
+        "because she had to attend function.",
+        "so he ran away."
+      ],
+      "a": 1,
+      "ex": "The result of the cat being hungry is that it ate a fish. Hence, 'so it ate a fish'.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Match: He was afraid of the dog -> _______",
+      "options": [
+        "so it ate a fish.",
+        "because she had to attend function.",
+        "so he ran away.",
+        "because I had a headache."
+      ],
+      "a": 2,
+      "ex": "The result of being afraid of the dog is running away. Hence, 'so he ran away'.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Fill in the blank: He ate two chocolates _______ he got cough.",
+      "options": [
+        "because",
+        "but",
+        "so",
+        "or"
+      ],
+      "a": 2,
+      "ex": "Getting a cough is the result of eating chocolates, so 'so' is used.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Fill in the blank: The rat ran fast _______ a cat was chasing it.",
+      "options": [
+        "so",
+        "and",
+        "but",
+        "because"
+      ],
+      "a": 3,
+      "ex": "The reason the rat ran fast is that the cat was chasing it, so 'because' is used.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Fill in the blank: Tom left the class _______ he was sick.",
+      "options": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "a": 0,
+      "ex": "Being sick is the reason for leaving the class, so 'because' is correct.",
+      "notesMode": true
+    },
+    {
+      "q": "Grammar Fill in the blank: He lost the key _______ he couldn’t open his room.",
+      "options": [
+        "but",
+        "because",
+        "or",
+        "so"
+      ],
+      "a": 3,
+      "ex": "Not being able to open the room is the result of losing the key, so 'so' is used.",
+      "notesMode": true
+    },
+    {
+      "q": "Let Us Listen: What does the red signal in a traffic light mean?",
+      "options": [
+        "to go",
+        "to stop",
+        "to wait",
+        "to turn right"
+      ],
+      "a": 1,
+      "ex": "The red traffic signal always means 'to stop'.",
+      "notesMode": true
+    },
+    {
+      "q": "Let Us Listen: What does the green signal mean?",
+      "options": [
+        "to wait",
+        "to stop",
+        "to go",
+        "to reverse"
+      ],
+      "a": 2,
+      "ex": "The green traffic signal means 'to go'.",
+      "notesMode": true
+    },
+    {
+      "q": "Let Us Listen: When should pedestrians cross using the zebra crossing?",
+      "options": [
+        "when vehicles are going",
+        "at any time they want",
+        "when vehicles are stopped",
+        "only at night"
+      ],
+      "a": 2,
+      "ex": "It is safe to cross the zebra crossing only when the vehicles have completely stopped.",
+      "notesMode": true
+    },
+    {
+      "q": "Let Us Listen: Why do we wear a helmet while riding a two-wheeler?",
+      "options": [
+        "to avoid head injury",
+        "to look stylish",
+        "to get rid of sunlight",
+        "to hide our face"
+      ],
+      "a": 0,
+      "ex": "Helmets protect the skull and brain, avoiding serious head injuries during accidents.",
+      "notesMode": true
+    },
+    {
+      "q": "Let Us Listen: Can we use a cellphone while driving?",
+      "options": [
+        "Yes, for a short time",
+        "No",
+        "Yes, if driving slowly",
+        "Only to text"
+      ],
+      "a": 1,
+      "ex": "Using a cellphone distracts the driver and causes accidents, so the answer is 'No'.",
+      "notesMode": true
+    },
+    {
+      "q": "Life-situation (HOTS): Rosy was lost at the car festival. When a stranger offered to buy her food and take her to her parents, what did she do?",
+      "options": [
+        "She went with him happily",
+        "She refused to go with him and asked him to call her father's phone number",
+        "She started running blindly",
+        "She took the food but stayed there"
+      ],
+      "a": 1,
+      "ex": "Rosy followed the safety advice of her parents and teachers; she refused to go with the stranger but smartly provided her father's number.",
+      "notesMode": true
+    },
+    {
+      "q": "Assertion (A): Rosy gave her father's phone number to the stranger but refused to go with him.\nReason (R): She wanted to be safe because her parents and teachers advised her not to go with strangers.",
+      "options": [
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are false",
+        "Both A and R are true and R is the correct explanation of A"
+      ],
+      "a": 3,
+      "ex": "Both the assertion and the reason are correct. Rosy acted smartly by seeking help without compromising her safety.",
+      "notesMode": true
+    },
+    {
+      "q": "HOTS: Why is it important to memorize your parents' phone number?",
+      "options": [
+        "To call them for chatting during class",
+        "To buy things online",
+        "It helps in emergencies if you get lost or separated in a crowd",
+        "To give it to random strangers for fun"
+      ],
+      "a": 2,
+      "ex": "As seen in Rosy's situation, memorizing parents' contact numbers is crucial to safely contact them in case of an emergency.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the main profession of the old man in the story?",
+      "options": [
+        "A vegetable vendor",
+        "An oil seller",
+        "A merchant",
+        "A blacksmith"
+      ],
+      "a": 1,
+      "ex": "The old man clearly states, 'I am a simple oil seller. I fill these gourds with oil and sell them.'",
+      "notesMode": true
+    },
+    {
+      "q": "What container did the old man use to store and sell his oil?",
+      "options": [
+        "Glass bottles",
+        "Gourds",
+        "Copper vessels",
+        "Plastic bags"
+      ],
+      "a": 1,
+      "ex": "The old man says, 'I am sure you must have guessed that by seeing my gourds.'",
+      "notesMode": true
+    },
+    {
+      "q": "How did Uthaman speak to the old man initially?",
+      "options": [
+        "In a polite tone",
+        "In a sad tone",
+        "In a mocking tone",
+        "In a fearful tone"
+      ],
+      "a": 2,
+      "ex": "Uthaman, in a mocking tone, said, 'Hmm… Show us your skills.'",
+      "notesMode": true
+    },
+    {
+      "q": "What was the crowd's reaction when the oil seller offered to show his skill?",
+      "options": [
+        "They started leaving",
+        "They were bored",
+        "They were curious",
+        "They laughed at him"
+      ],
+      "a": 2,
+      "ex": "Everyone was curious. They wanted to see what would happen next.",
+      "notesMode": true
+    },
+    {
+      "q": "How did the oil seller feel when the crowd gathered around him?",
+      "options": [
+        "He was very scared",
+        "He was nervous",
+        "He was unfazed and calm",
+        "He was angry"
+      ],
+      "a": 2,
+      "ex": "Unfazed by the crowd and by habit, the oil seller was calm.",
+      "notesMode": true
+    },
+    {
+      "q": "What did the old man place on the mouth of the empty gourd?",
+      "options": [
+        "A small leaf",
+        "A piece of cloth",
+        "A small coin",
+        "A wooden cork"
+      ],
+      "a": 2,
+      "ex": "He then placed a small coin on the mouth of the gourd.",
+      "notesMode": true
+    },
+    {
+      "q": "What was the coin made of?",
+      "options": [
+        "Silver",
+        "Copper",
+        "Gold",
+        "Iron"
+      ],
+      "a": 1,
+      "ex": "The small coin made of copper had a small hole at its centre.",
+      "notesMode": true
+    },
+    {
+      "q": "What special feature did the copper coin have?",
+      "options": [
+        "A small hole at its centre",
+        "A picture of a king",
+        "A square shape",
+        "A rough edge"
+      ],
+      "a": 0,
+      "ex": "The small coin made of copper had a small hole at its centre.",
+      "notesMode": true
+    },
+    {
+      "q": "What tool did the oil seller use to take the oil and pour it?",
+      "options": [
+        "A spoon",
+        "A ladle",
+        "A jug",
+        "A cup"
+      ],
+      "a": 1,
+      "ex": "The oil seller stood up, took some oil in his ladle and began to pour oil.",
+      "notesMode": true
+    },
+    {
+      "q": "How did the oil enter the gourd?",
+      "options": [
+        "He used a funnel",
+        "He poured it slowly through a pipe",
+        "He removed the coin and poured it",
+        "It went straight into the gourd through the hole in the coin"
+      ],
+      "a": 3,
+      "ex": "From the height he poured the oil, it went straight into the gourd through the hole in the coin.",
+      "notesMode": true
+    },
+    {
+      "q": "When the oil seller lifted the coin after filling the gourd, what did the people see?",
+      "options": [
+        "The coin was broken",
+        "The coin did not have any trace of oil",
+        "The coin was fully covered in oil",
+        "The coin had turned black"
+      ],
+      "a": 1,
+      "ex": "He showed people that the coin did not have any trace of oil.",
+      "notesMode": true
+    },
+    {
+      "q": "What was the immediate reaction of the crowd after seeing the oil seller's skill?",
+      "options": [
+        "They threw stones",
+        "They walked away",
+        "They were shocked to silence",
+        "They asked for money"
+      ],
+      "a": 2,
+      "ex": "The crowd was shocked to silence. Then, one person cheered.",
+      "notesMode": true
+    },
+    {
+      "q": "According to the oil seller, what was the secret behind his special skill?",
+      "options": [
+        "A magic trick",
+        "It's only a matter of practice",
+        "Special oil",
+        "A perfectly shaped gourd"
+      ],
+      "a": 1,
+      "ex": "The oil seller smiled and said, 'As I told, there is nothing special about it. It’s only a matter of practice.'",
+      "notesMode": true
+    },
+    {
+      "q": "How did Uthaman react at the end of the story?",
+      "options": [
+        "He challenged him again",
+        "He walked away angrily",
+        "He cried in front of the crowd",
+        "He was surprised and thanked him"
+      ],
+      "a": 3,
+      "ex": "Uthaman was just as surprised as the crowd. He smiled and said, 'You have taught me something today. Thank you.'",
+      "notesMode": true
+    },
+    {
+      "q": "What is the primary moral or theme of this story?",
+      "options": [
+        "Never trust an oil seller",
+        "Archery is the best skill",
+        "Practice makes a man perfect",
+        "Coins should have holes"
+      ],
+      "a": 2,
+      "ex": "The lesson's title and the core message is that consistent practice can help anyone master a skill.",
+      "notesMode": true
+    },
+    {
+      "q": "Identify the speaker: 'Sir, there is no reason to be angry.'",
+      "options": [
+        "Uthaman",
+        "The oil seller",
+        "A person in the crowd",
+        "The narrator"
+      ],
+      "a": 1,
+      "ex": "The oil seller says this calmly to Uthaman when he gets angry.",
+      "notesMode": true
+    },
+    {
+      "q": "Identify the speaker: 'Hmm… Show us your skills.'",
+      "options": [
+        "The oil seller",
+        "A young boy",
+        "Uthaman",
+        "The headmaster"
+      ],
+      "a": 2,
+      "ex": "Uthaman says this in a mocking tone to the oil seller.",
+      "notesMode": true
+    },
+    {
+      "q": "Identify the speaker: 'You have taught me something today. Thank you.'",
+      "options": [
+        "Uthaman",
+        "The oil seller",
+        "Ravi",
+        "Martin"
+      ],
+      "a": 0,
+      "ex": "Uthaman realizes his mistake and humbly thanks the oil seller for the lesson.",
+      "notesMode": true
+    },
+    {
+      "q": "In the sports day passage, when was the annual sports day held?",
+      "options": [
+        "On the 15th of this month",
+        "On the 10th of next month",
+        "On a Sunday morning",
+        "On the 5th of this month"
+      ],
+      "a": 0,
+      "ex": "The passage states, 'We had our annual sports day on the 15th of this month.'",
+      "notesMode": true
+    },
+    {
+      "q": "Who started the sports event according to the passage?",
+      "options": [
+        "The physical education teacher",
+        "The headmaster",
+        "The chief guest",
+        "The sports captain"
+      ],
+      "a": 1,
+      "ex": "The passage clearly mentions, 'The headmaster started the event.'",
+      "notesMode": true
+    },
+    {
+      "q": "In the sports day passage, what place did the narrator get in the 100 meters race?",
+      "options": [
+        "Third place",
+        "Second place",
+        "First place",
+        "Did not participate"
+      ],
+      "a": 2,
+      "ex": "The narrator says, 'In 100 meters race, I came first. I got a gold medal.'",
+      "notesMode": true
+    },
+    {
+      "q": "Which of the following events did Martin take part in?",
+      "options": [
+        "Long jump and high jump",
+        "Relay race only",
+        "100 and 200 meters race",
+        "Shot put"
+      ],
+      "a": 2,
+      "ex": "The text states, 'Martin and I took part in 100 and 200 meters race.'",
+      "notesMode": true
+    },
+    {
+      "q": "Who got the first prize in the 200 meters race?",
+      "options": [
+        "Martin",
+        "Rubesh",
+        "The narrator",
+        "Ravi"
+      ],
+      "a": 3,
+      "ex": "The narrator mentions, 'My friend Ravi got first in 200 meters.'",
+      "notesMode": true
+    },
+    {
+      "q": "Which team won the relay race in the sports day event?",
+      "options": [
+        "The boy's team",
+        "The girl's team",
+        "The teacher's team",
+        "The senior team"
+      ],
+      "a": 1,
+      "ex": "It is stated that, 'The girl’s team won the relay race.'",
+      "notesMode": true
+    },
+    {
+      "q": "Who won the first prize in the long jump?",
+      "options": [
+        "Ravi",
+        "Yasmin",
+        "Rubesh",
+        "Martin"
+      ],
+      "a": 2,
+      "ex": "The text says, 'In the long jump, Rubesh won the first prize.'",
+      "notesMode": true
+    },
+    {
+      "q": "In which grade is Rubesh studying?",
+      "options": [
+        "Fifth grade",
+        "Seventh grade",
+        "Sixth grade",
+        "Fourth grade"
+      ],
+      "a": 2,
+      "ex": "The passage mentions about Rubesh, 'He is in the sixth grade.'",
+      "notesMode": true
+    },
+    {
+      "q": "Who was declared the 'champion of the year'?",
+      "options": [
+        "Rubesh",
+        "Yasmin",
+        "Ravi",
+        "Martin"
+      ],
+      "a": 1,
+      "ex": "The text clearly states, 'Yasmin was the champion of the year.'",
+      "notesMode": true
+    },
+    {
+      "q": "How did the sports day events close?",
+      "options": [
+        "With a cultural dance",
+        "With giving away the prizes",
+        "With a grand feast",
+        "With singing the national anthem"
+      ],
+      "a": 1,
+      "ex": "The passage ends with, 'The events closed with a giving away the prizes.'",
+      "notesMode": true
+    },
+    {
+      "q": "What is the synonym of the word 'fast' as given in the exercise?",
+      "options": [
+        "Slow",
+        "Speed",
+        "Hurry",
+        "Run"
+      ],
+      "a": 1,
+      "ex": "In the vocabulary section, 'fast' matches with the similar meaning word 'speed'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the synonym of the word 'afraid'?",
+      "options": [
+        "Fear",
+        "Brave",
+        "Happy",
+        "Cry"
+      ],
+      "a": 0,
+      "ex": "The word with the same meaning for 'afraid' is 'fear'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the synonym of the word 'train' (as an action)?",
+      "options": [
+        "Engine",
+        "Vehicle",
+        "Practise",
+        "Travel"
+      ],
+      "a": 2,
+      "ex": "In the context of skills and sports, to 'train' means to 'practise'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the opposite of the word 'fix'?",
+      "options": [
+        "Build",
+        "Join",
+        "Break",
+        "Repair"
+      ],
+      "a": 2,
+      "ex": "The antonym for 'fix' is 'break'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the opposite of the word 'young'?",
+      "options": [
+        "Child",
+        "Baby",
+        "Old",
+        "Small"
+      ],
+      "a": 2,
+      "ex": "The opposite word for 'young' is 'old'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the opposite of the word 'near'?",
+      "options": [
+        "Close",
+        "Beside",
+        "Under",
+        "Far"
+      ],
+      "a": 3,
+      "ex": "The opposite word for 'near' is 'far'.",
+      "notesMode": true
+    },
+    {
+      "q": "Which of the following words rhymes with 'nature'?",
+      "options": [
+        "Picture",
+        "Future",
+        "Creature",
+        "Capture"
+      ],
+      "a": 2,
+      "ex": "In the rhyming match exercise, 'nature' rhymes with 'creature'.",
+      "notesMode": true
+    },
+    {
+      "q": "Which of the following words rhymes with 'bird'?",
+      "options": [
+        "Hard",
+        "Herd",
+        "Board",
+        "Lord"
+      ],
+      "a": 1,
+      "ex": "In the rhyming match exercise, 'bird' rhymes with 'herd'.",
+      "notesMode": true
+    },
+    {
+      "q": "Which of the following words rhymes with 'face'?",
+      "options": [
+        "Race",
+        "Phase",
+        "Days",
+        "Base"
+      ],
+      "a": 0,
+      "ex": "In the rhyming match exercise, 'face' rhymes with 'race'.",
+      "notesMode": true
+    },
+    {
+      "q": "Fill in the blank with the correct connecting word: I worked hard ______ I got promotion.",
+      "options": [
+        "because",
+        "so",
+        "but",
+        "and"
+      ],
+      "a": 1,
+      "ex": "The result is getting a promotion, hence 'so' is used to show the consequence of working hard.",
+      "notesMode": true
+    },
+    {
+      "q": "Fill in the blank with the correct connecting word: I was late ______ there was a heavy traffic.",
+      "options": [
+        "because",
+        "so",
+        "or",
+        "yet"
+      ],
+      "a": 0,
+      "ex": "Heavy traffic is the reason for being late, hence 'because' is used to show the cause.",
+      "notesMode": true
+    },
+    {
+      "q": "Fill in the blank with the correct connecting word: I missed the bus ______ I took a taxi.",
+      "options": [
+        "so",
+        "because",
+        "if",
+        "though"
+      ],
+      "a": 0,
+      "ex": "Taking a taxi is the resulting action of missing the bus, hence 'so' is the correct connector.",
+      "notesMode": true
+    },
+    {
+      "q": "In the application form, what does 'DD/MM/YYYY' stand for?",
+      "options": [
+        "District/Month/Year",
+        "Date of Birth format (Date/Month/Year)",
+        "Department/Manager/Yearly",
+        "Division/Match/Year"
+      ],
+      "a": 1,
+      "ex": "It refers to the Date of Birth format asking for Date, Month, and Year.",
+      "notesMode": true
+    },
+    {
+      "q": "Who must attest the photo in the individual sports meet application form?",
+      "options": [
+        "The student",
+        "The parents",
+        "The head master",
+        "The class teacher"
+      ],
+      "a": 2,
+      "ex": "The form instructs: 'Paste your photo to be attested by the head master'.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the meaning of the word 'unfazed' as used in the passage?",
+      "options": [
+        "Not worried or surprised by something unexpected",
+        "Extremely angry",
+        "Running away quickly",
+        "Shouting loudly"
+      ],
+      "a": 0,
+      "ex": "The oil seller was 'unfazed' by the crowd, meaning he was calm and undisturbed by them.",
+      "notesMode": true
+    },
+    {
+      "q": "Why did Uthaman become angry with the old man initially?",
+      "options": [
+        "The old man spilled his oil",
+        "The old man broke his bow",
+        "The old man dismissed his archery skills as just a matter of practice",
+        "The old man asked for money"
+      ],
+      "a": 2,
+      "ex": "Uthaman was proud of his archery, but the old man said it's just practice, which hurt his ego.",
+      "notesMode": true
+    },
+    {
+      "q": "What does the action of pouring oil without touching the coin demonstrate?",
+      "options": [
+        "Magic tricks are real",
+        "Oil is very slippery",
+        "High level of precision achieved through daily practice",
+        "Copper coins repel oil"
+      ],
+      "a": 2,
+      "ex": "It shows that doing the same task every day (filling gourds) made him perfectly accurate without any special talent.",
+      "notesMode": true
+    },
+    {
+      "q": "Analogy Question - Fast : Speed :: Train : ?",
+      "options": [
+        "Locomotive",
+        "Practise",
+        "Afraid",
+        "Break"
+      ],
+      "a": 1,
+      "ex": "Fast and Speed are synonyms. The synonym for Train (as a verb here) is Practise.",
+      "notesMode": true
+    },
+    {
+      "q": "Analogy Question - Near : Far :: Young : ?",
+      "options": [
+        "Old",
+        "Youth",
+        "Fix",
+        "Boy"
+      ],
+      "a": 0,
+      "ex": "Near and Far are opposites. The opposite of Young is Old.",
+      "notesMode": true
+    },
+    {
+      "q": "Life-scenario: If you want to become very good at drawing, what does this story advise you to do?",
+      "options": [
+        "Buy expensive pencils",
+        "Show off to your friends",
+        "Practise drawing regularly every day",
+        "Wait for a magic trick"
+      ],
+      "a": 2,
+      "ex": "The moral 'Practice makes a man perfect' teaches that consistent practice is the key to mastering any skill like drawing.",
+      "notesMode": true
+    },
+    {
+      "q": "Assertion (A): The crowd burst into a loud cheer for the oil seller. \nReason (R): The oil seller gave them free oil.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation.",
+        "Both A and R are true, but R is not the correct explanation.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "a": 2,
+      "ex": "The crowd cheered because they were amazed by his precise skill of pouring oil, not because he gave free oil.",
+      "notesMode": true
+    },
+    {
+      "q": "Match the following based on the Sports Day passage: \n1. Narrator \n2. Ravi \n3. Girls team \n\nA. Relay race winner \nB. 200m first prize \nC. 100m gold medal",
+      "options": [
+        "1-A, 2-B, 3-C",
+        "1-C, 2-B, 3-A",
+        "1-B, 2-A, 3-C",
+        "1-C, 2-A, 3-B"
+      ],
+      "a": 1,
+      "ex": "Narrator won 100m (1-C), Ravi won 200m (2-B), and the girls won the relay (3-A).",
+      "notesMode": true
+    },
+    {
+      "q": "True or False: Uthaman's final reaction shows that he was arrogant till the end.",
+      "options": [
+        "True",
+        "False",
+        "Partially True",
+        "Cannot be determined"
+      ],
+      "a": 1,
+      "ex": "False. He smiled and thanked the oil seller, showing he had humbled down and accepted the lesson.",
+      "notesMode": true
+    },
+    {
+      "q": "If you are feeling 'afraid' before a sports match, what is the synonymous emotion you are experiencing?",
+      "options": [
+        "Joy",
+        "Anger",
+        "Fear",
+        "Excitement"
+      ],
+      "a": 2,
+      "ex": "According to the vocabulary section, 'afraid' has the same meaning as 'fear'.",
+      "notesMode": true
+    },
+    {
+      "q": "Choose the correct connector: It was raining heavily, ______ the match was cancelled.",
+      "options": [
+        "because",
+        "so",
+        "but",
+        "if"
+      ],
+      "a": 1,
+      "ex": "'So' is used to show the result. The match was cancelled as a result of the heavy rain.",
+      "notesMode": true
+    },
+    {
+      "q": "Why didn't the oil spill on the coin?",
+      "options": [
+        "The hole was very large",
+        "The oil seller used a very small ladle",
+        "His hands were perfectly steady from years of practice",
+        "The crowd helped him hold the gourd"
+      ],
+      "a": 2,
+      "ex": "Years of repetitive practice gave him perfect control to pour from a height straight through the small hole.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the meaning of 'mocking tone'?",
+      "options": [
+        "Speaking with deep respect",
+        "Speaking in a way that makes fun of someone",
+        "Speaking very softly",
+        "Speaking while crying"
+      ],
+      "a": 1,
+      "ex": "A mocking tone is used to tease, ridicule, or show contempt.",
+      "notesMode": true
+    },
+    {
+      "q": "Which of these traits did the oil seller possess?",
+      "options": [
+        "Arrogance and anger",
+        "Patience and humility",
+        "Fear and anxiety",
+        "Greed and selfishness"
+      ],
+      "a": 1,
+      "ex": "He patiently placed the gourd, calmly demonstrated his skill, and humbly said it's just practice.",
+      "notesMode": true
+    },
+    {
+      "q": "What did the copper coin look like?",
+      "options": [
+        "It had a hole at the centre",
+        "It was very thick",
+        "It had a king's face stamped on it",
+        "It was painted red"
+      ],
+      "a": 0,
+      "ex": "The text states: 'The small coin made of copper had a small hole at its centre.'",
+      "notesMode": true
+    },
+    {
+      "q": "What does the word 'trace' mean in the sentence 'the coin did not have any trace of oil'?",
+      "options": [
+        "A drawing",
+        "A very small amount or mark left behind",
+        "A path to walk on",
+        "A loud sound"
+      ],
+      "a": 1,
+      "ex": "In this context, trace means a mark, stain, or very tiny amount of oil.",
+      "notesMode": true
+    },
+    {
+      "q": "HOTS Question: If the oil seller tried archery without practice, what would most likely happen?",
+      "options": [
+        "He would hit the bullseye on the first try",
+        "Uthaman would be defeated",
+        "He would miss the target because he lacks practice in archery",
+        "His gourd would break"
+      ],
+      "a": 2,
+      "ex": "Since skill comes from practice (as he stated), he would not be good at archery without practicing it.",
+      "notesMode": true
+    },
+    {
+      "q": "What is the first step the oil seller did before pouring the oil?",
+      "options": [
+        "He scolded the crowd",
+        "He asked Uthaman for money",
+        "He patiently placed an empty gourd on the ground",
+        "He drank some oil"
+      ],
+      "a": 2,
+      "ex": "The text details his methodical approach starting with: 'He patiently placed an empty gourd on the ground.'",
+      "notesMode": true
+    }
+  ]
 }
