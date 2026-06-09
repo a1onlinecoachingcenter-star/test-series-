@@ -1,8 +1,8 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய குறிப்புகள்: Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள் & Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே",
-  "status": "notes",
+  "title": "இன்றைய தேர்வு: Unit 1: Learn Always || அலகு 1: எப்போதும் கற்றுக்கொள் & Unit 2: We are One || அலகு 2: நாம் அனைவரும் ஒன்றே",
+  "status": "open",
   "quiz": [
     {
       "q": "What does the word 'disguise' mean?",
@@ -13,8 +13,7 @@
         "A short note on a piece of paper"
       ],
       "a": 1,
-      "ex": "According to the pictionary, disguise means to make a person look different to hide their identity.",
-      "notesMode": true
+      "ex": "According to the pictionary, disguise means to make a person look different to hide their identity."
     },
     {
       "q": "Who among the following is NOT a human member of the 5D gang?",
@@ -25,8 +24,7 @@
         "Fathima"
       ],
       "a": 2,
-      "ex": "Pablo is Sreejith's dog, while the others are human members of the Five Detectives.",
-      "notesMode": true
+      "ex": "Pablo is Sreejith's dog, while the others are human members of the Five Detectives."
     },
     {
       "q": "Where did the story 'Five Detectives' take place?",
@@ -37,8 +35,7 @@
         "Munnar"
       ],
       "a": 2,
-      "ex": "The story mentions, 'It was a sunny afternoon, after a long time in Ooty.'",
-      "notesMode": true
+      "ex": "The story mentions, 'It was a sunny afternoon, after a long time in Ooty.'"
     },
     {
       "q": "Who was the inspector of the area in the story?",
@@ -49,8 +46,7 @@
         "Inspector Pablo"
       ],
       "a": 0,
-      "ex": "Inspector Velayudham was the police inspector handling the robbery case.",
-      "notesMode": true
+      "ex": "Inspector Velayudham was the police inspector handling the robbery case."
     },
     {
       "q": "How did Sreejith disguise himself to find clues?",
@@ -61,8 +57,7 @@
         "As a wax statue"
       ],
       "a": 1,
-      "ex": "Sreejith disguised himself as an old man, sat on a bench, coughed, and sniffed to observe the area.",
-      "notesMode": true
+      "ex": "Sreejith disguised himself as an old man, sat on a bench, coughed, and sniffed to observe the area."
     },
     {
       "q": "What did the man on the cycle hand over to Sreejith (disguised as the old man)?",
@@ -73,8 +68,7 @@
         "A wax statue"
       ],
       "a": 1,
-      "ex": "The man handed over a packet of chocolate which contained a hidden chit.",
-      "notesMode": true
+      "ex": "The man handed over a packet of chocolate which contained a hidden chit."
     },
     {
       "q": "How did the 5D children read the hidden message on the chit?",
@@ -85,8 +79,7 @@
         "By dipping it in water"
       ],
       "a": 2,
-      "ex": "Jessy brought the magic pen, and when they flashed its light on the paper, the words glowed.",
-      "notesMode": true
+      "ex": "Jessy brought the magic pen, and when they flashed its light on the paper, the words glowed."
     },
     {
       "q": "What was the actual message written on the chit?",
@@ -97,8 +90,7 @@
         "Hide the chocolate. Waxworks. Friday. 5 PM."
       ],
       "a": 1,
-      "ex": "The message glowed under the magic light revealing the meeting place, day, and time.",
-      "notesMode": true
+      "ex": "The message glowed under the magic light revealing the meeting place, day, and time."
     },
     {
       "q": "Where did Amudha guess the real diamond necklace was hidden?",
@@ -109,8 +101,7 @@
         "In Jessy's garage"
       ],
       "a": 2,
-      "ex": "Amudha smartly guessed that placing it on the princess statue would go unnoticed because she already wears so many jewels.",
-      "notesMode": true
+      "ex": "Amudha smartly guessed that placing it on the princess statue would go unnoticed because she already wears so many jewels."
     },
     {
       "q": "What does 'statue' mean?",
@@ -121,8 +112,7 @@
         "A person who hides their identity"
       ],
       "a": 1,
-      "ex": "Statue is defined as a human-made figure of a person or animal that is life-size or larger.",
-      "notesMode": true
+      "ex": "Statue is defined as a human-made figure of a person or animal that is life-size or larger."
     },
     {
       "q": "Assertion (A): Sreejith could not enter the Waxworks on Tuesday night.\nReason (R): Inspector Velayudham was inside the Waxworks.",
@@ -133,8 +123,7 @@
         "A is false, but R is true."
       ],
       "a": 0,
-      "ex": "Sreejith saw the Inspector inside the Waxworks and had no way of getting in without being noticed.",
-      "notesMode": true
+      "ex": "Sreejith saw the Inspector inside the Waxworks and had no way of getting in without being noticed."
     },
     {
       "q": "Which of the following is an example of an Adverb of Time (When)?",
@@ -145,8 +134,7 @@
         "Twice"
       ],
       "a": 1,
-      "ex": "Words that tell 'When' an action happened are Adverbs of Time, like 'yesterday'.",
-      "notesMode": true
+      "ex": "Words that tell 'When' an action happened are Adverbs of Time, like 'yesterday'."
     },
     {
       "q": "Fill in the blank with the correct homophone: The bag is _____ heavy for me to carry.",
@@ -157,8 +145,7 @@
         "tow"
       ],
       "a": 2,
-      "ex": "'Too' means very or extreme. Here, it indicates the bag is extremely heavy.",
-      "notesMode": true
+      "ex": "'Too' means very or extreme. Here, it indicates the bag is extremely heavy."
     },
     {
       "q": "Match the following Adverbs with their types:\n1. carefully - a) Where\n2. everywhere - b) How often\n3. yesterday - c) How\n4. twice - d) When",
@@ -169,8 +156,7 @@
         "1-b, 2-d, 3-a, 4-c"
       ],
       "a": 0,
-      "ex": "Carefully = How, Everywhere = Where, Yesterday = When, Twice = How often.",
-      "notesMode": true
+      "ex": "Carefully = How, Everywhere = Where, Yesterday = When, Twice = How often."
     },
     {
       "q": "Identify the adverb in the sentence: 'Suddenly the old man fainted.'",
@@ -181,8 +167,7 @@
         "Suddenly"
       ],
       "a": 3,
-      "ex": "'Suddenly' describes how the action (fainting) happened.",
-      "notesMode": true
+      "ex": "'Suddenly' describes how the action (fainting) happened."
     },
     {
       "q": "Fill in the blank: Mom promised ___ take Ben and Jill ___ the zoo.",
@@ -193,8 +178,7 @@
         "too, two"
       ],
       "a": 1,
-      "ex": "'to' is used to show reason/action (to take) and place/direction (to the zoo).",
-      "notesMode": true
+      "ex": "'to' is used to show reason/action (to take) and place/direction (to the zoo)."
     },
     {
       "q": "What question does the poem 'Why?' ask about the silk?",
@@ -205,8 +189,7 @@
         "Why is silk costly?"
       ],
       "a": 2,
-      "ex": "The line in the poem is: 'Why is silk soft?'",
-      "notesMode": true
+      "ex": "The line in the poem is: 'Why is silk soft?'"
     },
     {
       "q": "Choose the correct rhyming pair from the poem 'Why?'.",
@@ -217,8 +200,7 @@
         "blow - pour"
       ],
       "a": 1,
-      "ex": "In the poem, 'seek' rhymes with 'week'.",
-      "notesMode": true
+      "ex": "In the poem, 'seek' rhymes with 'week'."
     },
     {
       "q": "According to the poem 'Why?', what does the wind do?",
@@ -229,8 +211,7 @@
         "Shine"
       ],
       "a": 2,
-      "ex": "The poem asks: 'Why does the wind blow?'",
-      "notesMode": true
+      "ex": "The poem asks: 'Why does the wind blow?'"
     },
     {
       "q": "Identify the homophone that shows a 'number'.",
@@ -241,8 +222,7 @@
         "tow"
       ],
       "a": 2,
-      "ex": "'Two' represents the number 2.",
-      "notesMode": true
+      "ex": "'Two' represents the number 2."
     },
     {
       "q": "What name did the animals call the brown sparrow with respect?",
@@ -253,8 +233,7 @@
         "Boss"
       ],
       "a": 2,
-      "ex": "All the animals greeted her 'Madam' with respect.",
-      "notesMode": true
+      "ex": "All the animals greeted her 'Madam' with respect."
     },
     {
       "q": "What was the name of the young elephant in 'The Witty Sparrow'?",
@@ -265,8 +244,7 @@
         "Gajju"
       ],
       "a": 1,
-      "ex": "The young elephant's name was Gullu.",
-      "notesMode": true
+      "ex": "The young elephant's name was Gullu."
     },
     {
       "q": "Why was Madam Sparrow worried about Gullu?",
@@ -277,8 +255,7 @@
         "He was fighting with the crocodile."
       ],
       "a": 1,
-      "ex": "Gullu's thudding walk rattled the nest, making the sparrow worry for her eggs.",
-      "notesMode": true
+      "ex": "Gullu's thudding walk rattled the nest, making the sparrow worry for her eggs."
     },
     {
       "q": "Who blocked the spot where the sparrow wanted to drink water?",
@@ -289,8 +266,7 @@
         "A hippopotamus"
       ],
       "a": 2,
-      "ex": "A crocodile was stretching in the spot she was drinking water.",
-      "notesMode": true
+      "ex": "A crocodile was stretching in the spot she was drinking water."
     },
     {
       "q": "What did the sparrow use to tie the elephant and the crocodile?",
@@ -301,8 +277,7 @@
         "A magical thread"
       ],
       "a": 1,
-      "ex": "The sparrow took a strong creeper and tied the elephant on one end and the crocodile on the other.",
-      "notesMode": true
+      "ex": "The sparrow took a strong creeper and tied the elephant on one end and the crocodile on the other."
     },
     {
       "q": "Situation: You want to tell your friend that a box requires double the effort because it is very heavy. Which sentence is grammatically correct?",
@@ -313,8 +288,7 @@
         "The box is too heavy for to people."
       ],
       "a": 1,
-      "ex": "'Too' means very heavy. 'Two' means the number of people.",
-      "notesMode": true
+      "ex": "'Too' means very heavy. 'Two' means the number of people."
     },
     {
       "q": "Analogy based on grammar: Carefully : How :: Yesterday : ?",
@@ -325,8 +299,7 @@
         "Why"
       ],
       "a": 1,
-      "ex": "Carefully describes 'How' an action is done. Yesterday describes 'When' an action is done.",
-      "notesMode": true
+      "ex": "Carefully describes 'How' an action is done. Yesterday describes 'When' an action is done."
     },
     {
       "q": "In the story of 'The Lost Camel', how did the boy deduce that the camel was blind in the right eye?",
@@ -337,8 +310,7 @@
         "The merchants told him."
       ],
       "a": 1,
-      "ex": "The boy noticed that grass was eaten only on the left side, meaning the camel couldn't see the right side.",
-      "notesMode": true
+      "ex": "The boy noticed that grass was eaten only on the left side, meaning the camel couldn't see the right side."
     },
     {
       "q": "How did the boy know the camel had lost its front teeth?",
@@ -349,8 +321,7 @@
         "The camel was making a strange sound."
       ],
       "a": 2,
-      "ex": "The uneaten middle section of the grass patches indicated missing front teeth.",
-      "notesMode": true
+      "ex": "The uneaten middle section of the grass patches indicated missing front teeth."
     },
     {
       "q": "Assertion (A): The boy in 'The Lost Camel' story was a thief who stole the camel.\nReason (R): He knew everything about the camel's appearance and load.",
@@ -361,8 +332,7 @@
         "Both A and R are false."
       ],
       "a": 2,
-      "ex": "The boy was not a thief; he just used his brilliant observation skills to deduce the camel's details.",
-      "notesMode": true
+      "ex": "The boy was not a thief; he just used his brilliant observation skills to deduce the camel's details."
     },
     {
       "q": "Choose the correct adverb to complete the sentence: 'The lion fought ________.'",
@@ -373,8 +343,7 @@
         "sweetly"
       ],
       "a": 0,
-      "ex": "A lion is known for its bravery, so 'bravely' is the correct adverb here.",
-      "notesMode": true
+      "ex": "A lion is known for its bravery, so 'bravely' is the correct adverb here."
     },
     {
       "q": "Choose the correct adverb to complete the sentence: 'A jackal cheated the crow ________.'",
@@ -385,8 +354,7 @@
         "brilliantly"
       ],
       "a": 2,
-      "ex": "A jackal is a trickster, so it cheated 'cunningly'.",
-      "notesMode": true
+      "ex": "A jackal is a trickster, so it cheated 'cunningly'."
     },
     {
       "q": "What did the boy observe that told him the camel was carrying wheat and honey?",
@@ -397,8 +365,7 @@
         "He saw the camel eating wheat and honey."
       ],
       "a": 1,
-      "ex": "The presence of ants on one side (wheat) and flies on the other (honey) gave him the clue.",
-      "notesMode": true
+      "ex": "The presence of ants on one side (wheat) and flies on the other (honey) gave him the clue."
     },
     {
       "q": "Fill in the blanks: I need ___ write ___ pages on this topic.",
@@ -409,8 +376,7 @@
         "to, too"
       ],
       "a": 0,
-      "ex": "'to write' is the infinitive verb form, and 'two pages' denotes the number.",
-      "notesMode": true
+      "ex": "'to write' is the infinitive verb form, and 'two pages' denotes the number."
     },
     {
       "q": "What happened to the old man whom Inspector Velayudham caught in the park?",
@@ -421,8 +387,7 @@
         "He gave the diamond necklace to the inspector."
       ],
       "a": 1,
-      "ex": "Sreejith escaped, and the Inspector accidentally caught the real old man who came from the other side.",
-      "notesMode": true
+      "ex": "Sreejith escaped, and the Inspector accidentally caught the real old man who came from the other side."
     },
     {
       "q": "How many eggs did Madam Sparrow lay?",
@@ -433,8 +398,7 @@
         "Four"
       ],
       "a": 2,
-      "ex": "The story clearly mentions the sparrow had three eggs in her nest.",
-      "notesMode": true
+      "ex": "The story clearly mentions the sparrow had three eggs in her nest."
     },
     {
       "q": "Where was the sparrow's nest located?",
@@ -445,8 +409,7 @@
         "Inside a cave"
       ],
       "a": 1,
-      "ex": "The story states: 'The nest was in a bush.'",
-      "notesMode": true
+      "ex": "The story states: 'The nest was in a bush.'"
     },
     {
       "q": "What did the elephant and the crocodile do all day when tied to the creeper?",
@@ -457,8 +420,7 @@
         "They chased the sparrow."
       ],
       "a": 2,
-      "ex": "Both animals pulled each other from opposite ends of the creeper all day long and got exhausted.",
-      "notesMode": true
+      "ex": "Both animals pulled each other from opposite ends of the creeper all day long and got exhausted."
     },
     {
       "q": "What does the word 'pestering' mean from the glossary?",
@@ -469,8 +431,7 @@
         "To find the answer"
       ],
       "a": 0,
-      "ex": "Pestering means constantly bothering or irritating someone.",
-      "notesMode": true
+      "ex": "Pestering means constantly bothering or irritating someone."
     },
     {
       "q": "Who was continuously wagging his tail and jumping with joy at Amudha and Arul's house?",
@@ -481,8 +442,7 @@
         "Gullu"
       ],
       "a": 2,
-      "ex": "Pablo, the dog, was jumping with joy and wagging his tail when they met.",
-      "notesMode": true
+      "ex": "Pablo, the dog, was jumping with joy and wagging his tail when they met."
     },
     {
       "q": "Which step is NOT part of the 'Delivering a Speech' guide in the text?",
@@ -493,8 +453,7 @@
         "Copying"
       ],
       "a": 3,
-      "ex": "The three steps to deliver a speech mentioned in the text are Connect, Construct, and Content.",
-      "notesMode": true
+      "ex": "The three steps to deliver a speech mentioned in the text are Connect, Construct, and Content."
     },
     {
       "q": "What did the list found inside the chocolate look like initially before using the magic pen?",
@@ -505,8 +464,7 @@
         "A drawing of a necklace"
       ],
       "a": 1,
-      "ex": "Initially, they found a small chit which looked like a list of grocery items.",
-      "notesMode": true
+      "ex": "Initially, they found a small chit which looked like a list of grocery items."
     },
     {
       "q": "Situation: A boy runs very fast to catch a bus. Which adverb best describes his action?",
@@ -517,8 +475,7 @@
         "Sadly"
       ],
       "a": 1,
-      "ex": "Running very fast is described by the adverb 'quickly'.",
-      "notesMode": true
+      "ex": "Running very fast is described by the adverb 'quickly'."
     },
     {
       "q": "Match the characters with their actions in 'The Witty Sparrow':\n1. Sparrow - a) Walked thud! thud!\n2. Gullu - b) Blocked the drinking spot\n3. Crocodile - c) Used a brilliant idea",
@@ -529,8 +486,7 @@
         "1-c, 2-b, 3-a"
       ],
       "a": 1,
-      "ex": "Sparrow used an idea, Gullu walked with a thud, Crocodile blocked the spot.",
-      "notesMode": true
+      "ex": "Sparrow used an idea, Gullu walked with a thud, Crocodile blocked the spot."
     },
     {
       "q": "Identify the adverb in the sentence: 'She reads joyfully.'",
@@ -541,8 +497,7 @@
         "reads joyfully"
       ],
       "a": 2,
-      "ex": "'Joyfully' tells how she reads, hence it is an adverb.",
-      "notesMode": true
+      "ex": "'Joyfully' tells how she reads, hence it is an adverb."
     },
     {
       "q": "Why was Inspector Velayudham furious with the 5D gang?",
@@ -553,8 +508,7 @@
         "Because they broke the wax statue."
       ],
       "a": 1,
-      "ex": "He was furious about their behavior and warned them to stay away from the case.",
-      "notesMode": true
+      "ex": "He was furious about their behavior and warned them to stay away from the case."
     },
     {
       "q": "Higher Order Thinking: If the boy in the camel story saw the grass eaten on the right side instead of the left, what would his deduction be?",
@@ -565,8 +519,7 @@
         "The camel is lame in the right foot."
       ],
       "a": 1,
-      "ex": "If it ate on the right side, it means it could see on the right and was blind in the left eye.",
-      "notesMode": true
+      "ex": "If it ate on the right side, it means it could see on the right and was blind in the left eye."
     },
     {
       "q": "Assertion (A): Adverbs can only tell us 'how' an action is performed.\nReason (R): Words like yesterday, everywhere, and twice are not adverbs.",
@@ -577,8 +530,7 @@
         "A is false but R is true."
       ],
       "a": 2,
-      "ex": "Adverbs tell how, when, where, and how often. Yesterday, everywhere, and twice ARE adverbs.",
-      "notesMode": true
+      "ex": "Adverbs tell how, when, where, and how often. Yesterday, everywhere, and twice ARE adverbs."
     },
     {
       "q": "What did the senior policeman do when the 5D handed over the diamond necklace?",
@@ -589,8 +541,7 @@
         "He gave them a reward of money."
       ],
       "a": 2,
-      "ex": "The text says, 'They were appreciated for their courage and dedication towards their city.'",
-      "notesMode": true
+      "ex": "The text says, 'They were appreciated for their courage and dedication towards their city.'"
     },
     {
       "q": "Which of these is the correct homophone phrase for: \"I have ___ tickets to go ___ the movie, and it is ___ exciting!\"",
@@ -601,8 +552,7 @@
         "two, too, to"
       ],
       "a": 0,
-      "ex": "two (number of tickets), to (direction/purpose to the movie), too (very exciting).",
-      "notesMode": true
+      "ex": "two (number of tickets), to (direction/purpose to the movie), too (very exciting)."
     },
     {
       "q": "What does the word 'wag' mean?",
@@ -613,8 +563,7 @@
         "An animal raised as a friend"
       ],
       "a": 2,
-      "ex": "According to the pictionary, wag is a verb meaning the fast movement of a tail to and fro.",
-      "notesMode": true
+      "ex": "According to the pictionary, wag is a verb meaning the fast movement of a tail to and fro."
     },
     {
       "q": "What does 'pet' mean in the context of the story?",
@@ -625,8 +574,7 @@
         "An animal raised as a friend or family"
       ],
       "a": 3,
-      "ex": "The pictionary defines a pet as an animal raised as a friend or family.",
-      "notesMode": true
+      "ex": "The pictionary defines a pet as an animal raised as a friend or family."
     },
     {
       "q": "What is the meaning of 'sink'?",
@@ -637,8 +585,7 @@
         "A type of garbage bag"
       ],
       "a": 0,
-      "ex": "In the pictionary, a sink is defined as a fixed basin with a tap for water.",
-      "notesMode": true
+      "ex": "In the pictionary, a sink is defined as a fixed basin with a tap for water."
     },
     {
       "q": "What does 'garbage' mean?",
@@ -649,8 +596,7 @@
         "A fixed basin"
       ],
       "a": 1,
-      "ex": "Garbage is defined as rubbish or waste.",
-      "notesMode": true
+      "ex": "Garbage is defined as rubbish or waste."
     },
     {
       "q": "What is the definition of 'crack'?",
@@ -661,8 +607,7 @@
         "Fast movement"
       ],
       "a": 2,
-      "ex": "According to the text, crack means to break without completely separated parts.",
-      "notesMode": true
+      "ex": "According to the text, crack means to break without completely separated parts."
     },
     {
       "q": "What is the title of the prose featuring Kani and Teddy?",
@@ -673,8 +618,7 @@
         "The Leftover Food"
       ],
       "a": 2,
-      "ex": "The title of the prose story is 'The Cracked Coffee Cup'.",
-      "notesMode": true
+      "ex": "The title of the prose story is 'The Cracked Coffee Cup'."
     },
     {
       "q": "What did Teddy run to the gate with when he saw Kani's parents?",
@@ -685,8 +629,7 @@
         "His favorite pillow"
       ],
       "a": 3,
-      "ex": "Teddy ran to the gate with his favorite pillow as a sign of welcoming them.",
-      "notesMode": true
+      "ex": "Teddy ran to the gate with his favorite pillow as a sign of welcoming them."
     },
     {
       "q": "Why did Teddy take his pillow to the gate?",
@@ -697,8 +640,7 @@
         "To give it to the street dog"
       ],
       "a": 1,
-      "ex": "The text states he took his pillow as a sign of welcoming them.",
-      "notesMode": true
+      "ex": "The text states he took his pillow as a sign of welcoming them."
     },
     {
       "q": "What was Kani doing at 9 AM on Saturday morning?",
@@ -709,8 +651,7 @@
         "Eating sweets"
       ],
       "a": 1,
-      "ex": "At 9 AM, while Kani was painting, Teddy again ran to the gate.",
-      "notesMode": true
+      "ex": "At 9 AM, while Kani was painting, Teddy again ran to the gate."
     },
     {
       "q": "Who is Selvi in the story?",
@@ -721,8 +662,7 @@
         "The house helper"
       ],
       "a": 3,
-      "ex": "Selvi is mentioned as the house helper who cleans the house and vessels.",
-      "notesMode": true
+      "ex": "Selvi is mentioned as the house helper who cleans the house and vessels."
     },
     {
       "q": "Assertion (A): Selvi drank her coffee from a new, clean cup.\nReason (R): Kani saw Selvi drinking coffee near the kitchen sink.",
@@ -733,8 +673,7 @@
         "Both A and R are false."
       ],
       "a": 2,
-      "ex": "Selvi drank from an old, cracked cup, not a new one. So A is false. Kani did see her near the sink, so R is true.",
-      "notesMode": true
+      "ex": "Selvi drank from an old, cracked cup, not a new one. So A is false. Kani did see her near the sink, so R is true."
     },
     {
       "q": "Who was Muthu?",
@@ -745,8 +684,7 @@
         "A teacher"
       ],
       "a": 0,
-      "ex": "Muthu is the person who collects garbage from every house.",
-      "notesMode": true
+      "ex": "Muthu is the person who collects garbage from every house."
     },
     {
       "q": "At what time were Kani and Teddy in the garden when they heard whistling?",
@@ -757,8 +695,7 @@
         "12 PM"
       ],
       "a": 3,
-      "ex": "The text says, 'At around 12 PM, while Kani and Teddy were in the garden, she heard someone whistling.'",
-      "notesMode": true
+      "ex": "The text says, 'At around 12 PM, while Kani and Teddy were in the garden, she heard someone whistling.'"
     },
     {
       "q": "Real-life Scenario: If someone packs yesterday's excess food to give to a worker instead of fresh food, what does this depict as shown in Kani's household initially?",
@@ -769,8 +706,7 @@
         "Wasting food"
       ],
       "a": 1,
-      "ex": "Giving leftover food and cracked cups to workers shows treating them unequally, which Kani realized later was wrong.",
-      "notesMode": true
+      "ex": "Giving leftover food and cracked cups to workers shows treating them unequally, which Kani realized later was wrong."
     },
     {
       "q": "What did Kani's father prepare for lunch?",
@@ -781,8 +717,7 @@
         "Biryani"
       ],
       "a": 3,
-      "ex": "The text mentions, 'Kani's father prepared Kani's favorite biryani.'",
-      "notesMode": true
+      "ex": "The text mentions, 'Kani's father prepared Kani's favorite biryani.'"
     },
     {
       "q": "Who were the guests arriving at Kani's home?",
@@ -793,8 +728,7 @@
         "Tenzin and Charles"
       ],
       "a": 1,
-      "ex": "Kani's mom said, 'Rani aunty and her 2-year-old son Anbu are coming'.",
-      "notesMode": true
+      "ex": "Kani's mom said, 'Rani aunty and her 2-year-old son Anbu are coming'."
     },
     {
       "q": "Where were Rani aunty and Anbu coming from?",
@@ -805,8 +739,7 @@
         "Tibet"
       ],
       "a": 0,
-      "ex": "The text states they 'are coming from America'.",
-      "notesMode": true
+      "ex": "The text states they 'are coming from America'."
     },
     {
       "q": "How old was Anbu?",
@@ -817,8 +750,7 @@
         "3 years old"
       ],
       "a": 2,
-      "ex": "Rani aunty's son, Anbu, is described as a '2-year-old son'.",
-      "notesMode": true
+      "ex": "Rani aunty's son, Anbu, is described as a '2-year-old son'."
     },
     {
       "q": "At what time were the guests expected to arrive?",
@@ -829,8 +761,7 @@
         "Around 5 PM"
       ],
       "a": 3,
-      "ex": "When Kani asked what time they were coming, her mom replied, 'Around 5 PM'.",
-      "notesMode": true
+      "ex": "When Kani asked what time they were coming, her mom replied, 'Around 5 PM'."
     },
     {
       "q": "Who was Amar?",
@@ -841,8 +772,7 @@
         "Kani's father"
       ],
       "a": 0,
-      "ex": "Amar is mentioned as the provision shop owner standing outside the shop.",
-      "notesMode": true
+      "ex": "Amar is mentioned as the provision shop owner standing outside the shop."
     },
     {
       "q": "How did Teddy react to the street dog outside the shop?",
@@ -853,8 +783,7 @@
         "He started playing with it"
       ],
       "a": 3,
-      "ex": "While people threw stones at the street dog, Teddy started playing with that dog.",
-      "notesMode": true
+      "ex": "While people threw stones at the street dog, Teddy started playing with that dog."
     },
     {
       "q": "Who was Mary?",
@@ -865,8 +794,7 @@
         "Kani's aunt from America"
       ],
       "a": 1,
-      "ex": "Mary is described as a differently abled person who sells candles outside a church.",
-      "notesMode": true
+      "ex": "Mary is described as a differently abled person who sells candles outside a church."
     },
     {
       "q": "Where did Mary sell candles?",
@@ -877,8 +805,7 @@
         "Outside a church"
       ],
       "a": 3,
-      "ex": "The text states Mary sells candles 'outside a church'.",
-      "notesMode": true
+      "ex": "The text states Mary sells candles 'outside a church'."
     },
     {
       "q": "What did Kani see flashes of in her dream while sleeping?",
@@ -889,8 +816,7 @@
         "The broken coffee cup, leftover food, and the street dog getting hit by stones"
       ],
       "a": 3,
-      "ex": "Kani woke up disturbed after dreaming about the unequal and harsh treatment she witnessed that day.",
-      "notesMode": true
+      "ex": "Kani woke up disturbed after dreaming about the unequal and harsh treatment she witnessed that day."
     },
     {
       "q": "What powerful realization did Kani have after her dreams?",
@@ -901,8 +827,7 @@
         "She should scold Muthu and Selvi."
       ],
       "a": 2,
-      "ex": "She realized how compassionate Teddy was and decided she will also treat everyone equally with love and respect.",
-      "notesMode": true
+      "ex": "She realized how compassionate Teddy was and decided she will also treat everyone equally with love and respect."
     },
     {
       "q": "What positive change did Kani notice the very next morning at 9 AM?",
@@ -913,8 +838,7 @@
         "Selvi was given a new coffee cup on the counter."
       ],
       "a": 3,
-      "ex": "Kani walked into the kitchen to see a new coffee cup on the counter for Selvi, making her smile with renewed hope.",
-      "notesMode": true
+      "ex": "Kani walked into the kitchen to see a new coffee cup on the counter for Selvi, making her smile with renewed hope."
     },
     {
       "q": "Fill in the blank: Teddy took his pillow as a sign of _______ them.",
@@ -925,8 +849,7 @@
         "ignoring"
       ],
       "a": 1,
-      "ex": "The book-back exercise confirms Teddy took his pillow as a sign of welcoming them.",
-      "notesMode": true
+      "ex": "The book-back exercise confirms Teddy took his pillow as a sign of welcoming them."
     },
     {
       "q": "Fill in the blank: Kani and Teddy were in the garden at ______.",
@@ -937,8 +860,7 @@
         "10 PM"
       ],
       "a": 0,
-      "ex": "According to the story, they were in the garden at around 12 PM.",
-      "notesMode": true
+      "ex": "According to the story, they were in the garden at around 12 PM."
     },
     {
       "q": "Fill in the blank: Muthu collected ______ from every house.",
@@ -949,8 +871,7 @@
         "garbage"
       ],
       "a": 3,
-      "ex": "Muthu is the garbage collector.",
-      "notesMode": true
+      "ex": "Muthu is the garbage collector."
     },
     {
       "q": "Fill in the blank: Anbu was ________ old boy.",
@@ -961,8 +882,7 @@
         "5 year"
       ],
       "a": 2,
-      "ex": "Anbu is Rani aunty's 2-year-old son.",
-      "notesMode": true
+      "ex": "Anbu is Rani aunty's 2-year-old son."
     },
     {
       "q": "Fill in the blank: Kani took Teddy out for a ________.",
@@ -973,8 +893,7 @@
         "walk"
       ],
       "a": 3,
-      "ex": "Her father asked her to take Teddy for a walk before the guests arrived.",
-      "notesMode": true
+      "ex": "Her father asked her to take Teddy for a walk before the guests arrived."
     },
     {
       "q": "What is the meaning of 'leftover'?",
@@ -985,8 +904,7 @@
         "to start freshly"
       ],
       "a": 1,
-      "ex": "In the glossary, leftover means extra or excess.",
-      "notesMode": true
+      "ex": "In the glossary, leftover means extra or excess."
     },
     {
       "q": "What does 'differently abled' mean?",
@@ -997,8 +915,7 @@
         "A person from another country"
       ],
       "a": 2,
-      "ex": "The glossary defines differently abled as a person who is physically disabled.",
-      "notesMode": true
+      "ex": "The glossary defines differently abled as a person who is physically disabled."
     },
     {
       "q": "What does 'flash' mean in the context of Kani's dream?",
@@ -1009,8 +926,7 @@
         "Sudden burst of bright light or memory"
       ],
       "a": 3,
-      "ex": "The glossary defines flash as a sudden burst of bright light (here referring to sudden vivid memories).",
-      "notesMode": true
+      "ex": "The glossary defines flash as a sudden burst of bright light (here referring to sudden vivid memories)."
     },
     {
       "q": "What is the meaning of 'disturbed'?",
@@ -1021,8 +937,7 @@
         "renewed"
       ],
       "a": 1,
-      "ex": "Disturbed means troubled, as Kani felt after her dream.",
-      "notesMode": true
+      "ex": "Disturbed means troubled, as Kani felt after her dream."
     },
     {
       "q": "What are clipped words?",
@@ -1033,8 +948,7 @@
         "Words used only by animals"
       ],
       "a": 2,
-      "ex": "Clipped words are a short form of a word, which makes them easier to spell and write (e.g., vet for veterinary surgeon).",
-      "notesMode": true
+      "ex": "Clipped words are a short form of a word, which makes them easier to spell and write (e.g., vet for veterinary surgeon)."
     },
     {
       "q": "Analogy based on clipped words: Zoo : Zoological Park :: Vet : ?",
@@ -1045,8 +959,7 @@
         "Vehicle"
       ],
       "a": 1,
-      "ex": "Zoo is clipped from Zoological Park, and Vet is clipped from Veterinary surgeon.",
-      "notesMode": true
+      "ex": "Zoo is clipped from Zoological Park, and Vet is clipped from Veterinary surgeon."
     },
     {
       "q": "What is the original word for the clipped word 'lab'?",
@@ -1057,8 +970,7 @@
         "Labyrinth"
       ],
       "a": 2,
-      "ex": "Lab is the clipped form of Laboratory.",
-      "notesMode": true
+      "ex": "Lab is the clipped form of Laboratory."
     },
     {
       "q": "What is the original word for the clipped word 'ad'?",
@@ -1069,8 +981,7 @@
         "Advance"
       ],
       "a": 1,
-      "ex": "Ad is the clipped form of Advertisement.",
-      "notesMode": true
+      "ex": "Ad is the clipped form of Advertisement."
     },
     {
       "q": "What is the clipped word for 'automobile'?",
@@ -1081,8 +992,7 @@
         "tom"
       ],
       "a": 2,
-      "ex": "Auto is the clipped form of automobile.",
-      "notesMode": true
+      "ex": "Auto is the clipped form of automobile."
     },
     {
       "q": "Analogy based on clipped words: Microphone : Mic :: Centum : ?",
@@ -1093,8 +1003,7 @@
         "Century"
       ],
       "a": 2,
-      "ex": "Mic is short for Microphone. Cent is short for Centum.",
-      "notesMode": true
+      "ex": "Mic is short for Microphone. Cent is short for Centum."
     },
     {
       "q": "What is the original word for the clipped word 'photo'?",
@@ -1105,8 +1014,7 @@
         "Photocopy"
       ],
       "a": 1,
-      "ex": "Photo is the clipped form of Photograph.",
-      "notesMode": true
+      "ex": "Photo is the clipped form of Photograph."
     },
     {
       "q": "What is the clipped word for 'examination'?",
@@ -1117,8 +1025,7 @@
         "ex"
       ],
       "a": 0,
-      "ex": "Exam is the clipped form of examination.",
-      "notesMode": true
+      "ex": "Exam is the clipped form of examination."
     },
     {
       "q": "Match the original words to their clipped forms:\n1. Spectacles - a) Hippo\n2. Refrigerator - b) Specs\n3. Hippopotamus - c) Fridge",
@@ -1129,8 +1036,7 @@
         "1-b, 2-a, 3-c"
       ],
       "a": 0,
-      "ex": "Spectacles -> Specs, Refrigerator -> Fridge, Hippopotamus -> Hippo.",
-      "notesMode": true
+      "ex": "Spectacles -> Specs, Refrigerator -> Fridge, Hippopotamus -> Hippo."
     },
     {
       "q": "What is the original word for the clipped word 'gym'?",
@@ -1141,8 +1047,7 @@
         "Gymnosperm"
       ],
       "a": 1,
-      "ex": "Gym is the clipped form of Gymnasium.",
-      "notesMode": true
+      "ex": "Gym is the clipped form of Gymnasium."
     },
     {
       "q": "Fill in the blank with the correct clipped word: 'She is very good at ______ (mathematics).'",
@@ -1153,8 +1058,7 @@
         "maths"
       ],
       "a": 1,
-      "ex": "The clipped word for mathematics taught in the book is 'math'.",
-      "notesMode": true
+      "ex": "The clipped word for mathematics taught in the book is 'math'."
     },
     {
       "q": "Fill in the blank with the correct clipped word: 'I have an ______ (examination) next week.'",
@@ -1165,8 +1069,7 @@
         "ex"
       ],
       "a": 1,
-      "ex": "The clipped word for examination is 'exam'.",
-      "notesMode": true
+      "ex": "The clipped word for examination is 'exam'."
     },
     {
       "q": "Fill in the blank with the correct clipped word: 'She bought a new ______ (refrigerator).'",
@@ -1177,8 +1080,7 @@
         "freezer"
       ],
       "a": 2,
-      "ex": "The clipped word for refrigerator is 'fridge'.",
-      "notesMode": true
+      "ex": "The clipped word for refrigerator is 'fridge'."
     },
     {
       "q": "Fill in the blank with the correct clipped word: 'He broke his ______ (spectacles).'",
@@ -1189,8 +1091,7 @@
         "eyes"
       ],
       "a": 2,
-      "ex": "The clipped word for spectacles is 'specs'.",
-      "notesMode": true
+      "ex": "The clipped word for spectacles is 'specs'."
     },
     {
       "q": "What is the title of the poem in Unit II?",
@@ -1201,8 +1102,7 @@
         "A New World"
       ],
       "a": 1,
-      "ex": "The poem is titled 'The Dreamer'.",
-      "notesMode": true
+      "ex": "The poem is titled 'The Dreamer'."
     },
     {
       "q": "What is the main theme of the poem 'The Dreamer'?",
@@ -1213,8 +1113,7 @@
         "Collecting garbage"
       ],
       "a": 2,
-      "ex": "The poem envisions a peaceful world where humans are united without greed, hunger, or conflict.",
-      "notesMode": true
+      "ex": "The poem envisions a peaceful world where humans are united without greed, hunger, or conflict."
     },
     {
       "q": "Complete the line from the poem: 'Will you join me? To make the world as ____.'",
@@ -1225,8 +1124,7 @@
         "new"
       ],
       "a": 1,
-      "ex": "The poem ends with the plea, 'To make the world as one'.",
-      "notesMode": true
+      "ex": "The poem ends with the plea, 'To make the world as one'."
     },
     {
       "q": "According to 'The Dreamer', what should we do with 'all that belongs to you'?",
@@ -1237,8 +1135,7 @@
         "Keep it safe"
       ],
       "a": 2,
-      "ex": "The line says, 'All that belongs to you is shared'.",
-      "notesMode": true
+      "ex": "The line says, 'All that belongs to you is shared'."
     },
     {
       "q": "Assertion (A): The poet wants people to join him in his dream of making the world one.\nReason (R): He believes there is a need for greed and hunger.",
@@ -1249,8 +1146,7 @@
         "Both A and R are false."
       ],
       "a": 1,
-      "ex": "The poet wants unity (A is true), but he explicitly says 'No need for greed or hunger' (R is false).",
-      "notesMode": true
+      "ex": "The poet wants unity (A is true), but he explicitly says 'No need for greed or hunger' (R is false)."
     },
     {
       "q": "What does 'imagine' mean according to the poem's glossary?",
@@ -1261,8 +1157,7 @@
         "Distribute"
       ],
       "a": 2,
-      "ex": "Imagine means to think or form a mental image.",
-      "notesMode": true
+      "ex": "Imagine means to think or form a mental image."
     },
     {
       "q": "What does the word 'hope' mean in the glossary?",
@@ -1273,8 +1168,7 @@
         "Dream"
       ],
       "a": 0,
-      "ex": "The glossary defines hope as 'confident'.",
-      "notesMode": true
+      "ex": "The glossary defines hope as 'confident'."
     },
     {
       "q": "What does the phrase 'belong to' mean?",
@@ -1285,8 +1179,7 @@
         "To think"
       ],
       "a": 1,
-      "ex": "The glossary defines 'belong to' as 'to be a part'.",
-      "notesMode": true
+      "ex": "The glossary defines 'belong to' as 'to be a part'."
     },
     {
       "q": "What is the meaning of 'greed'?",
@@ -1297,8 +1190,7 @@
         "Confident"
       ],
       "a": 0,
-      "ex": "Greed is defined as an excessive desire for something.",
-      "notesMode": true
+      "ex": "Greed is defined as an excessive desire for something."
     },
     {
       "q": "What is the meaning of 'hunger'?",
@@ -1309,8 +1201,7 @@
         "To think"
       ],
       "a": 2,
-      "ex": "Hunger is defined as a desire for food.",
-      "notesMode": true
+      "ex": "Hunger is defined as a desire for food."
     },
     {
       "q": "What is the meaning of 'wonder' in the poem's glossary?",
@@ -1321,8 +1212,7 @@
         "Dream"
       ],
       "a": 0,
-      "ex": "Wonder means surprise.",
-      "notesMode": true
+      "ex": "Wonder means surprise."
     },
     {
       "q": "What type of word is used in the place of a noun to avoid repetition?",
@@ -1333,8 +1223,7 @@
         "Verb"
       ],
       "a": 1,
-      "ex": "Pronouns are used in the place of a noun when we have to repeat a noun.",
-      "notesMode": true
+      "ex": "Pronouns are used in the place of a noun when we have to repeat a noun."
     },
     {
       "q": "What is the object pronoun for the subject 'We'?",
@@ -1345,8 +1234,7 @@
         "Us"
       ],
       "a": 3,
-      "ex": "The object pronoun for 'We' is 'Us'.",
-      "notesMode": true
+      "ex": "The object pronoun for 'We' is 'Us'."
     },
     {
       "q": "What is the possessive adjective for 'He'?",
@@ -1357,8 +1245,7 @@
         "Its"
       ],
       "a": 0,
-      "ex": "The possessive adjective for 'He' is 'His'.",
-      "notesMode": true
+      "ex": "The possessive adjective for 'He' is 'His'."
     },
     {
       "q": "What is the reflexive pronoun for 'They'?",
@@ -1369,8 +1256,7 @@
         "Them"
       ],
       "a": 2,
-      "ex": "The reflexive pronoun for 'They' is 'Themselves'.",
-      "notesMode": true
+      "ex": "The reflexive pronoun for 'They' is 'Themselves'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'Each morning, I brush my teeth and stare at _______ in the mirror.'",
@@ -1381,8 +1267,7 @@
         "itself"
       ],
       "a": 1,
-      "ex": "Since the subject is 'I', the reflexive pronoun is 'myself'.",
-      "notesMode": true
+      "ex": "Since the subject is 'I', the reflexive pronoun is 'myself'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'Dad and I painted the trailer _______.'",
@@ -1393,8 +1278,7 @@
         "itself"
       ],
       "a": 2,
-      "ex": "The subject is 'Dad and I' (which equals 'We'), so the reflexive pronoun is 'ourselves'.",
-      "notesMode": true
+      "ex": "The subject is 'Dad and I' (which equals 'We'), so the reflexive pronoun is 'ourselves'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'The children made holiday decorations by _______.'",
@@ -1405,8 +1289,7 @@
         "itself"
       ],
       "a": 0,
-      "ex": "'The children' is plural (They), so the reflexive pronoun is 'themselves'.",
-      "notesMode": true
+      "ex": "'The children' is plural (They), so the reflexive pronoun is 'themselves'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'Paul copies his friend's homework instead of doing it _______.'",
@@ -1417,8 +1300,7 @@
         "itself"
       ],
       "a": 2,
-      "ex": "Paul is a male subject (He), so the reflexive pronoun is 'himself'.",
-      "notesMode": true
+      "ex": "Paul is a male subject (He), so the reflexive pronoun is 'himself'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'She put _______ into the trouble.'",
@@ -1429,8 +1311,7 @@
         "itself"
       ],
       "a": 1,
-      "ex": "The subject is 'She', so the reflexive pronoun is 'herself'.",
-      "notesMode": true
+      "ex": "The subject is 'She', so the reflexive pronoun is 'herself'."
     },
     {
       "q": "Fill in the blank with the correct reflexive pronoun: 'The machine will destroy _______ once its task is done.'",
@@ -1441,8 +1322,7 @@
         "itself"
       ],
       "a": 3,
-      "ex": "The machine is a non-living thing (It), so the reflexive pronoun is 'itself'.",
-      "notesMode": true
+      "ex": "The machine is a non-living thing (It), so the reflexive pronoun is 'itself'."
     },
     {
       "q": "In 'The New Start', who is the boy writing about his experience in his journal?",
@@ -1453,8 +1333,7 @@
         "Tenzin"
       ],
       "a": 3,
-      "ex": "Tenzin, a boy from Tibet, writes about his experience.",
-      "notesMode": true
+      "ex": "Tenzin, a boy from Tibet, writes about his experience."
     },
     {
       "q": "Where is Tenzin originally from?",
@@ -1465,8 +1344,7 @@
         "America"
       ],
       "a": 1,
-      "ex": "The story begins with, 'My name is Tenzin. I am from Tibet.'",
-      "notesMode": true
+      "ex": "The story begins with, 'My name is Tenzin. I am from Tibet.'"
     },
     {
       "q": "Analogy: Binsa : Nepal :: Tenzin : ?",
@@ -1477,8 +1355,7 @@
         "America"
       ],
       "a": 2,
-      "ex": "Binsa is a friend from Nepal. Tenzin is from Tibet.",
-      "notesMode": true
+      "ex": "Binsa is a friend from Nepal. Tenzin is from Tibet."
     },
     {
       "q": "Where did Tenzin's family finally decide to come back and settle?",
@@ -1489,8 +1366,7 @@
         "Mysore"
       ],
       "a": 1,
-      "ex": "The text says, 'Finally, we decided to come back and settle in Gurupura.'",
-      "notesMode": true
+      "ex": "The text says, 'Finally, we decided to come back and settle in Gurupura.'"
     },
     {
       "q": "Who helped Tenzin's family arrange a house and showed them where to buy things?",
@@ -1501,8 +1377,7 @@
         "His friend Binsa"
       ],
       "a": 0,
-      "ex": "They asked the Refugee Relief Group to help them get a house and admission to school.",
-      "notesMode": true
+      "ex": "They asked the Refugee Relief Group to help them get a house and admission to school."
     },
     {
       "q": "Match the characters with their roles in Tenzin's life:\n1. Julie - a) Computer teacher\n2. Miss Malliga - b) Taught baseball\n3. Charles - c) Art and craft teacher",
@@ -1513,8 +1388,7 @@
         "1-c, 2-b, 3-a"
       ],
       "a": 1,
-      "ex": "Julie is the art and craft teacher. Miss Malliga teaches computers. Charles taught baseball.",
-      "notesMode": true
+      "ex": "Julie is the art and craft teacher. Miss Malliga teaches computers. Charles taught baseball."
     },
     {
       "q": "Higher Order Thinking: What happens if Tenzin's family misses getting their book signed at the government office?",
@@ -1525,8 +1399,7 @@
         "They will be sent to Gurupura."
       ],
       "a": 2,
-      "ex": "Tenzin's mother says that if they miss getting it signed, they will have to leave India.",
-      "notesMode": true
+      "ex": "Tenzin's mother says that if they miss getting it signed, they will have to leave India."
     },
     {
       "q": "Who fights with everyone who teases Tenzin and his friends?",
@@ -1537,8 +1410,7 @@
         "Julie"
       ],
       "a": 1,
-      "ex": "Tenzin mentions, 'There is Nimmi who fights with everyone who teases us.'",
-      "notesMode": true
+      "ex": "Tenzin mentions, 'There is Nimmi who fights with everyone who teases us.'"
     },
     {
       "q": "According to Tenzin's history teacher, who made the boundaries of the countries?",
@@ -1549,8 +1421,7 @@
         "People"
       ],
       "a": 3,
-      "ex": "The history teacher told them that it is people who made the boundaries of the countries.",
-      "notesMode": true
+      "ex": "The history teacher told them that it is people who made the boundaries of the countries."
     },
     {
       "q": "In the 'Read Aloud' passage, what did the leader try to save from floating in the river?",
@@ -1561,8 +1432,7 @@
         "A fish"
       ],
       "a": 1,
-      "ex": "The leader saw a poisonous scorpion floating in the river and tried to save it.",
-      "notesMode": true
+      "ex": "The leader saw a poisonous scorpion floating in the river and tried to save it."
     }
   ]
 }
